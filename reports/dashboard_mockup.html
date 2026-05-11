@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>羅賓媒體戰略儀表板 | Robin Media Monitor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .bias-node { transition: all 0.3s ease; z-index: 10; }
+        .bias-node:hover { transform: scale(1.2); cursor: pointer; z-index: 20; }
+        .spectrum-bar { height: 6px; border-radius: 99px; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-slate-900 text-white p-6 shadow-lg">
+        <div class="max-container mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold flex items-center">
+                    <i class="fas fa-bat mr-3"></i> 羅賓媒體戰略儀表板
+                </h1>
+                <p class="text-slate-400 text-sm mt-1">數據更新時間：2026-05-06 13:00 (Asia/Taipei)</p>
+            </div>
+            <div class="flex items-center space-x-4">
+                <select class="bg-slate-800 text-white text-xs border-none rounded px-3 py-1 outline-none cursor-pointer hover:bg-slate-700 transition">
+                    <option>2026-05-06 (今日)</option>
+                    <option>2026-05-05</option>
+                    <option>2026-05-04</option>
+                </select>
+                <span class="bg-blue-600 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">Media Monitor 2.0</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-6 space-y-8">
+
+        <!-- A: Topic Heatmap -->
+        <section class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <h2 class="text-xl font-bold mb-6 flex items-center border-l-4 border-blue-500 pl-3">
+                議題覆蓋熱力矩陣 <span class="text-sm font-normal text-gray-500 ml-4">(誰在閃躲大事？)</span>
+            </h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-50 text-xs uppercase tracking-wider text-gray-500">
+                            <th class="p-4 border-b">議題 / 媒體</th>
+                            <th class="p-4 border-b text-center">聯合報</th>
+                            <th class="p-4 border-b text-center">自由時報</th>
+                            <th class="p-4 border-b text-center">民視新聞</th>
+                            <th class="p-4 border-b text-center">中國時報</th>
+                            <th class="p-4 border-b text-center">中天新聞</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y text-sm">
+                        <tr>
+                            <td class="p-4 font-semibold text-slate-700">川普護航喊卡 (T1)</td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold text-slate-700">漢他郵輪危機 (T2)</td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-yellow-400"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-gray-200"><i class="fas fa-square text-2xl"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold text-slate-700">雙北鼠患攻防 (T3)</td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-yellow-400"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-yellow-400"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center text-green-500"><i class="fas fa-square text-2xl"></i></td>
+                            <td class="p-4 text-center relative">
+                                <i class="fas fa-square text-2xl text-red-500 opacity-20"></i>
+                                <span class="absolute inset-0 flex items-center justify-center text-[9px] text-red-600 font-bold">影音</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-4 flex space-x-6 text-[10px] text-gray-500 font-medium">
+                <span class="flex items-center"><i class="fas fa-square text-green-500 mr-1"></i> 全量報導</span>
+                <span class="flex items-center"><i class="fas fa-square text-yellow-400 mr-1"></i> 語意偏向</span>
+                <span class="flex items-center"><i class="fas fa-square text-red-500 opacity-20 mr-1"></i> 影音補償 (無文字)</span>
+                <span class="flex items-center"><i class="fas fa-square text-gray-200 mr-1"></i> 沈默/忽略</span>
+            </div>
+        </section>
+
+        <!-- B: Bias Spectrum Stack -->
+        <section class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <h2 class="text-xl font-bold mb-8 flex items-center border-l-4 border-indigo-500 pl-3">
+                今日三大議題立場分佈 <span class="text-sm font-normal text-gray-500 ml-4">(語義偏向偵測)</span>
+            </h2>
+            
+            <div class="space-y-16 px-4">
+                <!-- Topic 1: Trump -->
+                <div class="relative">
+                    <div class="flex justify-between items-end mb-6">
+                        <h3 class="text-sm font-bold text-slate-800"><span class="text-indigo-500 mr-1">#1</span> 川普護航喊卡 (T1)</h3>
+                        <span class="text-[10px] bg-green-50 text-green-600 px-2 py-0.5 rounded font-bold">高度共識議題</span>
+                    </div>
+                    <div class="spectrum-bar w-full bg-gradient-to-r from-green-300 via-gray-200 to-blue-300 relative shadow-inner">
+                        <!-- Clustered Nodes -->
+                        <div class="absolute -top-2 left-1/2 -translate-x-1/2 flex -space-x-1">
+                            <div class="w-5 h-5 bg-green-500 rounded-full border-2 border-white shadow-sm" title="自由"></div>
+                            <div class="w-5 h-5 bg-gray-500 rounded-full border-2 border-white shadow-sm" title="聯合"></div>
+                            <div class="w-5 h-5 bg-blue-500 rounded-full border-2 border-white shadow-sm" title="中時"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between mt-3 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+                        <span>偏左/批判</span>
+                        <span>中立事實</span>
+                        <span>偏右/支持</span>
+                    </div>
+                </div>
+
+                <!-- Topic 2: Hanta -->
+                <div class="relative">
+                    <div class="flex justify-between items-end mb-6">
+                        <h3 class="text-sm font-bold text-slate-800"><span class="text-indigo-500 mr-1">#2</span> 漢他郵輪危機 (T2)</h3>
+                        <span class="text-[10px] bg-slate-50 text-slate-500 px-2 py-0.5 rounded font-bold">中度分化</span>
+                    </div>
+                    <div class="spectrum-bar w-full bg-gradient-to-r from-green-300 via-gray-200 to-blue-300 relative shadow-inner">
+                        <div class="absolute -top-2 left-[35%] bias-node text-center">
+                            <div class="w-5 h-5 bg-green-400 rounded-full border-2 border-white shadow-sm"></div>
+                            <span class="text-[9px] mt-1 block font-bold text-gray-500">民視</span>
+                        </div>
+                        <div class="absolute -top-2 left-[50%] -translate-x-1/2 bias-node text-center">
+                            <div class="w-5 h-5 bg-gray-400 rounded-full border-2 border-white shadow-sm"></div>
+                            <span class="text-[9px] mt-1 block font-bold text-gray-500">聯合</span>
+                        </div>
+                        <div class="absolute -top-2 right-[30%] bias-node text-center">
+                            <div class="w-5 h-5 bg-blue-300 rounded-full border-2 border-white shadow-sm"></div>
+                            <span class="text-[9px] mt-1 block font-bold text-gray-500">中時</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between mt-3 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+                        <span>強調恐慌</span>
+                        <span>科學追蹤</span>
+                        <span>淡化威脅</span>
+                    </div>
+                </div>
+
+                <!-- Topic 3: Rats -->
+                <div class="relative">
+                    <div class="flex justify-between items-end mb-6">
+                        <h3 class="text-sm font-bold text-slate-800"><span class="text-indigo-500 mr-1 text-red-500">#3</span> 雙北鼠患攻防 (T3)</h3>
+                        <span class="text-[10px] bg-red-50 text-red-600 px-2 py-0.5 rounded font-bold">高度分化/極化</span>
+                    </div>
+                    <div class="spectrum-bar w-full bg-gradient-to-r from-green-400 via-gray-200 to-blue-400 relative shadow-inner border border-red-50">
+                        <div class="absolute -top-2 left-[10%] bias-node text-center">
+                            <div class="w-5 h-5 bg-green-600 rounded-full border-2 border-white shadow-md"></div>
+                            <span class="text-[9px] mt-1 block font-bold text-green-700">自由</span>
+                        </div>
+                        <div class="absolute -top-2 left-[25%] bias-node text-center">
+                            <div class="w-5 h-5 bg-green-400 rounded-full border-2 border-white shadow-md"></div>
+                            <span class="text-[9px] mt-1 block font-bold text-green-500">民視</span>
+                        </div>
+                        <div class="absolute -top-2 left-[55%] bias-node text-center">
+                            <div class="w-5 h-5 bg-gray-500 rounded-full border-2 border-white shadow-md"></div>
+                            <span class="text-[9px] mt-1 block font-bold text-gray-600">聯合</span>
+                        </div>
+                        <div class="absolute -top-2 right-[15%] bias-node text-center">
+                            <div class="w-5 h-5 bg-blue-400 rounded-full border-2 border-white shadow-md"></div>
+                            <span class="text-[9px] mt-1 block font-bold text-blue-700">中時</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between mt-3 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+                        <span>批判蔣萬安</span>
+                        <span>中立敘事</span>
+                        <span>緩頰/AI創意</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-slate-50 p-4 rounded-lg text-xs text-slate-600 leading-relaxed border border-slate-100 flex items-start">
+                <i class="fas fa-lightbulb mt-0.5 mr-3 text-yellow-500"></i>
+                <div>
+                    <strong>羅賓分析：</strong> 國際議題 (T1) 各家立場趨同，無顯著偏見。
+                    但地方政治 (T3) 呈現激烈的「框架戰爭」：自由側重於蔣遭譏諷的窘境；中時則將焦點轉向陳水扁的跨黨派創意提點，試圖轉化為正面施政花絮。
+                </div>
+            </div>
+        </section>
+
+        <!-- C: Professionalism Scorecards -->
+        <section class="grid md:grid-cols-2 gap-6">
+            <!-- Scorecard 1 -->
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h3 class="font-bold text-lg text-slate-800">聯合報 <span class="text-sm font-normal text-slate-400 ml-1">(N=185)</span></h3>
+                        <p class="text-[10px] text-green-600 font-bold flex items-center mt-1"><i class="fas fa-check-circle mr-1"></i> 全平台覆蓋優選媒體</p>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-2xl font-black text-green-600">100%</div>
+                        <div class="flex space-x-0.5 mt-1"><i class="fas fa-bolt text-xs text-yellow-400"></i><i class="fas fa-bolt text-xs text-yellow-400"></i><i class="fas fa-bolt text-xs text-yellow-400"></i></div>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex justify-between text-xs font-medium"><span>🕒 報導及時性</span><span class="text-yellow-500">🌕🌕🌕🌕🌕</span></div>
+                    <div class="flex justify-between text-xs font-medium"><span>📊 數據事實厚度</span><span class="text-yellow-500">🌕🌕🌕🌕🌕</span></div>
+                    <div class="flex justify-between text-xs font-medium"><span>🧘 情緒控制 (冷靜)</span><span class="text-yellow-500">🌕🌕🌕🌕🌕</span></div>
+                    <div class="flex justify-between text-xs font-medium"><span>🌍 議題多元廣度</span><span class="text-yellow-500">🌕🌕🌕🌕🌕</span></div>
+                    <div class="flex justify-between text-xs font-medium"><span>🛡️ 誠信 (無惡意閃躲)</span><span class="text-yellow-500">🌕🌕🌕🌕🌕</span></div>
+                </div>
+            </div>
+
+            <!-- Scorecard 2 -->
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100 border-red-50">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h3 class="font-bold text-lg text-slate-800">中天新聞 <span class="text-sm font-normal text-slate-400 ml-1">(N=15*)</span></h3>
+                        <p class="text-[10px] text-red-500 font-bold flex items-center mt-1"><i class="fas fa-exclamation-triangle mr-1"></i> 結構性搜尋偏差警告</p>
+                    </div>
+                    <div class="text-right text-red-600">
+                        <div class="text-2xl font-black italic">22%</div>
+                        <div class="flex space-x-0.5 mt-1 justify-end"><i class="fas fa-bolt text-xs text-gray-200"></i></div>
+                    </div>
+                </div>
+                <div class="space-y-4 opacity-70">
+                    <div class="flex justify-between text-xs font-medium"><span>🕒 報導及時性</span><span class="text-yellow-500">🌕🌕🌑🌑🌑</span></div>
+                    <div class="flex justify-between text-xs font-medium text-red-600 font-bold"><span>📉 文字新聞產能</span><span class="text-yellow-500">🌕🌑🌑🌑🌑</span></div>
+                    <div class="flex justify-between text-xs font-medium"><span>🧘 情緒控制 (冷靜)</span><span class="text-yellow-500">🌕🌕🌕🌑🌑</span></div>
+                    <div class="flex justify-between text-xs font-medium"><span>🌍 議題多元廣度</span><span class="text-yellow-500">🌕🌕🌑🌑🌑</span></div>
+                    <div class="flex justify-between text-xs font-medium text-red-600 font-bold"><span>🔎 搜尋可得性 (存根)</span><span class="text-yellow-500">🌑🌑🌑🌑🌑</span></div>
+                </div>
+                <p class="mt-6 text-[10px] text-slate-400 italic bg-slate-50 p-2 rounded leading-relaxed">
+                    * 註：中天產能嚴重向影音傾斜，雖 YouTube 有報，但缺乏文字存根將導致該議題在共識回顧中消失。
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 text-center p-12 mt-12 text-[10px] tracking-widest uppercase">
+        <p>© 2026 Robin AI Monitoring System. Created for Batman.</p>
+        <div class="mt-4 flex justify-center space-x-4 opacity-50">
+            <span>Security: Class-1</span>
+            <span>|</span>
+            <span>Data: Real-time</span>
+        </div>
+    </footer>
+
+</body>
+</html>

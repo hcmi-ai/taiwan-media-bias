@@ -1,0 +1,36 @@
+{
+  "2026-05-05 08:00": {
+    "topics": [
+      {"id": "T1", "title": "川普擊沉伊朗快艇 (T1)", "consensus": "high"},
+      {"id": "T2", "title": "賴清德返台談話 (T2)", "consensus": "medium"},
+      {"id": "T3", "title": "檢察總長徐錫祥遭封殺 (T2)", "consensus": "low"}
+    ],
+    "heatmap": {
+      "T1": {"UDN": "green", "LTN": "green", "FTV": "green", "CT": "green", "CTI": "green"},
+      "T2": {"UDN": "green", "LTN": "green", "FTV": "green", "CT": "green", "CTI": "yellow"},
+      "T3": {"UDN": "green", "LTN": "yellow", "FTV": "yellow", "CT": "yellow", "CTI": "gray"}
+    },
+    "scorecards": {
+      "UDN": {"battery": 100, "speed": 5, "data": 5, "calm": 5, "scope": 5, "honesty": 5, "n": 185},
+      "LTN": {"battery": 80, "speed": 5, "data": 4, "calm": 2, "scope": 5, "honesty": 5, "n": 142},
+      "CTI": {"battery": 15, "speed": 2, "data": 1, "calm": 3, "scope": 2, "honesty": 1, "n": 15}
+    }
+  },
+  "2026-05-06 08:00": {
+    "topics": [
+      {"id": "T1", "title": "川普護航喊卡 (T1)", "consensus": "high"},
+      {"id": "T2", "title": "漢他郵輪危機 (T2)", "consensus": "medium"},
+      {"id": "T3", "title": "雙北鼠患攻防 (T3)", "consensus": "low"}
+    ],
+    "heatmap": {
+      "T1": {"UDN": "green", "LTN": "green", "FTV": "green", "CT": "green", "CTI": "green"},
+      "T2": {"UDN": "green", "LTN": "green", "FTV": "green", "CT": "yellow", "CTI": "gray"},
+      "T3": {"UDN": "green", "LTN": "yellow", "FTV": "yellow", "CT": "green", "CTI": "red-影音"}
+    },
+    "scorecards": {
+      "UDN": {"battery": 100, "speed": 5, "data": 5, "calm": 5, "scope": 5, "honesty": 5, "n": 182},
+      "LTN": {"battery": 82, "speed": 5, "data": 4, "calm": 2, "scope": 5, "honesty": 5, "n": 155},
+      "CTI": {"battery": 18, "speed": 3, "data": 1, "calm": 3, "scope": 2, "honesty": 1, "n": 85}
+    }
+  }
+}

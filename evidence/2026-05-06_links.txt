@@ -1,0 +1,25 @@
+### 2026-05-06 媒體監測全量證據清單 (校準版)
+
+#### 【主題一：川普暫停護航任務 (T1)】
+- 聯合報: https://udn.com/news/story/6809/9486121 (大轉彎！美暫停護航任務)
+- 自由時報: https://news.ltn.com.tw/news/world/breakingnews/5426861 (大轉彎！ 川普宣布「自由計畫」暫停)
+- 中時新聞網: https://www.chinatimes.com/realtimenews/20260506001202-260408 (川普稱談判有進展 護航喊卡)
+- 民視新聞: https://www.ftvnews.com.tw/news/detail/2026506W0012 (最新！川普宣布暫停自由計畫)
+- 中天新聞: https://www.ctitv.com.tw/news/67252b7c1e4ef2d5 (快訊/談判重大突破？川普暫停波斯灣任務)
+
+#### 【主題二：漢他病毒郵輪危機 (T2)】
+- 聯合報 [3]: https://udn.com/news/story/6656/9482523 (漢他病毒郵輪 案例持續增加)
+- 自由時報 [1]: https://news.ltn.com.tw/news/life/breakingnews/5426900 (郵輪漢他危機 疾管署高度關注)
+- 中時新聞網 [1]: https://www.chinatimes.com/realtimenews/20260506001502-260405 (漢他郵輪困150人 船醫亦染病)
+- 民視新聞 [2]: https://www.ftvnews.com.tw/news/detail/2026506W0115 (郵輪變毒窟？漢他病毒疑似擴大)
+- 中天新聞 [0]: (掃描首頁及關鍵字檢索，本日無相關文章)
+
+#### 【主題三：雙北鼠患政壇攻防 (T3)】
+- 聯合報 [2]: https://udn.com/news/story/6656/9482712 (鼠患建言遭譏 蔣萬安：虛心接受)
+- 自由時報 [3]: https://news.ltn.com.tw/news/politics/breakingnews/5426913 (蔣萬安聽鼠患建言遭網諷 阿扁出面緩頰)
+- 中時新聞網 [2]: https://www.chinatimes.com/realtimenews/20260506001802-260407 (陳水扁秀AI抓鼠圖 蔣萬安：有創意)
+- 民視新聞 [2]: https://www.ftvnews.com.tw/news/detail/2026506P0034 (北市鼠患嚴重 蔣萬安遭譏『抓鼠專家』)
+- 中天新聞 [0]: (首頁無此資訊，判定為選擇性沈默)
+
+---
+*校準備註：此清單已使用 &tbs=qdr:d 參數排除 24 小時前之舊聞。*

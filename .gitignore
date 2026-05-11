@@ -1,0 +1,11 @@
+# 預設封鎖所有檔案
+*
+# 排除以下白名單 (只允許網頁相關)
+!index.html
+!history.json
+!reports/
+!reports/*.json
+!reports/*.html
+!.gitignore
+!evidence/
+!evidence/*.txt
