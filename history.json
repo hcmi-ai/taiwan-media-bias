@@ -16,7 +16,8 @@
         { "name": "民視", "pos": "20%", "color": "bg-green-400" },
         { "name": "自由", "pos": "30%", "color": "bg-green-600" },
         { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
-        { "name": "中時", "pos": "55%", "color": "bg-blue-400" }
+        { "name": "中時", "pos": "55%", "color": "bg-blue-400" },
+        { "name": "中天", "pos": "45%", "color": "bg-red-500", "note": "影音" }
       ],
       "T2": [
         { "name": "自由", "pos": "5%", "color": "bg-green-600" },
@@ -28,7 +29,8 @@
         { "name": "民視", "pos": "10%", "color": "bg-green-400" },
         { "name": "自由", "pos": "15%", "color": "bg-green-600" },
         { "name": "聯合", "pos": "45%", "color": "bg-gray-500" },
-        { "name": "中時", "pos": "50%", "color": "bg-blue-400" }
+        { "name": "中時", "pos": "50%", "color": "bg-blue-400" },
+        { "name": "中天", "pos": "48%", "color": "bg-red-500", "note": "影音" }
       ]
     },
     "scorecards": [
@@ -54,11 +56,14 @@
     "spectrums": {
       "T1": [
         { "name": "自由", "pos": "45%", "color": "bg-green-600" },
+        { "name": "民視", "pos": "46%", "color": "bg-green-400" },
         { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
-        { "name": "中時", "pos": "52%", "color": "bg-blue-400" }
+        { "name": "中時", "pos": "52%", "color": "bg-blue-400" },
+        { "name": "中天", "pos": "55%", "color": "bg-red-500" }
       ],
       "T2": [
         { "name": "自由", "pos": "30%", "color": "bg-green-600" },
+        { "name": "民視", "pos": "35%", "color": "bg-green-400" },
         { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
         { "name": "中時", "pos": "70%", "color": "bg-blue-400" }
       ],
@@ -90,8 +95,10 @@
     "spectrums": {
       "T1": [
         { "name": "自由", "pos": "48%", "color": "bg-green-600" },
+        { "name": "民視", "pos": "47%", "color": "bg-green-400" },
         { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
-        { "name": "中時", "pos": "51%", "color": "bg-blue-400" }
+        { "name": "中時", "pos": "51%", "color": "bg-blue-400" },
+        { "name": "中天", "pos": "52%", "color": "bg-red-500" }
       ],
       "T2": [
         { "name": "自由", "pos": "5%", "color": "bg-green-600" },
