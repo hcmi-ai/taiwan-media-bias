@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>羅賓媒體戰略儀表板 | Robin Media Monitor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .bias-node { transition: all 0.3s ease; z-index: 10; }
+        .bias-node:hover { transform: scale(1.2); cursor: pointer; z-index: 20; }
+        .spectrum-bar { height: 6px; border-radius: 99px; }
+        .status-green { color: #10b981; }
+        .status-yellow { color: #fbbf24; }
+        .status-red { color: #ef4444; }
+        .status-gray { color: #d1d5db; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <header class="bg-slate-900 text-white p-6 shadow-lg">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold flex items-center">
+                    <i class="fas fa-bat mr-3"></i> 羅賓媒體戰略儀表板
+                </h1>
+                <p id="update-time" class="text-slate-400 text-sm mt-1">載入中...</p>
+            </div>
+            <div class="flex items-center space-x-4">
+                <select id="date-selector" class="bg-slate-800 text-white text-xs border-none rounded px-3 py-1 outline-none cursor-pointer hover:bg-slate-700 transition">
+                    <!-- Dates will be injected here -->
+                </select>
+                <span class="bg-blue-600 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">Media Monitor 2.0</span>
+            </div>
+        </div>
+    </header>
+
+    <main id="dashboard-content" class="max-w-6xl mx-auto p-6 space-y-8">
+        <!-- Content will be injected by JavaScript -->
+        <div class="text-center py-20 text-gray-400">
+            <i class="fas fa-spinner fa-spin text-4xl mb-4"></i>
+            <p>正在分析媒體數據...</p>
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 text-center p-12 mt-12 text-[10px] tracking-widest uppercase">
+        <p>© 2026 Robin AI Monitoring System. Created for Batman.</p>
+    </footer>
+
+    <script>
+        // This would normally be loaded from history.json
+        const mockHistory = {
+            "2026-05-06 08:00": {
+                "updateTime": "2026-05-06 13:00 (Asia/Taipei)",
+                "topics": [
+                    {"id": "T1", "title": "川普護航喊卡 (T1)", "consensus": "high", "desc": "高度共識議題", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "偏左/批判", "labelRight": "偏右/支持"},
+                    {"id": "T2", "title": "漢他郵輪危機 (T2)", "consensus": "medium", "desc": "中度分化", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "強調恐慌", "labelRight": "淡化威脅"},
+                    {"id": "T3", "title": "雙北鼠患攻防 (T3)", "consensus": "low", "desc": "高度分化/極化", "gradient": "from-green-400 via-gray-200 to-blue-400", "labelLeft": "批判蔣萬安", "labelRight": "緩頰/AI創意"}
+                ],
+                "heatmap": [
+                    { name: "川普護航喊卡 (T1)", udn: "green", ltn: "green", ftv: "green", ct: "green", cti: "green" },
+                    { name: "漢他郵輪危機 (T2)", udn: "green", ltn: "green", ftv: "green", ct: "yellow", cti: "gray" },
+                    { name: "雙北鼠患攻防 (T3)", udn: "green", ltn: "yellow", ftv: "yellow", udn: "green", ct: "green", cti: "red-video" }
+                ],
+                "spectrums": {
+                    "T3": [
+                        { name: "自由", pos: "10%", color: "bg-green-600" },
+                        { name: "民視", pos: "25%", color: "bg-green-400" },
+                        { name: "聯合", pos: "55%", color: "bg-gray-500" },
+                        { name: "中時", pos: "85%", color: "bg-blue-400" }
+                    ]
+                },
+                "scorecards": [
+                    { name: "聯合報", n: 185, battery: 100, color: "green", scores: [5,5,5,5,5] },
+                    { name: "中天新聞", n: "15*", battery: 22, color: "red", scores: [2,1,3,2,0], warning: "文字產能嚴重不足，議題多數轉移至直播。" }
+                ]
+            },
+            "2026-05-05 08:00": {
+                "updateTime": "2026-05-05 13:00 (Asia/Taipei)",
+                "topics": [
+                    {"id": "T1", "title": "川普擊沉伊朗快艇", "consensus": "high", "desc": "高度共識", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "報導", "labelRight": "報導"},
+                    {"id": "T2", "title": "檢察總長人事遭封殺", "consensus": "low", "desc": "高度極化", "gradient": "from-green-500 via-gray-200 to-blue-500", "labelLeft": "在野亂政", "labelRight": "依法表決"}
+                ],
+                "heatmap": [
+                    { name: "川普快艇案", udn: "green", ltn: "green", ftv: "green", ct: "green", cti: "green" },
+                    { name: "檢察總長案", udn: "green", ltn: "yellow", ftv: "yellow", ct: "yellow", cti: "gray" }
+                ],
+                "spectrums": {
+                    "T2": [
+                        { name: "自由", pos: "5%", color: "bg-green-600" },
+                        { name: "民視", pos: "15%", color: "bg-green-400" },
+                        { name: "聯合", pos: "50%", color: "bg-gray-500" },
+                        { name: "中時", pos: "75%", color: "bg-blue-400" }
+                    ]
+                },
+                "scorecards": [
+                    { name: "聯合報", n: 182, battery: 100, color: "green", scores: [5,5,5,5,5] },
+                    { name: "中天新聞", n: "12", battery: 15, color: "red", scores: [1,1,2,1,0], warning: "重大政治議題選擇性沈默。" }
+                ]
+            }
+        };
+
+        function renderDashboard(data) {
+            const container = document.getElementById('dashboard-content');
+            document.getElementById('update-time').innerText = `數據更新時間：${data.updateTime}`;
+            
+            let html = `
+                <!-- A: Heatmap -->
+                <section class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+                    <h2 class="text-xl font-bold mb-6 flex items-center border-l-4 border-blue-500 pl-3">
+                        議題覆蓋熱力矩陣
+                    </h2>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-gray-50 text-xs text-gray-500">
+                                    <th class="p-4 border-b">議題 / 媒體</th>
+                                    <th class="p-4 border-b text-center">聯合</th>
+                                    <th class="p-4 border-b text-center">自由</th>
+                                    <th class="p-4 border-b text-center">民視</th>
+                                    <th class="p-4 border-b text-center">中時</th>
+                                    <th class="p-4 border-b text-center">中天</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y text-sm">
+                                ${data.heatmap.map(row => `
+                                    <tr>
+                                        <td class="p-4 font-semibold text-slate-700">${row.name}</td>
+                                        <td class="p-4 text-center ${row.udn === 'green' ? 'text-green-500' : 'text-yellow-400'}"><i class="fas fa-square text-2xl"></i></td>
+                                        <td class="p-4 text-center ${row.ltn === 'green' ? 'text-green-500' : 'text-yellow-400'}"><i class="fas fa-square text-2xl"></i></td>
+                                        <td class="p-4 text-center ${row.ftv === 'green' ? 'text-green-500' : 'text-yellow-400'}"><i class="fas fa-square text-2xl"></i></td>
+                                        <td class="p-4 text-center ${row.ct === 'green' ? 'text-green-500' : row.ct === 'gray' ? 'text-gray-200' : 'text-yellow-400'}"><i class="fas fa-square text-2xl"></i></td>
+                                        <td class="p-4 text-center relative">
+                                            ${row.cti === 'red-video' ? '<i class="fas fa-square text-2xl text-red-500 opacity-20"></i><span class="absolute inset-0 flex items-center justify-center text-[9px] text-red-600 font-bold">影音</span>' : 
+                                              row.cti === 'green' ? '<i class="fas fa-square text-2xl text-green-500"></i>' : 
+                                              '<i class="fas fa-square text-2xl text-gray-200"></i>'}
+                                        </td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- B: Spectrum -->
+                <section class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+                    <h2 class="text-xl font-bold mb-8 flex items-center border-l-4 border-indigo-500 pl-3">
+                        各議題立場分佈
+                    </h2>
+                    <div class="space-y-16 px-4">
+                        ${data.topics.map(topic => `
+                            <div class="relative">
+                                <div class="flex justify-between items-end mb-6">
+                                    <h3 class="text-sm font-bold text-slate-800">${topic.title}</h3>
+                                    <span class="text-[10px] bg-slate-50 text-slate-500 px-2 py-0.5 rounded font-bold">${topic.desc}</span>
+                                </div>
+                                <div class="spectrum-bar w-full bg-gradient-to-r ${topic.gradient} relative shadow-inner">
+                                    ${(data.spectrums[topic.id] || []).map(node => `
+                                        <div class="absolute -top-2 left-[${node.pos}] bias-node text-center">
+                                            <div class="w-5 h-5 ${node.color} rounded-full border-2 border-white shadow-md"></div>
+                                            <span class="text-[9px] mt-1 block font-bold text-gray-600">${node.name}</span>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                                <div class="flex justify-between mt-3 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+                                    <span>${topic.labelLeft}</span>
+                                    <span>中立事實</span>
+                                    <span>${topic.labelRight}</span>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+
+                <!-- C: Scorecards -->
+                <section class="grid md:grid-cols-2 gap-6">
+                    ${data.scorecards.map(card => `
+                        <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100 ${card.battery < 50 ? 'opacity-80' : ''}">
+                            <div class="flex justify-between items-start mb-6">
+                                <div>
+                                    <h3 class="font-bold text-lg text-slate-800">${card.name} <span class="text-sm font-normal text-slate-400 ml-1">(N=${card.n})</span></h3>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-2xl font-black ${card.battery > 70 ? 'text-green-600' : 'text-red-600'}">${card.battery}%</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                ${['🕒 報導速度', '📊 數據厚度', '🧘 情緒控制', '🌍 議題廣度', '🛡️ 誠信/躲閃'].map((label, i) => `
+                                    <div class="flex justify-between text-xs">
+                                        <span>${label}</span>
+                                        <span class="text-yellow-500">${'🌕'.repeat(card.scores[i])}${'🌑'.repeat(5-card.scores[i])}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            ${card.warning ? `<p class="mt-4 text-[10px] text-red-500 italic bg-red-50 p-2 rounded">${card.warning}</p>` : ''}
+                        </div>
+                    `).join('')}
+                </section>
+            `;
+            container.innerHTML = html;
+        }
+
+        const selector = document.getElementById('date-selector');
+        Object.keys(mockHistory).forEach(date => {
+            const opt = document.createElement('option');
+            opt.value = date;
+            opt.innerText = date;
+            selector.appendChild(opt);
+        });
+
+        selector.addEventListener('change', (e) => {
+            renderDashboard(mockHistory[e.target.value]);
+        });
+
+        // Initialize with latest
+        renderDashboard(mockHistory[Object.keys(mockHistory)[0]]);
+    </script>
+</body>
+</html>
