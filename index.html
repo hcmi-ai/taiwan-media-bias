@@ -81,7 +81,7 @@
 
         async function init() {
             try {
-                const response = await fetch('history.json');
+                const response = await fetch('history.json?v=' + new Date().getTime());
                 currentHistory = await response.json();
                 const selector = document.getElementById('date-selector');
                 selector.innerHTML = '';
