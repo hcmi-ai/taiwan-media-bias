@@ -10,13 +10,29 @@
         .bias-node { transition: all 0.3s ease; z-index: 10; }
         .bias-node:hover { transform: scale(1.2); cursor: pointer; z-index: 20; }
         .spectrum-bar { height: 6px; border-radius: 99px; }
-        .status-green { color: #10b981; }
-        .status-yellow { color: #fbbf24; }
-        .status-red { color: #ef4444; }
-        .status-gray { color: #d1d5db; }
+        #auth-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #0f172a; z-index: 9999; display: flex;
+            align-items: center; justify-content: center; flex-direction: column;
+            color: white; font-family: sans-serif;
+        }
+        .passcode-input {
+            background: #1e293b; border: 2px solid #334155; color: #38bdf8;
+            font-size: 2rem; text-align: center; letter-spacing: 0.5rem;
+            padding: 10px; border-radius: 8px; width: 200px; outline: none;
+        }
+        .passcode-input:focus { border-color: #38bdf8; }
     </style>
 </head>
 <body class="bg-gray-50 font-sans text-gray-900">
+
+    <div id="auth-overlay">
+        <i class="fas fa-bat text-5xl mb-6 text-slate-500"></i>
+        <h2 class="text-xl font-bold mb-4 uppercase tracking-widest">ACCESS RESTRICTED</h2>
+        <p class="text-slate-400 mb-8 text-sm">請輸入羅賓提供的四位數驗證碼</p>
+        <input type="password" id="passcode" class="passcode-input" maxlength="4" autofocus>
+        <p id="auth-error" class="text-red-500 mt-4 text-xs opacity-0">驗證碼錯誤，請重新輸入</p>
+    </div>
 
     <header class="bg-slate-900 text-white p-6 shadow-lg">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
@@ -37,10 +53,6 @@
 
     <main id="dashboard-content" class="max-w-6xl mx-auto p-6 space-y-8">
         <!-- Content will be injected by JavaScript -->
-        <div class="text-center py-20 text-gray-400">
-            <i class="fas fa-spinner fa-spin text-4xl mb-4"></i>
-            <p>正在分析媒體數據...</p>
-        </div>
     </main>
 
     <footer class="bg-slate-900 text-slate-500 text-center p-12 mt-12 text-[10px] tracking-widest uppercase">
@@ -48,39 +60,41 @@
     </footer>
 
     <script>
+        const PIN = "0508"; // 這裡就是密碼：老闆收到 Gemini 會議邀請的那天
+        const authOverlay = document.getElementById('auth-overlay');
+        const passInput = document.getElementById('passcode');
+        const errorMsg = document.getElementById('auth-error');
+
+        passInput.addEventListener('input', (e) => {
+            if (e.target.value.length === 4) {
+                if (e.target.value === PIN) {
+                    authOverlay.style.display = 'none';
+                    init();
+                } else {
+                    errorMsg.style.opacity = '1';
+                    e.target.value = '';
+                }
+            }
+        });
+
         let currentHistory = {};
 
         async function init() {
             try {
                 const response = await fetch('history.json');
                 currentHistory = await response.json();
-                
                 const selector = document.getElementById('date-selector');
                 selector.innerHTML = '';
                 const dates = Object.keys(currentHistory).sort().reverse();
-                
                 dates.forEach(date => {
                     const opt = document.createElement('option');
-                    opt.value = date;
-                    opt.innerText = date;
+                    opt.value = date; opt.innerText = date;
                     selector.appendChild(opt);
                 });
-
-                selector.addEventListener('change', (e) => {
-                    renderDashboard(currentHistory[e.target.value]);
-                });
-
-                // Initialize with latest
-                if (dates.length > 0) {
-                    renderDashboard(currentHistory[dates[0]]);
-                }
+                selector.addEventListener('change', (e) => renderDashboard(currentHistory[e.target.value]));
+                if (dates.length > 0) renderDashboard(currentHistory[dates[0]]);
             } catch (err) {
-                document.getElementById('dashboard-content').innerHTML = `
-                    <div class="text-center py-20 text-red-400">
-                        <i class="fas fa-exclamation-triangle text-4xl mb-4"></i>
-                        <p>數據載入失敗：${err.message}</p>
-                    </div>
-                `;
+                console.error(err);
             }
         }
 
@@ -89,11 +103,8 @@
             document.getElementById('update-time').innerText = `數據更新時間：${data.updateTime}`;
             
             let html = `
-                <!-- A: Heatmap -->
                 <section class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
-                    <h2 class="text-xl font-bold mb-6 flex items-center border-l-4 border-blue-500 pl-3">
-                        議題覆蓋熱力矩陣
-                    </h2>
+                    <h2 class="text-xl font-bold mb-6 flex items-center border-l-4 border-blue-500 pl-3">議題覆蓋熱力矩陣</h2>
                     <div class="overflow-x-auto">
                         <table class="w-full text-left border-collapse">
                             <thead>
@@ -126,11 +137,8 @@
                     </div>
                 </section>
 
-                <!-- B: Spectrum -->
                 <section class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
-                    <h2 class="text-xl font-bold mb-8 flex items-center border-l-4 border-indigo-500 pl-3">
-                        各議題立場分佈
-                    </h2>
+                    <h2 class="text-xl font-bold mb-8 flex items-center border-l-4 border-indigo-500 pl-3">各議題立場分佈</h2>
                     <div class="space-y-16 px-4">
                         ${data.topics.map(topic => `
                             <div class="relative">
@@ -156,35 +164,24 @@
                     </div>
                 </section>
 
-                <!-- C: Scorecards -->
                 <section class="grid md:grid-cols-2 gap-6">
                     ${data.scorecards.map(card => `
                         <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100 ${card.battery < 50 ? 'opacity-80' : ''}">
                             <div class="flex justify-between items-start mb-6">
-                                <div>
-                                    <h3 class="font-bold text-lg text-slate-800">${card.name} <span class="text-sm font-normal text-slate-400 ml-1">(N=${card.n})</span></h3>
-                                </div>
-                                <div class="text-right">
-                                    <div class="text-2xl font-black ${card.battery > 70 ? 'text-green-600' : 'text-red-600'}">${card.battery}%</div>
-                                </div>
+                                <div><h3 class="font-bold text-lg text-slate-800">${card.name}</h3></div>
+                                <div class="text-right"><div class="text-2xl font-black ${card.battery > 70 ? 'text-green-600' : 'text-red-600'}">${card.battery}%</div></div>
                             </div>
                             <div class="space-y-3">
                                 ${['🕒 報導速度', '📊 數據厚度', '🧘 情緒控制', '🌍 議題廣度', '🛡️ 誠信/躲閃'].map((label, i) => `
-                                    <div class="flex justify-between text-xs">
-                                        <span>${label}</span>
-                                        <span class="text-yellow-500">${'🌕'.repeat(card.scores[i])}${'🌑'.repeat(5-card.scores[i])}</span>
-                                    </div>
+                                    <div class="flex justify-between text-xs"><span>${label}</span><span class="text-yellow-500">${'🌕'.repeat(card.scores[i])}${'🌑'.repeat(5-card.scores[i])}</span></div>
                                 `).join('')}
                             </div>
-                            ${card.warning ? `<p class="mt-4 text-[10px] text-red-500 italic bg-red-50 p-2 rounded">${card.warning}</p>` : ''}
                         </div>
                     `).join('')}
                 </section>
             `;
             container.innerHTML = html;
         }
-
-        init();
     </script>
 </body>
 </html>
