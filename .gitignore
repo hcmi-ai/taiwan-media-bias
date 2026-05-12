@@ -3,6 +3,7 @@
 # 排除以下白名單 (只允許網頁相關)
 !index.html
 !history.json
+!mockup.html
 !reports/
 !reports/*.json
 !reports/*.html
