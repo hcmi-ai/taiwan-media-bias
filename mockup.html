@@ -15,13 +15,37 @@
             position: absolute; animation: scan 4s linear infinite;
         }
         @keyframes scan { from { top: 0; } to { top: 100%; } }
+
+        /* Auth Overlay Styles */
+        #auth-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #020617; z-index: 9999; display: flex;
+            align-items: center; justify-content: center; flex-direction: column;
+            color: #38bdf8;
+        }
+        .passcode-input {
+            background: #0f172a; border: 2px solid #1e293b; color: #38bdf8;
+            font-size: 2rem; text-align: center; letter-spacing: 0.5rem;
+            padding: 10px; border-radius: 8px; width: 200px; outline: none;
+            font-family: 'JetBrains+Mono', monospace;
+        }
+        .passcode-input:focus { border-color: #38bdf8; box-shadow: 0 0 15px rgba(56, 189, 248, 0.3); }
     </style>
 </head>
 <body class="p-8 text-slate-400 overflow-hidden relative">
     <div class="scanline"></div>
+
+    <!-- Auth Overlay -->
+    <div id="auth-overlay">
+        <i class="fas fa-shield-halved text-5xl mb-6 text-sky-500 animate-pulse"></i>
+        <h2 class="text-xl font-bold mb-4 uppercase tracking-[0.3em]">RESTRICTED ACCESS</h2>
+        <p class="text-slate-500 mb-8 text-xs font-bold">PLEASE ENTER CLEARANCE CODE</p>
+        <input type="password" id="passcode" class="passcode-input" maxlength="4" autofocus>
+        <p id="auth-error" class="text-red-500 mt-4 text-[10px] font-bold opacity-0">INVALID CLEARANCE CODE. ACCESS DENIED.</p>
+    </div>
     
     <!-- Main UI Container -->
-    <div class="max-w-6xl mx-auto border-2 border-slate-800 bg-[#020617] rounded-lg overflow-hidden shadow-2xl relative">
+    <div id="main-ui" class="max-w-6xl mx-auto border-2 border-slate-800 bg-[#020617] rounded-lg overflow-hidden shadow-2xl relative opacity-0">
         
         <!-- Header -->
         <header class="border-b border-sky-900/50 p-6 flex justify-between items-end bg-slate-900/20">
@@ -184,5 +208,25 @@
         <span>ENCRYPTED_LINK_ESTABLISHED</span>
         <span>ROBIN_PROTOCOL_V4</span>
     </div>
+
+    <script>
+        const PIN = "0508"; 
+        const authOverlay = document.getElementById('auth-overlay');
+        const mainUI = document.getElementById('main-ui');
+        const passInput = document.getElementById('passcode');
+        const errorMsg = document.getElementById('auth-error');
+
+        passInput.addEventListener('input', (e) => {
+            if (e.target.value.length === 4) {
+                if (e.target.value === PIN) {
+                    authOverlay.style.display = 'none';
+                    mainUI.style.opacity = '1';
+                } else {
+                    errorMsg.style.opacity = '1';
+                    e.target.value = '';
+                }
+            }
+        });
+    </script>
 </body>
 </html>
