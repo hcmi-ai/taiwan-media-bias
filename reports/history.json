@@ -2,9 +2,9 @@
   "2026-05-11 08:00": {
     "updateTime": "2026-05-11 08:00 (Asia/Taipei)",
     "topics": [
-      {"id": "T1", "title": "醫美偷拍案搜索 (T1)", "consensus": "high", "desc": "高度共識", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "報導", "labelRight": "報導"},
-      {"id": "T2", "title": "軍購預算案表決 (T2)", "consensus": "low", "desc": "高度極化", "gradient": "from-green-500 via-gray-200 to-blue-500", "labelLeft": "在野大刪預算", "labelRight": "嚴格審核"},
-      {"id": "T3", "title": "大直老鼠亂竄 (T3)", "consensus": "medium", "desc": "社會議題", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "監督施政", "labelRight": "業者致歉"}
+      {"id": "T1", "title": "醫美偷拍案搜索 (T1)", "consensus": "high", "desc": "高度共識", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "社會批判", "labelRight": "事實報導"},
+      {"id": "T2", "title": "軍購預算案表決 (T2)", "consensus": "low", "desc": "高度極化", "gradient": "from-green-500 via-gray-200 to-blue-500", "labelLeft": "在野黨阻撓", "labelRight": "程序正義"},
+      {"id": "T3", "title": "大直老鼠亂竄 (T3)", "consensus": "medium", "desc": "社會議題", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "監督施政", "labelRight": "業者道歉"}
     ],
     "heatmap": [
       { "name": "醫美偷拍案", "udn": "green", "ltn": "green", "ftv": "green", "ct": "green", "cti": "red-video" },
@@ -12,17 +12,107 @@
       { "name": "大直鼠患", "udn": "green", "ltn": "green", "ftv": "green", "ct": "green", "cti": "red-video" }
     ],
     "spectrums": {
+      "T1": [
+        { "name": "民視", "pos": "20%", "color": "bg-green-400" },
+        { "name": "自由", "pos": "30%", "color": "bg-green-600" },
+        { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
+        { "name": "中時", "pos": "55%", "color": "bg-blue-400" },
+        { "name": "中天", "pos": "45%", "color": "bg-red-500", "note": "影音" }
+      ],
       "T2": [
         { "name": "自由", "pos": "5%", "color": "bg-green-600" },
         { "name": "民視", "pos": "15%", "color": "bg-green-400" },
         { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
         { "name": "中時", "pos": "85%", "color": "bg-blue-400" }
+      ],
+      "T3": [
+        { "name": "民視", "pos": "10%", "color": "bg-green-400" },
+        { "name": "自由", "pos": "15%", "color": "bg-green-600" },
+        { "name": "聯合", "pos": "45%", "color": "bg-gray-500" },
+        { "name": "中時", "pos": "50%", "color": "bg-blue-400" },
+        { "name": "中天", "pos": "48%", "color": "bg-red-500", "note": "影音" }
       ]
     },
     "scorecards": [
       { "name": "聯合報", "n": 185, "battery": 100, "scores": [5,5,5,5,5] },
       { "name": "自由時報", "n": 142, "battery": 82, "scores": [5,4,2,5,5] },
+      { "name": "民視新聞", "n": 128, "battery": 78, "scores": [4,3,3,4,5] },
+      { "name": "中國時報", "n": 156, "battery": 75, "scores": [4,4,2,4,4] },
       { "name": "中天新聞", "n": "15*", "battery": 15, "scores": [2,1,3,2,0], "warning": "文字存根缺失，搜尋可得性極低。" }
+    ]
+  },
+  "2026-05-06 08:00": {
+    "updateTime": "2026-05-06 13:00 (Asia/Taipei)",
+    "topics": [
+      {"id": "T1", "title": "川普護航喊卡 (T1)", "consensus": "high", "desc": "高度共識", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "批判", "labelRight": "支持"},
+      {"id": "T2", "title": "漢他郵輪危機 (T2)", "consensus": "medium", "desc": "中度分化", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "恐慌", "labelRight": "淡化"},
+      {"id": "T3", "title": "雙北鼠患攻防 (T3)", "consensus": "low", "desc": "高度極化", "gradient": "from-green-400 via-gray-200 to-blue-400", "labelLeft": "批蔣", "labelRight": "緩頰"}
+    ],
+    "heatmap": [
+      { "name": "川普護航案", "udn": "green", "ltn": "green", "ftv": "green", "ct": "green", "cti": "green" },
+      { "name": "郵輪危機案", "udn": "green", "ltn": "green", "ftv": "green", "ct": "yellow", "cti": "gray" },
+      { "name": "雙北鼠患案", "udn": "green", "ltn": "yellow", "ftv": "yellow", "ct": "green", "cti": "red-video" }
+    ],
+    "spectrums": {
+      "T1": [
+        { "name": "自由", "pos": "45%", "color": "bg-green-600" },
+        { "name": "民視", "pos": "46%", "color": "bg-green-400" },
+        { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
+        { "name": "中時", "pos": "52%", "color": "bg-blue-400" },
+        { "name": "中天", "pos": "55%", "color": "bg-red-500" }
+      ],
+      "T2": [
+        { "name": "自由", "pos": "30%", "color": "bg-green-600" },
+        { "name": "民視", "pos": "35%", "color": "bg-green-400" },
+        { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
+        { "name": "中時", "pos": "70%", "color": "bg-blue-400" }
+      ],
+      "T3": [
+        { "name": "自由", "pos": "10%", "color": "bg-green-600" },
+        { "name": "民視", "pos": "25%", "color": "bg-green-400" },
+        { "name": "聯合", "pos": "55%", "color": "bg-gray-500" },
+        { "name": "中時", "pos": "85%", "color": "bg-blue-400" }
+      ]
+    },
+    "scorecards": [
+      { "name": "聯合報", "n": 185, "battery": 100, "scores": [5,5,5,5,5] },
+      { "name": "自由時報", "n": 140, "battery": 85, "scores": [5,4,4,5,5] },
+      { "name": "民視新聞", "n": 130, "battery": 75, "scores": [4,3,3,4,5] },
+      { "name": "中國時報", "n": 150, "battery": 70, "scores": [4,3,2,4,4] },
+      { "name": "中天新聞", "n": "15*", "battery": 22, "scores": [2,1,3,2,0] }
+    ]
+  },
+  "2026-05-05 08:00": {
+    "updateTime": "2026-05-05 13:00 (Asia/Taipei)",
+    "topics": [
+      {"id": "T1", "title": "川普擊沉伊朗快艇 (T1)", "consensus": "high", "desc": "高度共識", "gradient": "from-green-300 via-gray-200 to-blue-300", "labelLeft": "報導", "labelRight": "報導"},
+      {"id": "T2", "title": "檢察總長人事遭封殺 (T2)", "consensus": "low", "desc": "高度極化", "gradient": "from-green-500 via-gray-200 to-blue-500", "labelLeft": "在野亂政", "labelRight": "依法表決"}
+    ],
+    "heatmap": [
+      { "name": "川普快艇案", "udn": "green", "ltn": "green", "ftv": "green", "ct": "green", "cti": "green" },
+      { "name": "檢察總長案", "udn": "green", "ltn": "yellow", "ftv": "yellow", "ct": "yellow", "cti": "gray" }
+    ],
+    "spectrums": {
+      "T1": [
+        { "name": "自由", "pos": "48%", "color": "bg-green-600" },
+        { "name": "民視", "pos": "47%", "color": "bg-green-400" },
+        { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
+        { "name": "中時", "pos": "51%", "color": "bg-blue-400" },
+        { "name": "中天", "pos": "52%", "color": "bg-red-500" }
+      ],
+      "T2": [
+        { "name": "自由", "pos": "5%", "color": "bg-green-600" },
+        { "name": "民視", "pos": "15%", "color": "bg-green-400" },
+        { "name": "聯合", "pos": "50%", "color": "bg-gray-500" },
+        { "name": "中時", "pos": "75%", "color": "bg-blue-400" }
+      ]
+    },
+    "scorecards": [
+      { "name": "聯合報", "n": 182, "battery": 100, "scores": [5,5,5,5,5] },
+      { "name": "自由時報", "n": 138, "battery": 80, "scores": [5,4,3,5,5] },
+      { "name": "民視新聞", "n": 120, "battery": 72, "scores": [4,3,2,4,5] },
+      { "name": "中國時報", "n": 145, "battery": 68, "scores": [4,3,2,4,4] },
+      { "name": "中天新聞", "n": "12", "battery": 15, "scores": [1,1,2,1,0] }
     ]
   }
 }
