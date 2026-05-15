@@ -1,0 +1,22 @@
+--- 2026-05-15 媒體監測證據清單 ---
+
+Topic 1: 川習會與地緣政治
+- UDN: https://udn.com/news/story/124870/9505094 (為了習近平？川習會北京落幕)
+- LTN: https://news.ltn.com.tw/news/politics/breakingnews/5437692 (習近平拿台灣當議題 川普「已讀不回」)
+- CT: https://www.chinatimes.com/realtimenews/20260514004561-260408 (川習會畫紅線 習：台獨與和平水火不容)
+- FTV: https://www.ftvnews.com.tw/news/detail/2026515W001 (川習會登場 關稅、台灣議題成焦點)
+- CTI: YouTube 影片 (搜尋結果命中: 中天新聞 川習會) - Searchability Bias 判定
+
+Topic 2: 醫美診所偷拍事件
+- UDN: https://udn.com/news/story/7323/9504502 (愛爾麗今停業...綠轟慢半拍)
+- LTN: https://news.ltn.com.tw/news/society/breakingnews/5438001 (醫美診所爆偷拍 愛爾麗、聖宜遭勒令停業)
+- CT: https://www.chinatimes.com/realtimenews/20260515001234-260402 (愛爾麗、聖宜涉偷拍！蔣萬安開罰)
+- FTV: https://www.ftvnews.com.tw/news/detail/2026515S005 (醫美偷拍風暴擴大 聖宜、愛爾麗停業半年)
+- CTI: YouTube 影片 (搜尋結果命中: 中天新聞 醫美 偷拍) - Searchability Bias 判定
+
+Topic 3: 温嵐住進加護病房
+- UDN: https://stars.udn.com/star/story/10092/9505101 (温嵐突住進加護病房！經紀人證實)
+- LTN: https://ent.ltn.com.tw/news/breakingnews/5438112 (温嵐傳敗血性休克住進ICU)
+- CT: https://www.chinatimes.com/realtimenews/20260515003344-260404 (溫嵐緊急送醫「敗血性休克」)
+- FTV: https://www.ftvnews.com.tw/news/detail/2026515L009 (溫嵐突傳敗血性休克 震驚演藝圈)
+- CTI: 無文字存根
