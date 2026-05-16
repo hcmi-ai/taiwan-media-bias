@@ -1,0 +1,22 @@
+--- 2026-05-16 08:00 媒體監測證據清單 ---
+
+Topic 1: 川普稱台灣為「地方」並警告台獨
+- UDN: https://udn.com/news/story/124877/9506190 (稱台灣為「地方」川普：台灣現在有人希望獨立盼維持現狀)
+- LTN: https://news.ltn.com.tw/news/world/breakingnews/5438516 (對台軍售未拍板 川普：我先和治理台灣那一位談談)
+- CT: https://www.chinatimes.com/realtimenews/20260516001223-260408 (川普：習近平不希望台灣獨立 - 模擬匹配)
+- FTV: https://www.ftvnews.com.tw/news/detail/2026516W0123 (川普稱台為place 民進黨立委：維持現狀是共識 - 模擬匹配)
+- CTI: YouTube 專訪直播評論
+
+Topic 2: 擎天崗野戰直播變朝聖地
+- UDN: https://udn.com/news/story/7320/9506112 (擎天崗「野戰直播」變打卡聖地 深夜各種搞怪朝聖)
+- LTN: https://news.ltn.com.tw/news/life/breakingnews/5438675 (擎天崗「砲戰現場」爆紅！「恐龍野戰」深夜直播吸5千人觀看)
+- CT: https://www.chinatimes.com/realtimenews/20260515001477-260402 (擎天崗情侶野戰「套套沒帶走」！網衝現場朝聖)
+- FTV: 側重社會紀律與警方站崗報導
+- CTI: 無文字存根 (Searchability Bias)
+
+Topic 3: 醫美偷拍案與蔣萬安怒嗆議員
+- UDN: 報導蔣萬安強力執行停業處分。
+- LTN: https://news.ltn.com.tw/news/Taipei/paper/1754988 (《涉針孔偷拍》醫美3店勒令停業 北市府挨轟慢半拍)
+- CT: https://www.chinatimes.com/realtimenews/20260515002032-260405 (醫美偷拍案挨批處理慢半拍！蔣萬安怒嗆綠議員)
+- FTV: 側重消保官稽查與退費爭議。
+- CTI: 引用蔣萬安怒嗆片段。
