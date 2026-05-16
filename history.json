@@ -1129,5 +1129,194 @@
         "warning": "文字依賴度低，搜尋可得性偏差。"
       }
     ]
+  },
+  "2026-05-16 14:00": {
+    "updateTime": "2026-05-16 14:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普軍售與『地方』論 (T1)",
+        "consensus": "low",
+        "desc": "美中台博弈深水區",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "台美夥伴/決策未變",
+        "labelRight": "大交易論/籌碼壓力"
+      },
+      {
+        "id": "T2",
+        "title": "115會考蘇丹時事題 (T2)",
+        "consensus": "high",
+        "desc": "教育與時事結合",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "死背無效",
+        "labelRight": "題目適中"
+      },
+      {
+        "id": "T3",
+        "title": "醫美案蔣萬安政治反擊 (T3)",
+        "consensus": "low",
+        "desc": "地方政壇延燒",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "慢半拍質疑",
+        "labelRight": "依法開鍘/反嗆政治秀"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普『治理台灣的人』",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考蘇丹內戰題",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      },
+      {
+        "name": "醫美案反嗆續熱",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "重申府方回應"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "大交易籌碼論"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "任後攻台預警"
+        }
+      ],
+      "T2": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "52%",
+          "color": "bg-green-600"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "12%",
+          "color": "bg-green-600",
+          "note": "批市府慢半拍"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "蔣怒嗆片段"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 245,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 210,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 185,
+        "battery": 85,
+        "scores": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 155,
+        "battery": 75,
+        "scores": [
+          4,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "40*",
+        "battery": 28,
+        "scores": [
+          3,
+          2,
+          3,
+          4,
+          3
+        ],
+        "warning": "文字新聞嚴重缺失，依賴影音。"
+      }
+    ]
   }
 }

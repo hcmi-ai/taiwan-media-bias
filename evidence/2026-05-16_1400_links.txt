@@ -1,0 +1,22 @@
+--- 2026-05-16 14:00 媒體監測證據清單 ---
+
+Topic 1: 川普「治理台灣的人」與軍售談判
+- UDN: https://udn.com/news/story/124870/9505569 (川普稱未對中承諾對台事務 很快將決定對台軍售)
+- LTN: https://news.ltn.com.tw/news/world/breakingnews/5438516 (對台軍售未拍板 川普：我先和「治理台灣那一位」談談)
+- CT: https://www.chinatimes.com/realtimenews/20260516001734-260407 (與治理台灣的人談軍購 李彥秀：川普正在進行「大交易」)
+- FTV: 側重報導政府回應，強調台美關係穩健
+- CTI: https://ctinews.com/news/items/vZWBV9zoW7 (川普：任內中國大陸不攻台 卸任後可能動手)
+
+Topic 2: 115國中會考首日 (蘇丹內戰入題)
+- UDN: https://udn.com/news/story/124826/9506391 (115會考社會／蘇丹內戰入題 命題靈活考生：死背無法拿分)
+- LTN: 側重試場秩序與整體難度分析
+- CT: 側重考生心情與偏易題型報導
+- FTV: 報導教育政策與考場周邊
+- CTI: 無顯著文字報導 (Searchability Bias)
+
+Topic 3: 醫美偷拍事件與退費爭議 (蔣萬安反擊續發酵)
+- UDN: 蔣萬安強力執行處分，市府立場堅定
+- LTN: https://news.ltn.com.tw/news/Taipei/paper/1754988 (《涉針孔偷拍》醫美3店勒令停業 北市府挨轟慢半拍)
+- CT: https://www.chinatimes.com/realtimenews/20260515002032-260405 (醫美案蔣萬安怒嗆綠議員：去向總統反映)
+- FTV: 重點在於 128 件申訴與消保官退費稽查
+- CTI: 引用蔣萬安動氣片段評論
