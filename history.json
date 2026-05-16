@@ -1318,5 +1318,190 @@
         "warning": "文字新聞嚴重缺失，依賴影音。"
       }
     ]
+  },
+  "2026-05-16 20:00": {
+    "updateTime": "2026-05-16 20:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "府方回應川普『現狀』論 (T1)",
+        "consensus": "low",
+        "desc": "台美關係定調戰",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "政策不變/維護現狀",
+        "labelRight": "大交易/外交失敗"
+      },
+      {
+        "id": "T2",
+        "title": "川習會外媒總檢討 (T2)",
+        "consensus": "medium",
+        "desc": "國際政治角力評估",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "台灣未受損",
+        "labelRight": "台灣淪輸家/成果極少"
+      },
+      {
+        "id": "T3",
+        "title": "溫嵐ICU轉醒首發聲 (T3)",
+        "consensus": "high",
+        "desc": "社會溫馨熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "康復喜訊",
+        "labelRight": "病理警示"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "府方回擊川普籌碼論",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "外媒評川習會零成果",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "溫嵐醒後致歉",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "府：賴主政兩岸穩"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "60%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "李彥秀：大交易進行中"
+        },
+        {
+          "name": "中天",
+          "pos": "94%",
+          "color": "bg-red-500",
+          "note": "質疑現狀難保"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "25%",
+          "color": "bg-green-600",
+          "note": "引學者：沒讓步"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "引外媒：台灣淪輸家"
+        },
+        {
+          "name": "中天",
+          "pos": "88%",
+          "color": "bg-red-500",
+          "note": "北京拒買H200"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "50%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 268,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 242,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 205,
+        "battery": 88,
+        "scores": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 172,
+        "battery": 72,
+        "scores": [
+          4,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "52*",
+        "battery": 35,
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "warning": "文字新聞搜尋困難，依賴社群轉發。"
+      }
+    ]
   }
 }
