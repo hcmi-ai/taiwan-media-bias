@@ -1863,5 +1863,184 @@
         "warning": "政治解讀密集，民生時事依賴轉發。"
       }
     ]
+  },
+  "2026-05-17 20:00": {
+    "updateTime": "2026-05-17 20:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "賴總統定調台獨定義 (T1)",
+        "consensus": "low",
+        "desc": "國家主權與兩岸論述",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "互不隸屬/主權事實",
+        "labelRight": "硬拗拗論/挑釁現狀"
+      },
+      {
+        "id": "T2",
+        "title": "孫安佐羈押禁見上囚車 (T2)",
+        "consensus": "high",
+        "desc": "司法治安熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "司法處置",
+        "labelRight": "羈押禁見/串證之虞"
+      },
+      {
+        "id": "T3",
+        "title": "南投地震與921巧合 (T3)",
+        "consensus": "high",
+        "desc": "天災與歷史連結",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "921巧合論",
+        "labelRight": "獨立事件/科學解釋"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "賴定調台獨意涵",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐收押上囚車",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "南投震央921重疊",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "主權事實定調"
+        },
+        {
+          "name": "民視",
+          "pos": "8%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "引藍營批硬拗"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "批借殼上市"
+        }
+      ],
+      "T2": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "50%",
+          "color": "bg-green-600"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "30%",
+          "color": "bg-green-600",
+          "note": "強調驚人巧合"
+        },
+        {
+          "name": "中時",
+          "pos": "70%",
+          "color": "bg-blue-400",
+          "note": "側重科學獨立事件"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 322,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 298,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 265,
+        "battery": 90,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 195,
+        "battery": 78,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "68*",
+        "battery": 48,
+        "scores": [
+          4,
+          4,
+          3,
+          5,
+          3
+        ],
+        "warning": "側重政治攻防與社會爭議報導。"
+      }
+    ]
   }
 }
