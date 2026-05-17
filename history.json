@@ -1685,5 +1685,183 @@
         "warning": "文教資訊缺失，聚焦政治評論。"
       }
     ]
+  },
+  "2026-05-17 14:00": {
+    "updateTime": "2026-05-17 14:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川習會外交定調戰 (T1)",
+        "consensus": "low",
+        "desc": "美中台關係深度攻防",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "阻嚇北京/政策如常",
+        "labelRight": "六項保證生變/綠營慌了"
+      },
+      {
+        "id": "T2",
+        "title": "南投5.1地震巧合 (T2)",
+        "consensus": "high",
+        "desc": "地質安全與歷史記憶",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "921地震帶",
+        "labelRight": "應力傳遞"
+      },
+      {
+        "id": "T3",
+        "title": "孫安佐火槍聲押續熱 (T3)",
+        "consensus": "high",
+        "desc": "治安熱點與名人風波",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "公共危險",
+        "labelRight": "經紀人切割"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普涉台新解讀",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "南投地震921巧合",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐經紀人切割",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "軍補不變訊號"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "質疑細節有魔鬼"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "郭正亮：綠慌了"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "違反六項保證"
+        }
+      ],
+      "T2": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "50%",
+          "color": "bg-green-600"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "40%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "中時",
+          "pos": "60%",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 305,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 272,
+        "battery": 94,
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 245,
+        "battery": 88,
+        "scores": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 180,
+        "battery": 75,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "58*",
+        "battery": 42,
+        "scores": [
+          3,
+          3,
+          3,
+          5,
+          3
+        ],
+        "warning": "政治解讀密集，民生時事依賴轉發。"
+      }
+    ]
   }
 }
