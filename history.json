@@ -1503,5 +1503,187 @@
         "warning": "文字新聞搜尋困難，依賴社群轉發。"
       }
     ]
+  },
+  "2026-05-17 08:00": {
+    "updateTime": "2026-05-17 08:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "國安人士解讀川普訊號 (T1)",
+        "consensus": "low",
+        "desc": "美中台關係定調戰續集",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "三訊號/維持現狀",
+        "labelRight": "倚美謀獨/大交易危機"
+      },
+      {
+        "id": "T2",
+        "title": "孫安佐火槍案聲押 (T2)",
+        "consensus": "high",
+        "desc": "社會治安與網紅熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會安全疑慮",
+        "labelRight": "再犯之虞/槍砲重罪"
+      },
+      {
+        "id": "T3",
+        "title": "115會考次日數學題 (T3)",
+        "consensus": "medium",
+        "desc": "教育時事焦點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "第10題陷阱",
+        "labelRight": "數學難度適中"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "國安官員定調川普",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐聲押禁見",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考數學魔王題",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "強調川普挺現狀"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "社論批謀獨"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "質疑官員過度解讀"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "48%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "52%",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 285,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 255,
+        "battery": 92,
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 220,
+        "battery": 85,
+        "scores": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 165,
+        "battery": 70,
+        "scores": [
+          4,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "48*",
+        "battery": 32,
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          2
+        ],
+        "warning": "文教資訊缺失，聚焦政治評論。"
+      }
+    ]
   }
 }

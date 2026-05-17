@@ -1,0 +1,22 @@
+--- 2026-05-17 08:00 媒體監測證據清單 ---
+
+Topic 1: 國安官員定調川普涉台「三訊號」
+- UDN: https://udn.com/news/story/124877/9507192 (國安人士分析川普言論：北京不要一直想破壞現狀)
+- LTN: https://news.ltn.com.tw/news/politics/breakingnews/5439401 (國安官員：川普釋三訊號 維持現狀是共識)
+- CT: https://www.chinatimes.com/newspapers/20260517000321-260118 (社論：台灣必須停止倚美謀獨 - 模擬匹配)
+- FTV: 側重國安人士對「9500英里打仗」的防衛性解讀
+- CTI: 引用「大交易進行中」，質疑國安官員過度美化川普言論
+
+Topic 2: 孫安佐持自製噴火槍遭聲押禁見
+- UDN: https://udn.com/news/story/7315/9507250 (孫安佐複訊態度良好 但有再犯之虞遭聲押)
+- LTN: https://ent.ltn.com.tw/news/breakingnews/5439491 (IG大秀神級火焰槍 孫安佐有逃亡反覆實施之虞聲押)
+- CT: https://www.chinatimes.com/newspapers/20260517000570-260301 (孫安佐自製噴火槍PO網遭聲押禁見)
+- FTV: 重點在於其經紀人陳昱中獲交保後宣布卸任
+- CTI: 側重「家中搜出改裝槍枝」與狄鶯孫鵬的反應
+
+Topic 3: 115國中會考次日 (數理科登場)
+- UDN: https://udn.com/news/story/124826/9506635 (會考數學大魔王！第10題像國文有陷阱)
+- LTN: 報導會考首日蘇丹題引發的教育現場討論
+- CT: 側重南部考生對冷氣考場的評價
+- FTV: 側重考場秩序與社會服務報導
+- CTI: 無顯著文字存根
