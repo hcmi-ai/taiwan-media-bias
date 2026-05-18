@@ -1034,6 +1034,18 @@
           "name": "中時",
           "pos": "60%",
           "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "52%",
+          "color": "bg-gray-500",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
         }
       ],
       "T3": [
@@ -1228,6 +1240,18 @@
           "name": "自由",
           "pos": "52%",
           "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
         }
       ],
       "T3": [
@@ -1252,6 +1276,12 @@
           "name": "中天",
           "pos": "90%",
           "color": "bg-red-500"
+        },
+        {
+          "name": "民視",
+          "pos": "56%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
         }
       ]
     },
@@ -1425,6 +1455,18 @@
           "pos": "88%",
           "color": "bg-red-500",
           "note": "北京拒買H200"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "56%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
         }
       ],
       "T3": [
@@ -1437,6 +1479,18 @@
           "name": "聯合",
           "pos": "50%",
           "color": "bg-gray-500"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
         }
       ]
     },
@@ -1607,6 +1661,18 @@
           "name": "中時",
           "pos": "55%",
           "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
         }
       ],
       "T3": [
@@ -1619,6 +1685,18 @@
           "name": "自由",
           "pos": "52%",
           "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
         }
       ]
     },
@@ -1785,6 +1863,24 @@
           "name": "自由",
           "pos": "50%",
           "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
         }
       ],
       "T3": [
@@ -1797,6 +1893,24 @@
           "name": "中時",
           "pos": "60%",
           "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "52%",
+          "color": "bg-gray-500",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
         }
       ]
     },
@@ -1962,6 +2076,24 @@
           "name": "自由",
           "pos": "50%",
           "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
         }
       ],
       "T3": [
@@ -1976,6 +2108,24 @@
           "pos": "70%",
           "color": "bg-blue-400",
           "note": "側重科學獨立事件"
+        },
+        {
+          "name": "聯合",
+          "pos": "52%",
+          "color": "bg-gray-500",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
         }
       ]
     },
@@ -2147,6 +2297,16 @@
           "name": "中時",
           "pos": "55%",
           "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中天",
+          "pos": "52%",
+          "color": "bg-red-500"
         }
       ],
       "T3": [
@@ -2159,6 +2319,17 @@
           "name": "自由",
           "pos": "52%",
           "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "45%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
         }
       ]
     },
@@ -2223,6 +2394,211 @@
           2
         ],
         "warning": "政治解讀戰力強，文教搜尋可得性低。"
+      }
+    ]
+  },
+  "2026-05-18 14:00": {
+    "updateTime": "2026-05-18 15:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "賴總統「沒台獨問題」論 (T1)",
+        "consensus": "low",
+        "desc": "針對川普言論的「再保證」與國內解讀大戰",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "捍衛現狀/穩健",
+        "labelRight": "被迫轉彎/消獨"
+      },
+      {
+        "id": "T2",
+        "title": "孫安佐火焰槍案裁定 (T2)",
+        "consensus": "high",
+        "desc": "法院裁定羈押禁見，引發社會安全與教養討論",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會安全",
+        "labelRight": "法律程序"
+      },
+      {
+        "id": "T3",
+        "title": "115會考落點預估戰 (T3)",
+        "consensus": "medium",
+        "desc": "建北預估分數與志願選填趨勢",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "多元選填",
+        "labelRight": "菁英競爭"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "賴捍衛現狀論",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐火焰槍案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "115會考落點",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "府：一貫立場"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "評：被迫轉彎"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "質疑消獨假象"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "美方施壓證據"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "46%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中天",
+          "pos": "54%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "80%",
+          "color": "bg-gray-500",
+          "note": "建北預估34分"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600",
+          "note": "選填多元化"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 380,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 340,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 310,
+        "battery": 90,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 240,
+        "battery": 78,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "85*",
+        "battery": 42,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          2
+        ],
+        "warning": "文教議題搜尋缺口依然顯著。"
       }
     ]
   }
