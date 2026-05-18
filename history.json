@@ -2601,5 +2601,210 @@
         "warning": "文教議題搜尋缺口依然顯著。"
       }
     ]
+  },
+  "2026-05-18 20:00": {
+    "updateTime": "2026-05-18 20:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "狄鶯失聯海邊尋獲 (T1)",
+        "consensus": "high",
+        "desc": "星二代案引發家庭崩潰與尋人風波",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會安全",
+        "labelRight": "娛樂私隱"
+      },
+      {
+        "id": "T2",
+        "title": "賴總統「消獨」論持續發酵 (T2)",
+        "consensus": "low",
+        "desc": "兩岸政策轉向爭議與各黨派框架對決",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "捍衛現狀/穩健",
+        "labelRight": "被迫修正/政治欺騙"
+      },
+      {
+        "id": "T3",
+        "title": "會考答案紙難寫爭議 (T3)",
+        "consensus": "medium",
+        "desc": "考生質疑答案紙品質與教育部回應",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "民生爭議",
+        "labelRight": "行政處理"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "狄鶯失聯風波",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "賴消獨論發酵",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考紙質爭議",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "45%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "焦點：海邊尋獲"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "55%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "府：政策一貫"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "78%",
+          "color": "bg-gray-500",
+          "note": "質疑被迫轉彎"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "諷：初一十五不同"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "美方施壓鐵證"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "48%",
+          "color": "bg-gray-500",
+          "note": "教育部：已處理"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "42%",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 410,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 380,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 345,
+        "battery": 92,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 270,
+        "battery": 82,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "98*",
+        "battery": 46,
+        "scores": [
+          4,
+          4,
+          2,
+          4,
+          2
+        ],
+        "warning": "政治解讀集中度極高，社會議題持續缺位。"
+      }
+    ]
   }
 }
