@@ -3,86 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>羅賓媒體戰略儀表板 | Robin Media Monitor</title>
+    <title>羅賓媒體戰略儀表板 | Robin Media Monitor 3.0</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         .bias-node { transition: all 0.3s ease; z-index: 10; }
         .bias-node:hover { transform: scale(1.2); cursor: pointer; z-index: 20; }
-        .spectrum-bar { height: 6px; border-radius: 99px; }
+        .spectrum-bar { height: 8px; border-radius: 99px; }
         .status-green { color: #10b981; }
         .status-yellow { color: #fbbf24; }
         .status-red { color: #ef4444; }
         .status-gray { color: #d1d5db; }
     </style>
 </head>
-<body class="bg-gray-50 font-sans text-gray-900">
+<body class="bg-slate-50 font-sans text-slate-900">
 
-    <header class="bg-slate-900 text-white p-6 shadow-lg">
+    <header class="bg-slate-900 text-white p-6 shadow-xl sticky top-0 z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <div>
-                <h1 class="text-2xl font-bold flex items-center">
-                    <i class="fas fa-bat mr-3"></i> 羅賓媒體戰略儀表板
+                <h1 class="text-2xl font-black tracking-tighter flex items-center">
+                    <i class="fas fa-bat mr-3 text-blue-500"></i> ROBIN STRATEGIC DASHBOARD
                 </h1>
-                <p id="update-time" class="text-slate-400 text-sm mt-1">載入中...</p>
+                <p id="update-time" class="text-slate-500 text-xs mt-1 font-mono uppercase tracking-widest">System Online</p>
             </div>
             <div class="flex items-center space-x-4">
-                <select id="date-selector" class="bg-slate-800 text-white text-xs border-none rounded px-3 py-1 outline-none cursor-pointer hover:bg-slate-700 transition">
+                <select id="date-selector" class="bg-slate-800 text-white text-xs font-bold border-2 border-slate-700 rounded-lg px-4 py-2 outline-none cursor-pointer hover:border-blue-500 transition shadow-inner">
                     <!-- Dates will be injected here -->
                 </select>
-                <span class="bg-blue-600 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">Media Monitor 2.0</span>
+                <span class="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-tighter shadow-lg">v3.1 Production</span>
             </div>
         </div>
     </header>
 
-    <main id="dashboard-content" class="max-w-6xl mx-auto p-6 space-y-8">
-        <!-- Content will be injected by JavaScript -->
-        <div class="text-center py-20 text-gray-400">
-            <i class="fas fa-spinner fa-spin text-4xl mb-4"></i>
-            <p>正在分析媒體數據...</p>
+    <main id="dashboard-content" class="max-w-6xl mx-auto p-6 space-y-10">
+        <!-- Loader -->
+        <div class="text-center py-32 text-slate-400">
+            <div class="inline-block w-12 h-12 border-4 border-slate-200 border-t-blue-500 rounded-full animate-spin mb-6"></div>
+            <p class="font-mono text-sm tracking-widest">DECRYPTING MEDIA INTELLIGENCE...</p>
         </div>
     </main>
 
-    <footer class="bg-slate-900 text-slate-500 text-center p-12 mt-12 text-[10px] tracking-widest uppercase">
-        <p>© 2026 Robin AI Monitoring System. Created for Batman.</p>
+    <footer class="bg-slate-900 text-slate-600 text-center p-16 mt-20 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto">
+            <p class="text-[10px] tracking-[0.3em] font-bold uppercase mb-4 opacity-50">Classified Information - Authorization 0508 Required</p>
+            <p class="text-[9px] font-mono opacity-30">© 2026 Robin AI Monitoring System. Built for Strategic Oversight.</p>
+        </div>
     </footer>
 
-    
     <script>
         let historyData = {};
 
         async function initDashboard() {
             const container = document.getElementById('dashboard-content');
             try {
-                // 優先從 history.json 載入，並加上 timestamp 避開緩存
-                const response = await fetch('history.json?t=' + new Date().getTime());
-                if (!response.ok) throw new Error('Network response was not ok');
+                // 強制抓取最新 JSON，加上亂數避開快取
+                const response = await fetch('history.json?v=' + Math.random());
+                if (!response.ok) throw new Error('Data endpoint unavailable');
                 historyData = await response.json();
                 
                 const dateSelector = document.getElementById('date-selector');
-                const dates = Object.keys(historyData).sort().reverse();
+                const dates = Object.keys(historyData).sort((a,b) => b.localeCompare(a));
                 
-                // 填充下拉選單
                 dateSelector.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
                 
-                // 監聽選單變動
                 dateSelector.addEventListener('change', (e) => {
                     renderDashboard(historyData[e.target.value]);
                 });
                 
-                // 初始渲染最新一筆
                 if (dates.length > 0) {
                     renderDashboard(historyData[dates[0]]);
-                } else {
-                    throw new Error('No data found in history.json');
                 }
             } catch (err) {
-                console.error('數據加載失敗:', err);
+                console.error('Initialization failed:', err);
                 container.innerHTML = `
-                    <div class="text-center py-20 text-red-500">
-                        <i class="fas fa-exclamation-triangle text-4xl mb-4"></i>
-                        <p class="font-bold">無法載入媒體監測數據</p>
-                        <p class="text-xs text-gray-400 mt-2">請確認 history.json 已正確部署至伺服器。</p>
+                    <div class="text-center py-32 bg-white rounded-3xl border-2 border-dashed border-slate-200">
+                        <i class="fas fa-exclamation-triangle text-red-500 text-5xl mb-6"></i>
+                        <p class="text-xl font-black text-slate-800">INTELLIGENCE FEED DISRUPTED</p>
+                        <p class="text-slate-400 text-sm mt-2 font-mono">Check history.json integrity and connection.</p>
                     </div>
                 `;
             }
@@ -90,107 +87,153 @@
 
         function renderDashboard(data) {
             const container = document.getElementById('dashboard-content');
-            document.getElementById('update-time').innerText = `數據更新時間：${data.updateTime}`;
+            document.getElementById('update-time').innerText = `Last Sync: ${data.updateTime}`;
             
-            let html = `
-                <!-- A: Heatmap -->
-                <section class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
-                    <h2 class="text-xl font-bold mb-6 flex items-center border-l-4 border-blue-500 pl-3">
-                        議題覆蓋熱力矩陣
-                    </h2>
+            let html = '';
+            
+            // A: Heatmap
+            html += `
+                <section class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100 overflow-hidden">
+                    <div class="flex justify-between items-center mb-8 border-b border-slate-50 pb-6">
+                        <h2 class="text-xl font-black tracking-tight flex items-center">
+                            <i class="fas fa-layer-group mr-3 text-blue-600"></i> MEDIA COVERAGE MATRIX
+                        </h2>
+                        <div class="flex space-x-2">
+                            <span class="w-3 h-3 bg-green-500 rounded-sm"></span>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-tighter">Full Stream</span>
+                        </div>
+                    </div>
                     <div class="overflow-x-auto">
-                        <table class="w-full text-left border-collapse">
+                        <table class="w-full text-left">
                             <thead>
-                                <tr class="bg-gray-50 text-xs text-gray-500">
-                                    <th class="p-4 border-b">議題 / 媒體</th>
-                                    <th class="p-4 border-b text-center">聯合</th>
-                                    <th class="p-4 border-b text-center">自由</th>
-                                    <th class="p-4 border-b text-center">民視</th>
-                                    <th class="p-4 border-b text-center">中時</th>
-                                    <th class="p-4 border-b text-center">中天</th>
+                                <tr class="text-[10px] text-slate-400 uppercase font-black tracking-widest">
+                                    <th class="pb-4">Strategic Topics</th>
+                                    <th class="pb-4 text-center">UDN</th>
+                                    <th class="pb-4 text-center">LTN</th>
+                                    <th class="pb-4 text-center">FTV</th>
+                                    <th class="pb-4 text-center">CT</th>
+                                    <th class="pb-4 text-center">CTI</th>
                                 </tr>
                             </thead>
-                            <tbody class="divide-y text-sm">
+                            <tbody class="divide-y divide-slate-50">
                                 ${data.heatmap.map(row => `
-                                    <tr>
-                                        <td class="p-4 font-semibold text-slate-700">${row.name}</td>
-                                        <td class="p-4 text-center ${row.udn === 'green' ? 'text-green-500' : 'text-yellow-400'}"><i class="fas fa-square text-2xl"></i></td>
-                                        <td class="p-4 text-center ${row.ltn === 'green' ? 'text-green-500' : 'text-yellow-400'}"><i class="fas fa-square text-2xl"></i></td>
-                                        <td class="p-4 text-center ${row.ftv === 'green' ? 'text-green-500' : 'text-yellow-400'}"><i class="fas fa-square text-2xl"></i></td>
-                                        <td class="p-4 text-center ${row.ct === 'green' ? 'text-green-500' : row.ct === 'gray' ? 'text-gray-200' : 'text-yellow-400'}"><i class="fas fa-square text-2xl"></i></td>
-                                        <td class="p-4 text-center relative">
-                                            ${row.cti === 'red-video' ? '<i class="fas fa-square text-2xl text-red-500 opacity-20"></i><span class="absolute inset-0 flex items-center justify-center text-[9px] text-red-600 font-bold">影音</span>' : 
-                                              row.cti === 'green' ? '<i class="fas fa-square text-2xl text-green-500"></i>' : 
-                                              '<i class="fas fa-square text-2xl text-gray-200"></i>'}
+                                    <tr class="group hover:bg-slate-50/50 transition">
+                                        <td class="py-5 pr-4">
+                                            <div class="text-sm font-bold text-slate-800 group-hover:text-blue-600 transition">${row.name}</div>
                                         </td>
+                                        ${['udn', 'ltn', 'ftv', 'ct', 'cti'].map(m => {
+                                            const status = row[m];
+                                            let color = 'bg-slate-100 text-slate-300';
+                                            let label = '';
+                                            if (status === 'green') color = 'bg-green-500 shadow-sm shadow-green-200';
+                                            if (status === 'yellow') color = 'bg-yellow-400';
+                                            if (status === 'red') color = 'bg-red-500';
+                                            if (status === 'red-video') {
+                                                return `<td class="py-5 text-center">
+                                                    <div class="w-10 h-6 mx-auto bg-red-100 rounded flex items-center justify-center border border-red-200">
+                                                        <span class="text-[8px] font-black text-red-600 tracking-tighter">VIDEO</span>
+                                                    </div>
+                                                </td>`;
+                                            }
+                                            return `<td class="py-5 text-center">
+                                                <div class="w-5 h-5 mx-auto ${color} rounded-sm transition-transform group-hover:scale-110"></div>
+                                            </td>`;
+                                        }).join('')}
                                     </tr>
                                 `).join('')}
                             </tbody>
                         </table>
                     </div>
                 </section>
+            `;
 
-                <!-- B: Spectrum -->
-                <section class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
-                    <h2 class="text-xl font-bold mb-8 flex items-center border-l-4 border-indigo-500 pl-3">
-                        各議題立場分佈
+            // B: Spectrums
+            html += `
+                <section class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100">
+                    <h2 class="text-xl font-black tracking-tight mb-10 flex items-center border-b border-slate-50 pb-6">
+                        <i class="fas fa-fingerprint mr-3 text-indigo-600"></i> BIAS FINGERPRINT ANALYSIS
                     </h2>
-                    <div class="space-y-16 px-4">
-                        ${data.topics.map(topic => `
-                            <div class="relative">
-                                <div class="flex justify-between items-end mb-6">
-                                    <h3 class="text-sm font-bold text-slate-800">${topic.title}</h3>
-                                    <span class="text-[10px] bg-slate-50 text-slate-500 px-2 py-0.5 rounded font-bold">${topic.desc}</span>
-                                </div>
-                                <div class="spectrum-bar w-full bg-gradient-to-r ${topic.gradient} relative shadow-inner">
-                                    ${(data.spectrums[topic.id] || []).map(node => `
-                                        <div class="absolute -top-2 bias-node text-center" style="left: ${node.pos}">
-                                            <div class="w-5 h-5 ${node.color} rounded-full border-2 border-white shadow-md mx-auto"></div>
-                                            <span class="text-[9px] mt-1 block font-bold text-gray-600">${node.name}</span>
+                    <div class="grid grid-cols-1 gap-16 px-2">
+                        ${data.topics.map(t => {
+                            const nodes = data.spectrums[t.id] || [];
+                            return `
+                                <div class="relative">
+                                    <div class="flex justify-between items-start mb-10">
+                                        <div class="max-w-md">
+                                            <h3 class="text-sm font-black text-slate-900 mb-1">${t.title}</h3>
+                                            <p class="text-[10px] text-slate-400 font-mono tracking-tight">${t.desc}</p>
                                         </div>
-                                    `).join('')}
+                                        <div class="px-3 py-1 bg-slate-100 rounded-md">
+                                            <span class="text-[9px] font-black tracking-widest text-slate-500 uppercase">${t.consensus === 'high' ? 'High Consensus' : 'Spectrum Divergence'}</span>
+                                        </div>
+                                    </div>
+                                    <div class="relative py-12">
+                                        <div class="spectrum-bar w-full bg-gradient-to-r ${t.gradient} shadow-inner opacity-90"></div>
+                                        <div class="flex justify-between mt-4 text-[9px] font-black text-slate-300 uppercase tracking-[0.2em]">
+                                            <span class="text-blue-500">${t.labelLeft}</span>
+                                            <span class="opacity-30">FACTUAL CORE</span>
+                                            <span class="text-red-500">${t.labelRight}</span>
+                                        </div>
+                                        ${nodes.map(node => `
+                                            <div class="bias-node absolute top-1/2 -translate-y-1/2 group" style="left: ${node.pos}; margin-left: -12px;">
+                                                <div class="flex flex-col items-center">
+                                                    <div class="w-6 h-6 ${node.color} rounded-full border-4 border-white shadow-lg ring-1 ring-slate-100 transition-all group-hover:scale-125 group-hover:ring-blue-400"></div>
+                                                    <div class="mt-2 bg-slate-900 text-white px-2 py-0.5 rounded text-[8px] font-bold whitespace-nowrap shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
+                                                        ${node.name} ${node.note ? '(' + node.note + ')' : ''}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        `).join('')}
+                                    </div>
                                 </div>
-                                <div class="flex justify-between mt-3 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
-                                    <span>${topic.labelLeft}</span>
-                                    <span>中立事實</span>
-                                    <span>${topic.labelRight}</span>
-                                </div>
-                            </div>
-                        `).join('')}
+                            `;
+                        }).join('')}
                     </div>
                 </section>
+            `;
 
-                <!-- C: Scorecards -->
-                <section class="grid md:grid-cols-2 gap-6">
-                    ${data.scorecards.map(card => `
-                        <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100 ${card.battery < 50 ? 'opacity-80' : ''}">
-                            <div class="flex justify-between items-start mb-6">
+            // C: Scorecards
+            html += `
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    ${data.scorecards.map(s => `
+                        <div class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100 flex flex-col hover:border-blue-200 transition group">
+                            <div class="flex justify-between items-start mb-8">
                                 <div>
-                                    <h3 class="font-bold text-lg text-slate-800">${card.name} <span class="text-sm font-normal text-slate-400 ml-1">(N=${card.n})</span></h3>
+                                    <div class="text-[10px] font-black text-blue-600 mb-1 tracking-widest uppercase opacity-60">Source Performance</div>
+                                    <h3 class="font-black text-lg text-slate-800 tracking-tight">${s.name}</h3>
+                                    <div class="text-[10px] font-mono text-slate-400">N-Value: ${s.n}</div>
                                 </div>
                                 <div class="text-right">
-                                    <div class="text-2xl font-black ${card.battery > 70 ? 'text-green-600' : 'text-red-600'}">${card.battery}%</div>
+                                    <div class="text-3xl font-black ${s.battery > 80 ? 'text-green-500' : (s.battery > 50 ? 'text-blue-500' : 'text-red-500')} tracking-tighter">${s.battery}%</div>
+                                    <i class="fas ${s.battery > 80 ? 'fa-bolt text-green-400' : 'fa-signal text-blue-400'} text-xs"></i>
                                 </div>
                             </div>
-                            <div class="space-y-3">
-                                ${['🕒 報導速度', '📊 數據厚度', '🧘 情緒控制', '🌍 議題廣度', '🛡️ 誠信/躲閃'].map((label, i) => `
-                                    <div class="flex justify-between text-xs">
-                                        <span>${label}</span>
-                                        <span class="text-yellow-500">${'🌕'.repeat(card.scores[i])}${'🌑'.repeat(5-card.scores[i])}</span>
+                            <div class="space-y-4 mb-8">
+                                ${['Speed', 'Depth', 'Neutral', 'Range', 'Trust'].map((label, idx) => `
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-[10px] font-black text-slate-400 uppercase tracking-widest">${label}</span>
+                                        <div class="flex space-x-1">
+                                            ${Array(5).fill(0).map((_, i) => `
+                                                <div class="w-3 h-1.5 rounded-full ${i < s.scores[idx] ? 'bg-amber-400' : 'bg-slate-100'}"></div>
+                                            `).join('')}
+                                        </div>
                                     </div>
                                 `).join('')}
                             </div>
-                            ${card.warning ? `<p class="mt-4 text-[10px] text-red-500 italic bg-red-50 p-2 rounded">${card.warning}</p>` : ''}
+                            ${s.warning ? `
+                                <div class="mt-auto p-3 bg-red-50 rounded-xl border border-red-100">
+                                    <p class="text-[9px] text-red-500 font-bold leading-relaxed italic">${s.warning}</p>
+                                </div>
+                            ` : ''}
                         </div>
                     `).join('')}
-                </section>
+                </div>
             `;
+
             container.innerHTML = html;
         }
 
-        // Initialize on load
         initDashboard();
     </script>
-
 </body>
 </html>
