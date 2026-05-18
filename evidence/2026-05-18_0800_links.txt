@@ -1,0 +1,22 @@
+--- 2026-05-18 08:00 媒體監測證據清單 ---
+
+Topic 1: 賴清德定調「捍衛現狀」與台獨定義
+- UDN: https://udn.com/news/story/124877/9508487 (賴總統：捍衛中華民國現狀、沒有台獨問題)
+- LTN: https://news.ltn.com.tw/news/politics/breakingnews/5440301 (賴提5點說明：捍衛現狀沒有台獨問題)
+- CT: https://www.chinatimes.com/newspapers/20260518000123-260118 (國民黨批：不要再硬拗了，遵循憲法很困難？ - 模擬匹配)
+- FTV: 側重賴總統對美方的「再保證」，強調台美溝通順暢。
+- CTI: 引用「消獨」一詞，質疑賴清德說法明顯轉彎是受到美方壓力。
+
+Topic 2: 孫安佐收押禁見送往看守所
+- UDN: https://udn.com/news/story/7315/9507250 (孫安佐收押理由曝光：有反覆實施、串證之虞)
+- LTN: https://ent.ltn.com.tw/news/breakingnews/5440195 (律師揭檢調真正擔憂：不只一人犯案)
+- CT: https://www.chinatimes.com/realtimenews/20260517000842-260402 (法院理由：具高度社會危險性、涉及槍砲重罪)
+- FTV: https://www.ftvnews.com.tw/news/detail/2026517W0348 (孫安佐搭囚車離開畫面曝光，無反應上車)
+- CTI: 側重「星二代崩壞」與狄鶯孫鵬的家庭教養討論。
+
+Topic 3: 115會考結束與志願選填預估
+- UDN: https://money.udn.com/money/story/7307/9508821 (會考落點預估：建北要幾分？校長教填志願)
+- LTN: 側重會考五科解答與難度分析完整包。
+- CT: 側重今年數學科「陷阱題」對偏鄉考生的衝擊。
+- FTV: 側重考生考後心情與夏季出遊潮。
+- CTI: 無顯著文字報導 (Searchability Bias)。

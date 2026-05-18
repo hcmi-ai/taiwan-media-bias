@@ -2042,5 +2042,188 @@
         "warning": "側重政治攻防與社會爭議報導。"
       }
     ]
+  },
+  "2026-05-18 08:00": {
+    "updateTime": "2026-05-18 08:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "賴總統回應川習會 (T1)",
+        "consensus": "low",
+        "desc": "外交定調與『消獨』爭議",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "捍衛現狀/再保證",
+        "labelRight": "被迫轉彎/故弄玄虛"
+      },
+      {
+        "id": "T2",
+        "title": "孫安佐上囚車禁見 (T2)",
+        "consensus": "high",
+        "desc": "星二代法律風暴",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會安全",
+        "labelRight": "收押禁見/教養問題"
+      },
+      {
+        "id": "T3",
+        "title": "115會考結束選填 (T3)",
+        "consensus": "medium",
+        "desc": "文教時事熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "落點分析",
+        "labelRight": "難度與公平性"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "賴捍衛現狀論",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐收押禁見",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考落點分析",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "府：政策一貫穩健"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "78%",
+          "color": "bg-gray-500",
+          "note": "評：說法明顯轉彎"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "批：用現狀掩蓋台獨"
+        },
+        {
+          "name": "中天",
+          "pos": "94%",
+          "color": "bg-red-500",
+          "note": "質疑受美方壓力消獨"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "48%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "52%",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 350,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 315,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 280,
+        "battery": 88,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 220,
+        "battery": 74,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "72*",
+        "battery": 38,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          2
+        ],
+        "warning": "政治解讀戰力強，文教搜尋可得性低。"
+      }
+    ]
   }
 }
