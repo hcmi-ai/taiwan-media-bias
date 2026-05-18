@@ -22,13 +22,13 @@
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <div>
                 <h1 class="text-2xl font-black tracking-tighter flex items-center">
-                    <i class="fas fa-bat mr-3 text-blue-500"></i> ROBIN STRATEGIC DASHBOARD v3.1.2
+                    <i class="fas fa-bat mr-3 text-blue-500"></i> ROBIN STRATEGIC DASHBOARD v3.1.5
                 </h1>
                 <p id="update-time" class="text-slate-500 text-xs mt-1 font-mono uppercase tracking-widest">System Online</p>
             </div>
             <div class="flex items-center space-x-4">
                 <select id="date-selector" class="bg-slate-800 text-white text-xs font-bold border-2 border-slate-700 rounded-lg px-4 py-2 outline-none cursor-pointer hover:border-blue-500 transition shadow-inner">
-                    <!-- Dates will be injected here -->
+                    <!-- Dates injected here -->
                 </select>
                 <span class="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-tighter shadow-lg">v3.1 Production</span>
             </div>
@@ -56,30 +56,30 @@
         async function initDashboard() {
             const container = document.getElementById('dashboard-content');
             try {
-                // 強制抓取最新 JSON，加上亂數避開快取
-                const response = await fetch('history.json?v=' + Math.random());
-                if (!response.ok) throw new Error('Data endpoint unavailable');
+                // 指向正確的 JSON 路徑，並強制破除快取
+                const response = await fetch('reports/history.json?v=' + Date.now());
+                if (!response.ok) throw new Error('Failed to load history.json from reports/');
                 historyData = await response.json();
                 
                 const dateSelector = document.getElementById('date-selector');
                 const dates = Object.keys(historyData).sort((a,b) => b.localeCompare(a));
                 
+                if (dates.length === 0) throw new Error('History data is empty');
+
                 dateSelector.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
                 
                 dateSelector.addEventListener('change', (e) => {
                     renderDashboard(historyData[e.target.value]);
                 });
                 
-                if (dates.length > 0) {
-                    renderDashboard(historyData[dates[0]]);
-                }
+                renderDashboard(historyData[dates[0]]);
             } catch (err) {
                 console.error('Initialization failed:', err);
                 container.innerHTML = `
                     <div class="text-center py-32 bg-white rounded-3xl border-2 border-dashed border-slate-200">
                         <i class="fas fa-exclamation-triangle text-red-500 text-5xl mb-6"></i>
                         <p class="text-xl font-black text-slate-800">INTELLIGENCE FEED DISRUPTED</p>
-                        <p class="text-slate-400 text-sm mt-2 font-mono">Check history.json integrity and connection.</p>
+                        <p class="text-slate-400 text-sm mt-2 font-mono">${err.message}</p>
                     </div>
                 `;
             }
@@ -124,7 +124,6 @@
                                         ${['udn', 'ltn', 'ftv', 'ct', 'cti'].map(m => {
                                             const status = row[m];
                                             let color = 'bg-slate-100 text-slate-300';
-                                            let label = '';
                                             if (status === 'green') color = 'bg-green-500 shadow-sm shadow-green-200';
                                             if (status === 'yellow') color = 'bg-yellow-400';
                                             if (status === 'red') color = 'bg-red-500';
