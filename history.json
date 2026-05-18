@@ -2147,6 +2147,16 @@
           "name": "中時",
           "pos": "55%",
           "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中天",
+          "pos": "52%",
+          "color": "bg-red-500"
         }
       ],
       "T3": [
@@ -2159,6 +2169,11 @@
           "name": "自由",
           "pos": "52%",
           "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "45%",
+          "color": "bg-green-400"
         }
       ]
     },
