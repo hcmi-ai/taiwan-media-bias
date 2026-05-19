@@ -3016,5 +3016,206 @@
         "warning": "文教議題依然存在報導盲區。"
       }
     ]
+  },
+  "2026-05-19 14:00": {
+    "updateTime": "2026-05-19 15:30 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "首例總統彈劾案未過 (T1)",
+        "consensus": "low",
+        "desc": "立法院表決賴清德彈劾案，贊成56反對50未達門檻，政壇高度對立",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "綠:政治鬧劇",
+        "labelRight": "藍白:憲政首例"
+      },
+      {
+        "id": "T2",
+        "title": "沈有忠「被統一」論 (T2)",
+        "consensus": "medium",
+        "desc": "學者沈有忠稱台灣只有被統一問題，引發國家主權論述辯論",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "主權捍衛",
+        "labelRight": "兩岸現實"
+      },
+      {
+        "id": "T3",
+        "title": "記憶體類股重挫震盪 (T3)",
+        "consensus": "high",
+        "desc": "希捷CEO言論引發市場恐慌，群聯、華邦電等多檔摜至跌停",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "市場觀察",
+        "labelRight": "產業警訊"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "彈劾案表決",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "沈有忠論述",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "記憶體股崩跌",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "red",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "斥為藍白政治操弄"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "強調520前夕震盪"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "標榜民主監督力量"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "轟執政黨坐困愁城"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400",
+          "note": "自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "50%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "焦點:希捷言論"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 420,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 390,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 360,
+        "battery": 94,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 280,
+        "battery": 80,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "110*",
+        "battery": 48,
+        "scores": [
+          4,
+          4,
+          2,
+          5,
+          2
+        ],
+        "warning": "政治攻擊力道極強，財經民生覆蓋偏低。"
+      }
+    ]
   }
 }
