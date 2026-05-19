@@ -2806,5 +2806,215 @@
         "warning": "政治解讀集中度極高，社會議題持續缺位。"
       }
     ]
+  },
+  "2026-05-19 08:00": {
+    "updateTime": "2026-05-19 08:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普暫緩攻擊伊朗 (T1)",
+        "consensus": "medium",
+        "desc": "應波灣盟國要求暫緩軍事行動，國際油價波動",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "外交談判",
+        "labelRight": "軍事威懾"
+      },
+      {
+        "id": "T2",
+        "title": "賴「消獨」論國務院回應 (T2)",
+        "consensus": "low",
+        "desc": "美國務院重申對台政策未變，國內解讀分歧",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "台美穩健",
+        "labelRight": "被迫修正"
+      },
+      {
+        "id": "T3",
+        "title": "會考紙質爭議續燒 (T3)",
+        "consensus": "high",
+        "desc": "教育部回應答案紙測試結果，考生反應不一",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "考生權益",
+        "labelRight": "行政解釋"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普伊朗政策",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "賴論述美方回應",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考答案紙爭議",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "42%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "重國際油價"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "58%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "重申台美默契"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "關注轉彎壓力"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批修辭遊戲"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "受美方訓誡論"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "52%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "45%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "50%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 395,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 360,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 320,
+        "battery": 91,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 255,
+        "battery": 79,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "90*",
+        "battery": 44,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          2
+        ],
+        "warning": "文教議題依然存在報導盲區。"
+      }
+    ]
   }
 }
