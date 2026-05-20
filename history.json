@@ -3644,5 +3644,220 @@
         "warning": "政治內鬥題材表現積極，財經資訊可得性低。"
       }
     ]
+  },
+  "2026-05-20 14:00": {
+    "updateTime": "2026-05-20 15:45 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "賴就職兩週年演說 (T1)",
+        "consensus": "low",
+        "desc": "定調「維持現狀」為國家戰略，宣布推動0-18歲成長津貼",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "穩健/紅利",
+        "labelRight": "口號/撒錢"
+      },
+      {
+        "id": "T2",
+        "title": "2949億軍購預算案 (T2)",
+        "consensus": "medium",
+        "desc": "政院拍板特別預算草案，首批由舉債支應，引發財政與國防平衡討論",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "防衛自主",
+        "labelRight": "財政紀律"
+      },
+      {
+        "id": "T3",
+        "title": "國台辦轟彈劾未過案 (T3)",
+        "consensus": "low",
+        "desc": "針對立院彈劾賴清德案未過，國台辦批「踐踏民主」，引發兩岸口水戰",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "主權內政",
+        "labelRight": "外部干預"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "520演說及津貼",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "軍購特別預算",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "國台辦譴責彈劾",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "聚焦0-18歲大禮包"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "評: 撒錢救連任"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批: 拒絕溝通坐困愁城"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "酸: 只有被統一問題"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600",
+          "note": "落實國安兩腳說"
+        },
+        {
+          "name": "民視",
+          "pos": "20%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "憂舉債支應軍購"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400",
+          "note": "質疑預算常態化"
+        },
+        {
+          "name": "中天",
+          "pos": "85%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "批外部勢力說三道四"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500",
+          "note": "詳列國台辦批判內容"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 480,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 450,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 420,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 340,
+        "battery": 85,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "150*",
+        "battery": 58,
+        "scores": [
+          5,
+          4,
+          3,
+          5,
+          2
+        ],
+        "warning": "政治攻防產能爆發，社會、文教內容被嚴重邊緣化。"
+      }
+    ]
   }
 }
