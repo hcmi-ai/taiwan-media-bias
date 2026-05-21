@@ -4283,5 +4283,220 @@
         ]
       }
     ]
+  },
+  "2026-05-21 14:00": {
+    "updateTime": "2026-05-21 15:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "立院職權法案二讀效應 (T1)",
+        "consensus": "low",
+        "desc": "二讀通過後，朝野針對「官員虛偽陳述」之罰則與調查權邊界展開法理大戰，場外抗議聲浪持續擴大。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "強化監督",
+        "labelRight": "程序不正義"
+      },
+      {
+        "id": "T2",
+        "title": "成長津貼預算攻防 (T2)",
+        "consensus": "low",
+        "desc": "在野黨精算0-18歲津貼每年恐需2400億，抨擊將導致國債鐘加速跳表，執政黨則稱此為必要的國安投資。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "全齡照顧",
+        "labelRight": "財政紀律"
+      },
+      {
+        "id": "T3",
+        "title": "兩岸經貿制裁風險 (T3)",
+        "consensus": "medium",
+        "desc": "國台辦定調後，市場傳出ECFA清單中的紡織、機械類可能成為下一波制裁重點，企業界呼籲建立避險機制。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "風險管理",
+        "labelRight": "對抗升級"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "立院調查權罰則通過",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "津貼造成國債跳表",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "紡織機械ECFA隱憂",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "10%",
+          "color": "bg-red-500",
+          "note": "慶賀陽光照進國會"
+        },
+        {
+          "name": "中時",
+          "pos": "15%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500",
+          "note": "深度解析條文爭議點"
+        },
+        {
+          "name": "民視",
+          "pos": "85%",
+          "color": "bg-green-400",
+          "note": "指控毀憲亂政"
+        },
+        {
+          "name": "自由",
+          "pos": "95%",
+          "color": "bg-green-600",
+          "note": "號召公民守護民主"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "給下一代最好的禮物"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "預算缺口在哪裡？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "撒幣換民調實錄"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "買票買到亡國"
+        }
+      ],
+      "T3": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "加速脫鉤中國依賴"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "產業界人心惶惶"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400",
+          "note": "政治害慘民生經濟"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "預告ECFA終結時刻"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 490,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 520,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 440,
+        "battery": 93,
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 420,
+        "battery": 91,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
   }
 }
