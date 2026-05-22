@@ -4928,5 +4928,215 @@
         ]
       }
     ]
+  },
+  "2026-05-22 14:00": {
+    "updateTime": "2026-05-22 15:05 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "立院修法法理戰升溫 (T1)",
+        "consensus": "low",
+        "desc": "藐視國會罪二讀後，逾百名法律學者發起連署要求撤回重審，朝野在法理正當性上展開攻防。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督擴權",
+        "labelRight": "程序違憲"
+      },
+      {
+        "id": "T2",
+        "title": "津貼 vs 勞保預算排擠 (T2)",
+        "consensus": "low",
+        "desc": "在野黨質疑0-18歲成長津貼財源將挪用勞保撥補預算，引發世代正義與預算優先順序之爭。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "育兒紅利",
+        "labelRight": "勞保危機"
+      },
+      {
+        "id": "T3",
+        "title": "ECFA中止擴大憂慮 (T3)",
+        "consensus": "medium",
+        "desc": "傳出中方擬中止ECFA早收清單中工具機、紡織、石化等134項關稅減讓，產業界呼籲政府應對。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "經貿韌性",
+        "labelRight": "產業斷鏈"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "法律學者連署撤回",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "成長津貼財源疑雲",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "ECFA 134項減讓風險",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "法律界怒吼：程序不正義"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500",
+          "note": "平衡報導學者與法條異見"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "質疑連署具政治色彩"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "批綠營操弄學術界抗爭"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "強調財政調度靈活"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "揭發預算挪用之憂"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400",
+          "note": "挖東牆補西牆實錄"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500",
+          "note": "賴政府的撒幣魔術"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600",
+          "note": "強化與美日經貿連結"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "傳產老闆：我們被放棄了？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "ECFA終結進入倒數"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "經貿制裁名單大解密"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 505,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 540,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 480,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 465,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 435,
+        "battery": 93,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
   }
 }
