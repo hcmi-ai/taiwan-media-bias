@@ -5564,5 +5564,215 @@
         ]
       }
     ]
+  },
+  "2026-05-23 14:00": {
+    "updateTime": "2026-05-23 15:30 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "修法法理戰與校園動員 (T1)",
+        "consensus": "low",
+        "desc": "法律學者連署效應擴大，各大學學生會醞釀週末串聯抗議，朝野在「程序正義」上的分歧進入社會動員階段。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督擴權",
+        "labelRight": "程序違憲"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA衝擊與政府紓困 (T2)",
+        "consensus": "low",
+        "desc": "針對北京中止134項減讓，經濟部緊急與工商團體座談研議紓困，媒體聚焦於政府補貼是否足以抵銷關稅壁壘。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "韌性補貼",
+        "labelRight": "杯水車薪"
+      },
+      {
+        "id": "T3",
+        "title": "福利紅利vs財政紀律 (T3)",
+        "consensus": "medium",
+        "desc": "0-18歲津貼預算來源持續熱議。執政黨強調經濟成長紅利，在野黨則精算國債跳表速度，形成數據大戰。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "投資下一代",
+        "labelRight": "債留子孫"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "學生會跨校串聯",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "經濟部紓困方案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "津貼財源精算戰",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "年輕世代的覺醒"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "關注校園政治中立"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "批特定政黨操弄學生"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "揭發職業學生的背景"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "國家隊啟動救援"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "補貼緩不濟急"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "質疑能源與兩岸雙重困境"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "134項產業的墓碑"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "福利有感，民調回升"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "預算排擠效應實測"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "透支子孫的未來"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "財政部的謊言大全"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 460,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 510,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 440,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 480,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 430,
+        "battery": 93,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
   }
 }
