@@ -6191,5 +6191,216 @@
         ]
       }
     ]
+  },
+  "2026-05-24 14:00": {
+    "updateTime": "2026-05-24 15:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "524集結現場與規模 (T1)",
+        "consensus": "low",
+        "desc": "午後立院外人潮迅速湧入，主辦單位宣稱破三萬人。媒體對「人數灌水」與「自發性」展開激烈數據對決。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "民意海嘯",
+        "labelRight": "動員幻象"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁與轉型對抗 (T2)",
+        "consensus": "medium",
+        "desc": "經濟部午間釋出更多紓困細節。在野黨質疑補助款杯水車薪，執政黨則強調這是傳產數位化與去中化的終極一戰。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "破繭重生",
+        "labelRight": "死路一條"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源實務駁火 (T3)",
+        "consensus": "low",
+        "desc": "在野黨精算指成長津貼將使2027年財政平衡失守。媒體焦點集中在政府是否會「舉債發津貼」的道德與法律邊界。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "照顧現狀",
+        "labelRight": "債留子孫"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "青島東路人潮實況",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "經濟部轉型補助款",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "舉債支應津貼疑慮",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "3%",
+          "color": "bg-green-600",
+          "note": "看見台灣民主的震撼"
+        },
+        {
+          "name": "民視",
+          "pos": "8%",
+          "color": "bg-green-400",
+          "note": "多視角呈現人山人海"
+        },
+        {
+          "name": "聯合",
+          "pos": "62%",
+          "color": "bg-gray-500",
+          "note": "報導現場垃圾與交通亂象"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "質疑遊覽車載客疑雲"
+        },
+        {
+          "name": "中天",
+          "pos": "97%",
+          "color": "bg-red-500",
+          "note": "揭發抗爭者享用豪華便當"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉型補助加碼"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "中小企業主：補助看得到吃不到"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "ECFA斷奶後的經濟失血"
+        },
+        {
+          "name": "中天",
+          "pos": "94%",
+          "color": "bg-red-500",
+          "note": "預告傳產工廠倒閉潮"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "育兒紅利減輕青年負擔"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "精算國債：一場數學遊戲？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "揭開不計代價買票真相"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "賴政府的破產進行式"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 480,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 560,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 540,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 460,
+        "battery": 95,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
   }
 }
