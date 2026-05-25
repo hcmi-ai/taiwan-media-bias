@@ -6613,5 +6613,215 @@
         ]
       }
     ]
+  },
+  "2026-05-25 08:00": {
+    "updateTime": "2026-05-25 09:20 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "職權修法三讀前夕對決 (T1)",
+        "consensus": "low",
+        "desc": "立法院今日將繼續進行職權行使法修正草案之審議，預計進入三讀前的最後攻防。民團預告持續集結，朝野氣氛劍拔弩張。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督回歸",
+        "labelRight": "違憲爭議"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁後首個交易日 (T2)",
+        "consensus": "medium",
+        "desc": "北京中止134項產品減讓後迎來首個金融市場交易日。產業界評估長期出口損失，經濟部則密切觀察股市傳產板塊波動。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "分散市場",
+        "labelRight": "經貿邊緣化"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源實務戰延燒 (T3)",
+        "consensus": "low",
+        "desc": "0-18歲津貼預算是否涉及挪用勞保撥補持續成為週一晨間財經版面焦點。財政部與在野黨針對2027年預算編列展開數字對決。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "投資未來",
+        "labelRight": "財政危機"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "立院今日議程攻防",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "傳產股對ECFA反應",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "財政部預算細目解釋",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "5%",
+          "color": "bg-red-500",
+          "note": "期待國會調查權落地"
+        },
+        {
+          "name": "中時",
+          "pos": "12%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500",
+          "note": "分析三讀法律程序邊界"
+        },
+        {
+          "name": "民視",
+          "pos": "88%",
+          "color": "bg-green-400",
+          "note": "警示黑箱通過的後果"
+        },
+        {
+          "name": "自由",
+          "pos": "95%",
+          "color": "bg-green-600",
+          "note": "號召公民持續守護議場"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉型補助啟動"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "傳產業者憂心股價波動"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "兩岸紅利歸零的首個週一"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "預告ECFA全面終結的災難"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "育兒福利政策勢在必行"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "揭發預算撥補的灰色地帶"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批賴政府舉債買民調"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "踢爆財政部數據造假內幕"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 480,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 520,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 450,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 415,
+        "battery": 93,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
   }
 }
