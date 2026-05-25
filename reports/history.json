@@ -7033,5 +7033,215 @@
         ]
       }
     ]
+  },
+  "2026-05-25 20:00": {
+    "updateTime": "2026-05-25 21:05 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "職權修法三讀之夜 (T1)",
+        "consensus": "low",
+        "desc": "立院深夜表決職權修法條文，三讀程序進入最後階段。場外抗議人潮再度湧現，媒體針對「立院新秩序」與「民主哀歌」進行史詩級敘事戰。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "國會重生",
+        "labelRight": "程序崩壞"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁產業衝擊實測 (T2)",
+        "consensus": "medium",
+        "desc": "北京中止134項產品減讓後的第一個工作日。工具機與紡織業反應劇烈，媒體焦點在於「訂單流失」的實體化及政府紓困的具體到帳時時程。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "分散風險",
+        "labelRight": "產能腰斬"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與國債大戰 (T3)",
+        "consensus": "low",
+        "desc": "成長津貼預算排擠效應在晚間政論節目白熱化。在野黨拋出2027年財政赤字預警，執政黨則以「超徵稅收」作為防禦論點。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "有感福利",
+        "labelRight": "買票治國"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "三讀表決深夜大戰",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "工具機訂單流失實況",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "2027財政赤字預警",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "2%",
+          "color": "bg-red-500",
+          "note": "慶賀國會拿回監督權"
+        },
+        {
+          "name": "中時",
+          "pos": "8%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "40%",
+          "color": "bg-gray-500",
+          "note": "關注三讀後的法律救濟"
+        },
+        {
+          "name": "民視",
+          "pos": "92%",
+          "color": "bg-green-400",
+          "note": "悲歌！民主正被多數暴力沒收"
+        },
+        {
+          "name": "自由",
+          "pos": "98%",
+          "color": "bg-green-600",
+          "note": "抗爭到底：守護最後防線"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "加速脫鉤，鳳凰浴火"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "傳產老闆深夜憂心難眠"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "警告兩岸和平紅利斷絕"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "預告ECFA終結後的百業蕭條"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "讓育兒負擔成為歷史"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "揭發預算撥補的空殼化"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "撒幣買票全紀錄"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "踢爆財政部數據造假大戲"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 520,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 640,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 510,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 590,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 485,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
   }
 }
