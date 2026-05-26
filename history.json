@@ -7663,5 +7663,215 @@
         ]
       }
     ]
+  },
+  "2026-05-26 20:00": {
+    "updateTime": "2026-05-26 20:45 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "三讀後釋憲戰正式開打 (T1)",
+        "consensus": "low",
+        "desc": "職權法三讀後，民進黨團晚間正式遞交釋憲聲請書與暫時處分。朝野在司法救濟與民主正當性上展開終極對決。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "守護憲法",
+        "labelRight": "毀憲亂政"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁與傳產寒冬 (T2)",
+        "consensus": "low",
+        "desc": "134項產品中止減讓效應擴大，中南部傳產工廠傳出裁員與無薪假隱憂。經濟部首波紓困方案被在野黨批為「虛招」。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "轉型自主",
+        "labelRight": "經貿窒息"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與長期債務爭議 (T3)",
+        "consensus": "medium",
+        "desc": "0-18歲津貼預算排擠效應在晚間政論大戰中達到巔峰。在野黨拋出「國債鐘」每人負擔數據，財政部則以「稅收超徵」回擊。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "世代紅利",
+        "labelRight": "債留子孫"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "釋憲遞狀與暫時處分",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "傳產裁員與無薪假",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "國債鐘每人負擔精算",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "憲政最後一道防線"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "憂釋憲引發更大的政局動盪"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "批輸不起的司法遊戲"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "揭發綠營企圖架空國會真相"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉骨，告別中國依賴"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "業界哀鳴：我們撐得過去嗎？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "警告兩岸經貿將全面斷裂"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "賴政府送給傳產的喪鐘"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "精算顯示財源絕對充足"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "揭發財政部的數字遊戲"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "史上最狂買票政策實錄"
+        },
+        {
+          "name": "中天",
+          "pos": "96%",
+          "color": "bg-red-500",
+          "note": "國債大爆炸：年輕人的明天"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 510,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 530,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 480,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 470,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 455,
+        "battery": 94,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
   }
 }
