@@ -1,4 +1,92 @@
 {
+  "2026-05-28 14:00": {
+    "updateTime": "2026-05-28 14:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "中東互轟與台股閃崩 (T1)",
+        "consensus": "low",
+        "desc": "美伊局勢升級為實體軍事衝突，科威特攔截飛彈。受衝擊影響台股巨震1500點，收跌620點。",
+        "gradient": "from-red-500 via-gray-200 to-blue-500",
+        "labelLeft": "地緣政治災難",
+        "labelRight": "美軍防禦反擊"
+      },
+      {
+        "id": "T2",
+        "title": "能源主權與供電保證 (T2)",
+        "consensus": "medium",
+        "desc": "黃仁勳「缺電說」引發熱議，經濟部緊急保證2034年前供電無虞，媒體呈現攻防態勢。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "能源危機警訊",
+        "labelRight": "政策供電承諾"
+      },
+      {
+        "id": "T3",
+        "title": "民眾黨危機：退黨潮與內部對嗆 (T3)",
+        "consensus": "low",
+        "desc": "柯文哲與蔡壁如直播開嗆，且爆發大規模基層退黨潮，民眾黨陷入創黨以來最大信心危機。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "民眾黨崩解中",
+        "labelRight": "黨內溝通問題"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "台股盤中跳水",
+        "udn": "green",
+        "ltn": "green",
+        "ettoday": "green",
+        "chinatimes": "green",
+        "setn": "yellow"
+      },
+      {
+        "name": "經濟部能源反駁",
+        "udn": "yellow",
+        "ltn": "green",
+        "ettoday": "green",
+        "chinatimes": "yellow",
+        "setn": "yellow"
+      },
+      {
+        "name": "柯文哲蔡壁如口角",
+        "udn": "green",
+        "ltn": "yellow",
+        "ettoday": "green",
+        "chinatimes": "yellow",
+        "setn": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        { "name": "中時", "pos": "35%", "color": "bg-blue-600", "note": "強調股市哀鴻遍野" },
+        { "name": "ETtoday", "pos": "50%", "color": "bg-gray-400" },
+        { "name": "聯合", "pos": "55%", "color": "bg-gray-500", "note": "側重國際局勢描述" },
+        { "name": "自由", "pos": "65%", "color": "bg-green-400" },
+        { "name": "三立", "pos": "70%", "color": "bg-green-600" }
+      ],
+      "T2": [
+        { "name": "中時", "pos": "25%", "color": "bg-blue-600", "note": "提半導體供電疑慮" },
+        { "name": "聯合", "pos": "45%", "color": "bg-gray-500" },
+        { "name": "ETtoday", "pos": "60%", "color": "bg-green-400" },
+        { "name": "自由", "pos": "85%", "color": "bg-green-600", "note": "力挺經濟部保證" },
+        { "name": "三立", "pos": "90%", "color": "bg-green-800", "note": "批黃仁勳說法被誤讀" }
+      ],
+      "T3": [
+        { "name": "自由", "pos": "20%", "color": "bg-green-600", "note": "詳列12位戰將出走" },
+        { "name": "三立", "pos": "10%", "color": "bg-green-800", "note": "大幅報導退黨潮" },
+        { "name": "ETtoday", "pos": "55%", "color": "bg-gray-400" },
+        { "name": "聯合", "pos": "65%", "color": "bg-blue-400" },
+        { "name": "中時", "pos": "75%", "color": "bg-blue-600", "note": "冷處理內部糾紛" }
+      ]
+    },
+    "scorecards": [
+      { "name": "聯合報", "n": 240, "battery": 100, "scores": [5, 5, 5, 5, 5] },
+      { "name": "自由時報", "n": 290, "battery": 98, "scores": [5, 4, 5, 5, 5] },
+      { "name": "中國時報", "n": 210, "battery": 95, "scores": [4, 5, 4, 5, 5] },
+      { "name": "ETtoday", "n": 320, "battery": 99, "scores": [5, 5, 5, 5, 5] },
+      { "name": "三立新聞", "n": 205, "battery": 92, "scores": [3, 5, 5, 5, 5] }
+    ]
+  },
   "2026-05-28 08:00": {
     "updateTime": "2026-05-28 08:00 (Asia/Taipei)",
     "topics": [
@@ -83,94 +171,6 @@
       { "name": "中國時報", "n": 110, "battery": 97, "scores": [5, 5, 4, 5, 5] },
       { "name": "ETtoday", "n": 160, "battery": 98, "scores": [5, 5, 5, 5, 5] },
       { "name": "三立新聞", "n": 105, "battery": 95, "scores": [4, 5, 5, 5, 5] }
-    ]
-  },
-  "2026-05-27 20:00": {
-    "updateTime": "2026-05-27 20:00 (Asia/Taipei)",
-    "topics": [
-      {
-        "id": "T1",
-        "title": "少子化18項對策大禮包 (T1)",
-        "consensus": "low",
-        "desc": "賴總統宣布總投注3800億因應人口挑戰，媒體聚焦津貼加碼與財源合法性。",
-        "gradient": "from-green-500 via-gray-200 to-blue-500",
-        "labelLeft": "投資下一代",
-        "labelRight": "舉債買票"
-      },
-      {
-        "id": "T2",
-        "title": "台北市長選戰最新民調 (T2)",
-        "consensus": "low",
-        "desc": "TVBS民調蔣萬安支持度58%輾壓沈伯洋30%，引發2026前哨戰氣勢討論。",
-        "gradient": "from-green-300 via-gray-200 to-blue-300",
-        "labelLeft": "沈僅領先1區",
-        "labelRight": "蔣大幅領先"
-      },
-      {
-        "id": "T3",
-        "title": "全台高溫與能源供需 (T3)",
-        "consensus": "medium",
-        "desc": "台南飆39.8度極端高溫，黃仁勳喊話「需要更多電」，核能議題再成焦點。",
-        "gradient": "from-green-300 via-gray-200 to-blue-300",
-        "labelLeft": "低溫節能",
-        "labelRight": "能源危機/核能"
-      }
-    ],
-    "heatmap": [
-      {
-        "name": "少子化福利宣導",
-        "udn": "yellow",
-        "ltn": "green",
-        "ettoday": "green",
-        "chinatimes": "yellow",
-        "tvbs": "yellow"
-      },
-      {
-        "name": "蔣萬安民調大幅領先",
-        "udn": "green",
-        "ltn": "yellow",
-        "ettoday": "green",
-        "chinatimes": "green",
-        "tvbs": "green"
-      },
-      {
-        "name": "黃仁勳喊話缺電",
-        "udn": "green",
-        "ltn": "yellow",
-        "ettoday": "green",
-        "chinatimes": "green",
-        "tvbs": "green"
-      }
-    ],
-    "spectrums": {
-      "T1": [
-        { "name": "自由", "pos": "5%", "color": "bg-green-600", "note": "宣揚18項福利" },
-        { "name": "ETtoday", "pos": "30%", "color": "bg-green-400" },
-        { "name": "聯合", "pos": "65%", "color": "bg-gray-500", "note": "質疑財源來源" },
-        { "name": "TVBS", "pos": "75%", "color": "bg-blue-400" },
-        { "name": "中時", "pos": "85%", "color": "bg-blue-600", "note": "批政策買票" }
-      ],
-      "T2": [
-        { "name": "自由", "pos": "45%", "color": "bg-green-600", "note": "提沈伯洋僅領先1區" },
-        { "name": "聯合", "pos": "55%", "color": "bg-gray-500" },
-        { "name": "ETtoday", "pos": "60%", "color": "bg-green-400" },
-        { "name": "中時", "pos": "88%", "color": "bg-blue-600", "note": "慶賀蔣萬安海放對手" },
-        { "name": "TVBS", "pos": "95%", "color": "bg-blue-800", "note": "原始民調發布者" }
-      ],
-      "T3": [
-        { "name": "自由", "pos": "48%", "color": "bg-green-600", "note": "側重綠道降溫" },
-        { "name": "聯合", "pos": "52%", "color": "bg-gray-500" },
-        { "name": "ETtoday", "pos": "55%", "color": "bg-green-400", "note": "黃仁勳電力議題熱搜" },
-        { "name": "TVBS", "pos": "85%", "color": "bg-blue-400", "note": "強調能源缺口" },
-        { "name": "中時", "pos": "92%", "color": "bg-blue-600", "note": "首富挺核能解方" }
-      ]
-    },
-    "scorecards": [
-      { "name": "聯合報", "n": 485, "battery": 100, "scores": [5, 5, 5, 5, 5] },
-      { "name": "自由時報", "n": 520, "battery": 98, "scores": [5, 5, 5, 5, 5] },
-      { "name": "中國時報", "n": 470, "battery": 97, "scores": [5, 5, 5, 5, 5] },
-      { "name": "ETtoday", "n": 620, "battery": 99, "scores": [5, 5, 5, 5, 5] },
-      { "name": "TVBS", "n": 440, "battery": 93, "scores": [4, 5, 5, 5, 5] }
     ]
   }
 }
