@@ -100,5 +100,41 @@
         "coverage_depth": 8
       }
     ]
+  },
+  {
+    "date": "2026-05-29T20:00:00",
+    "summary": "台股創紀錄噴漲千點引發全民關注，馬辦家變正式進入司法階段，薔蜜颱風路徑南修需警惕。",
+    "data": [
+      {
+        "media": "自由時報",
+        "score": 8.9,
+        "sentiment": 0.9,
+        "coverage_depth": 10
+      },
+      {
+        "media": "聯合報",
+        "score": 3.5,
+        "sentiment": -0.7,
+        "coverage_depth": 10
+      },
+      {
+        "media": "中時新聞網",
+        "score": 1.4,
+        "sentiment": -1.0,
+        "coverage_depth": 9
+      },
+      {
+        "media": "ETtoday",
+        "score": 7.7,
+        "sentiment": 0.7,
+        "coverage_depth": 9
+      },
+      {
+        "media": "TVBS",
+        "score": 4.8,
+        "sentiment": -0.2,
+        "coverage_depth": 8
+      }
+    ]
   }
 ]
