@@ -1,1 +1,68 @@
-[{"media":"自由時報","score":8.5,"sentiment":0.6,"coverage_depth":8},{"media":"聯合報","score":4.2,"sentiment":-0.2,"coverage_depth":9},{"media":"中時新聞網","score":2.1,"sentiment":-0.8,"coverage_depth":9},{"media":"ETtoday","score":7.8,"sentiment":0.4,"coverage_depth":6},{"media":"TVBS","score":5.5,"sentiment":0.1,"coverage_depth":7}]
+[
+  {
+    "media": "自由時報",
+    "score": 8.5,
+    "sentiment": 0.6,
+    "coverage_depth": 8
+  },
+  {
+    "media": "聯合報",
+    "score": 4.2,
+    "sentiment": -0.2,
+    "coverage_depth": 9
+  },
+  {
+    "media": "中時新聞網",
+    "score": 2.1,
+    "sentiment": -0.8,
+    "coverage_depth": 9
+  },
+  {
+    "media": "ETtoday",
+    "score": 7.8,
+    "sentiment": 0.4,
+    "coverage_depth": 6
+  },
+  {
+    "media": "TVBS",
+    "score": 5.5,
+    "sentiment": 0.1,
+    "coverage_depth": 7
+  },
+  {
+    "date": "2026-05-29T08:00:00",
+    "summary": "美伊停火激勵美股，國內關注北士科電力與馬辦提告風波。",
+    "data": [
+      {
+        "media": "自由時報",
+        "score": 8.7,
+        "sentiment": 0.7,
+        "coverage_depth": 9
+      },
+      {
+        "media": "聯合報",
+        "score": 4.0,
+        "sentiment": -0.4,
+        "coverage_depth": 9
+      },
+      {
+        "media": "中時新聞網",
+        "score": 1.8,
+        "sentiment": -0.9,
+        "coverage_depth": 8
+      },
+      {
+        "media": "ETtoday",
+        "score": 7.5,
+        "sentiment": 0.5,
+        "coverage_depth": 7
+      },
+      {
+        "media": "TVBS",
+        "score": 5.2,
+        "sentiment": 0.0,
+        "coverage_depth": 7
+      }
+    ]
+  }
+]
