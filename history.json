@@ -136,5 +136,41 @@
         "coverage_depth": 8
       }
     ]
+  },
+  {
+    "date": "2026-05-30T08:00:00",
+    "summary": "馬辦家變正式進入司法程序引發熱議，川普延後美伊協議決策，北士科電力爭議演變為藍綠口水戰。",
+    "data": [
+      {
+        "media": "自由時報",
+        "score": 8.5,
+        "sentiment": 0.6,
+        "coverage_depth": 9
+      },
+      {
+        "media": "聯合報",
+        "score": 3.8,
+        "sentiment": -0.4,
+        "coverage_depth": 10
+      },
+      {
+        "media": "中時新聞網",
+        "score": 2.0,
+        "sentiment": -0.8,
+        "coverage_depth": 8
+      },
+      {
+        "media": "ETtoday",
+        "score": 7.2,
+        "sentiment": 0.4,
+        "coverage_depth": 7
+      },
+      {
+        "media": "TVBS",
+        "score": 5.0,
+        "sentiment": 0.1,
+        "coverage_depth": 7
+      }
+    ]
   }
 ]
