@@ -263,5 +263,10 @@
         "coverage_depth": 7
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-01T14:00:00Z",
+    "report_url": "reports/2026-06-01-1400.md",
+    "status": "completed"
   }
 ]
