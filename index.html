@@ -50,10 +50,41 @@
         </div>
     </footer>
 
+    <div id="auth-gate" class="fixed inset-0 bg-slate-900 z-[100] flex items-center justify-center transition-opacity duration-500">
+        <div class="text-center">
+            <div class="mb-8">
+                <i class="fas fa-shield-halved text-blue-500 text-6xl animate-pulse"></i>
+            </div>
+            <h2 class="text-white font-black tracking-widest mb-4">ACCESS RESTRICTED</h2>
+            <input type="password" id="auth-token" placeholder="AUTHORIZATION CODE" class="bg-slate-800 border-2 border-slate-700 text-blue-400 font-mono text-center p-3 rounded-xl outline-none focus:border-blue-500 transition">
+            <p id="auth-error" class="text-red-500 text-[10px] mt-4 font-bold opacity-0">INVALID CODE - ATTEMPT LOGGED</p>
+        </div>
+    </div>
+
     <script>
         let historyData = {};
 
         async function initDashboard() {
+            const gate = document.getElementById('auth-gate');
+            const tokenInput = document.getElementById('auth-token');
+            const errorMsg = document.getElementById('auth-error');
+
+            tokenInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    if (tokenInput.value === '0508') {
+                        gate.style.opacity = '0';
+                        setTimeout(() => gate.style.display = 'none', 500);
+                        startLoading();
+                    } else {
+                        errorMsg.style.opacity = '1';
+                        tokenInput.value = '';
+                        setTimeout(() => errorMsg.style.opacity = '0', 2000);
+                    }
+                }
+            });
+        }
+
+        async function startLoading() {
             const container = document.getElementById('dashboard-content');
             try {
                 // 指向正確的 JSON 路徑，並強制破除快取
