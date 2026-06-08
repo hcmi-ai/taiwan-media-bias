@@ -1,64 +1,32 @@
-[
-  {
-    "timestamp": "2026-06-08T16:29:14.971313",
-    "topics": [
-      "台北動物園迎來睽違十年的大陸紅熊貓",
-      "立法院通過決議譴責北京外交打壓",
-      "自由廣場舉行六四天安門事件週年悼念"
+{
+  "2026-06-08 16:30": {
+    "updateTime": "2026-06-08 16:30",
+    "heatmap": [
+      { "name": "台北動物園紅熊貓來台", "udn": "green", "ltn": "yellow", "ftv": "yellow", "ct": "green", "cti": "green" },
+      { "name": "立院譴責北京外交打壓", "udn": "green", "ltn": "red", "ftv": "red", "ct": "yellow", "cti": "yellow" },
+      { "name": "自由廣場六四悼念", "udn": "green", "ltn": "green", "ftv": "green", "ct": "gray", "cti": "gray" }
     ],
-    "scores": {
-      "ChinaTimes": 4.7,
-      "UDN": 5.2,
-      "LTN": 8.1,
-      "SET": 8.4,
-      "ETtoday": 7.2
-    },
-    "status": "closed_loop_verified",
-    "verified_by": "Robin_Subagent_V1.0",
-    "raw_evidence": {
-      "ChinaTimes": "強調雙城論壇成果，質疑譴責案為情緒宣洩，六四報導偏低調。",
-      "UDN": "報導動物交流溫馨面，對外交譴責案採中立客觀，關注六四人道面。",
-      "LTN": "聚焦北京打壓與政治條件，強調六四為抵抗威權之象徵，強烈批判立場。",
-      "SET": "嚴詞批判中共跨境鎮壓，警惕在地協力者，六四報導立場鮮明。",
-      "ETtoday": "追蹤政治人物口水戰，報導偏向綜合資訊與社群熱度。"
-    }
-  },
-  {
-    "timestamp": "2026-06-08T16:15:19.250089",
     "topics": [
-      "台北動物園迎來睽違十年的大陸紅熊貓",
-      "立法院通過決議譴責北京外交打壓",
-      "自由廣場舉行六四天安門事件週年悼念"
+      { "id": "t1", "title": "大陸紅熊貓來台交流", "desc": "兩岸動物外交重啟，各界關注政治條件。", "consensus": "divergence", "gradient": "from-blue-500 to-red-500", "labelLeft": "溫馨交流", "labelRight": "統戰工具" },
+      { "id": "t2", "title": "立院一致譴責外交打壓", "desc": "針對北京近期外交動作，朝野發出強烈聲明。", "consensus": "high", "gradient": "from-blue-500 to-indigo-600", "labelLeft": "捍衛主權", "labelRight": "挑釁對抗" }
     ],
-    "scores": {
-      "ChinaTimes": 4.8,
-      "UDN": 5.0,
-      "LTN": 7.9,
-      "SET": 8.2,
-      "ETtoday": 7.0
+    "spectrums": {
+      "t1": [
+        { "name": "中時", "pos": "20%", "color": "bg-blue-600", "note": "成果定位" },
+        { "name": "聯合", "pos": "40%", "color": "bg-sky-500", "note": "動物人道" },
+        { "name": "自由", "pos": "85%", "color": "bg-green-600", "note": "警惕政治" }
+      ],
+      "t2": [
+        { "name": "自由", "pos": "90%", "color": "bg-green-600" },
+        { "name": "聯合", "pos": "50%", "color": "bg-slate-500" },
+        { "name": "中時", "pos": "45%", "color": "bg-blue-500" }
+      ]
     },
-    "status": "cron_cycle_success",
-    "verified_by": "Robin_V2.6"
-  },
-  {
-    "timestamp": "2026-06-08T14:22:55.794358",
-    "topics": [
-      "GCP 採購案疑雲",
-      "台灣媒體偏見監測系統升級",
-      "OpenClaw 物理協議轉型"
-    ],
-    "scores": {
-      "ChinaTimes": 4.5,
-      "UDN": 5.2,
-      "LTN": 8.1,
-      "SET": 8.5,
-      "ETtoday": 6.8
-    },
-    "status": "closed_loop_verified",
-    "version": "v2.5_live_patch"
-  },
-  {
-    "test": "closure_v1",
-    "timestamp": "公曆 20廿六年 六月 八日 週一 十四時廿二分36秒"
+    "scorecards": [
+      { "name": "ChinaTimes", "n": 12, "battery": 47, "scores": [3, 4, 2, 4, 3], "warning": "對特定議題存在戰術性沈默" },
+      { "name": "UDN", "n": 15, "battery": 52, "scores": [4, 4, 3, 4, 4] },
+      { "name": "LTN", "n": 18, "battery": 81, "scores": [5, 4, 4, 5, 5] },
+      { "name": "SET", "n": 16, "battery": 84, "scores": [5, 5, 4, 5, 5] }
+    ]
   }
-]
+}
