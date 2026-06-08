@@ -59,7 +59,24 @@
                 // 指向正確的 JSON 路徑，並強制破除快取
                 const response = await fetch('reports/history.json?v=' + Date.now());
                 if (!response.ok) throw new Error('Failed to load history.json from reports/');
-                historyData = await response.json();
+                let rawData = await response.json();
+                
+                // 相容性處理：如果收到的是 Array (舊格式)，轉換為 Object
+                if (Array.isArray(rawData)) {
+                    console.log('Legacy Array detected, transforming...');
+                    historyData = {};
+                    rawData.forEach((entry, i) => {
+                        const key = entry.timestamp || `Legacy_${i}`;
+                        historyData[key] = entry;
+                        // 補齊缺失欄位以防 map 報錯
+                        if (!entry.heatmap) entry.heatmap = [];
+                        if (!entry.topics) entry.topics = [];
+                        if (!entry.spectrums) entry.spectrums = {};
+                        if (!entry.scorecards) entry.scorecards = [];
+                    });
+                } else {
+                    historyData = rawData;
+                }
                 
                 const dateSelector = document.getElementById('date-selector');
                 const dates = Object.keys(historyData).sort((a,b) => b.localeCompare(a));
