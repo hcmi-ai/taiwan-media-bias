@@ -10,13 +10,24 @@
         .bias-node { transition: all 0.3s ease; z-index: 10; }
         .bias-node:hover { transform: scale(1.2); cursor: pointer; z-index: 20; }
         .spectrum-bar { height: 8px; border-radius: 99px; }
-        .status-green { color: #10b981; }
-        .status-yellow { color: #fbbf24; }
-        .status-red { color: #ef4444; }
-        .status-gray { color: #d1d5db; }
+        #auth-overlay { background: rgba(15, 23, 42, 0.98); backdrop-filter: blur(12px); }
     </style>
 </head>
 <body class="bg-slate-50 font-sans text-slate-900">
+
+    <!-- Auth Protection -->
+    <div id="auth-overlay" class="fixed inset-0 z-[1000] flex items-center justify-center transition-all duration-500">
+        <div class="max-w-md w-full p-8 text-center">
+            <div class="mb-8">
+                <i class="fas fa-bat text-blue-500 text-6xl animate-pulse mb-6"></i>
+                <h2 class="text-white text-2xl font-black tracking-widest uppercase">Classified Access</h2>
+                <p class="text-slate-500 text-xs mt-2 font-mono">Authorization Level 0508 Required</p>
+            </div>
+            <input type="password" id="passcode" placeholder="ENTER CODE" 
+                   class="w-full bg-slate-800 border-2 border-slate-700 rounded-2xl p-4 text-center text-blue-400 font-mono text-xl outline-none focus:border-blue-500 transition shadow-2xl">
+            <div id="auth-error" class="text-red-500 text-[10px] mt-4 font-bold opacity-0 uppercase tracking-tighter">Access Denied - Attempt Logged</div>
+        </div>
+    </div>
 
     <header class="bg-slate-900 text-white p-6 shadow-xl sticky top-0 z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
@@ -35,11 +46,10 @@
         </div>
     </header>
 
-    <main id="dashboard-content" class="max-w-6xl mx-auto p-6 space-y-10">
-        <!-- Loader -->
+    <main id="dashboard-content" class="max-w-6xl mx-auto p-6 space-y-10 opacity-0 transition-opacity duration-1000">
         <div class="text-center py-32 text-slate-400">
             <div class="inline-block w-12 h-12 border-4 border-slate-200 border-t-blue-500 rounded-full animate-spin mb-6"></div>
-            <p class="font-mono text-sm tracking-widest">DECRYPTING MEDIA INTELLIGENCE...</p>
+            <p class="font-mono text-sm tracking-widest uppercase">Decrypting Intelligence...</p>
         </div>
     </main>
 
@@ -50,237 +60,172 @@
         </div>
     </footer>
 
-    <div id="auth-gate" class="fixed inset-0 bg-slate-900 z-[100] flex items-center justify-center transition-opacity duration-500">
-        <div class="text-center">
-            <div class="mb-8">
-                <i class="fas fa-shield-halved text-blue-500 text-6xl animate-pulse"></i>
-            </div>
-            <h2 class="text-white font-black tracking-widest mb-4">ACCESS RESTRICTED</h2>
-            <input type="password" id="auth-token" placeholder="AUTHORIZATION CODE" class="bg-slate-800 border-2 border-slate-700 text-blue-400 font-mono text-center p-3 rounded-xl outline-none focus:border-blue-500 transition">
-            <p id="auth-error" class="text-red-500 text-[10px] mt-4 font-bold opacity-0">INVALID CODE - ATTEMPT LOGGED</p>
-        </div>
-    </div>
-
     <script>
+        const PIN = "0508";
         let historyData = {};
 
-        async function initDashboard() {
-            const gate = document.getElementById('auth-gate');
-            const tokenInput = document.getElementById('auth-token');
-            const errorMsg = document.getElementById('auth-error');
+        async function init() {
+            const overlay = document.getElementById('auth-overlay');
+            const input = document.getElementById('passcode');
+            const error = document.getElementById('auth-error');
 
-            tokenInput.addEventListener('keypress', (e) => {
+            input.focus();
+            input.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') {
-                    if (tokenInput.value === '0508') {
-                        gate.style.opacity = '0';
-                        setTimeout(() => gate.style.display = 'none', 500);
-                        startLoading();
+                    if (input.value === PIN) {
+                        overlay.style.opacity = '0';
+                        setTimeout(() => {
+                            overlay.style.display = 'none';
+                            loadDashboard();
+                        }, 500);
                     } else {
-                        errorMsg.style.opacity = '1';
-                        tokenInput.value = '';
-                        setTimeout(() => errorMsg.style.opacity = '0', 2000);
+                        error.style.opacity = '1';
+                        input.value = '';
+                        setTimeout(() => error.style.opacity = '0', 2000);
                     }
                 }
             });
         }
 
-        async function startLoading() {
-            const container = document.getElementById('dashboard-content');
+        async function loadDashboard() {
+            const content = document.getElementById('dashboard-content');
+            content.style.opacity = '1';
+            
             try {
-                // 指向正確的 JSON 路徑，並強制破除快取
                 const response = await fetch('reports/history.json?v=' + Date.now());
-                if (!response.ok) throw new Error('Failed to load history.json from reports/');
-                let rawData = await response.json();
-                
-                // 相容性處理：如果收到的是 Array (舊格式)，轉換為 Object
+                if (!response.ok) throw new Error('Network response was not ok');
+                const rawData = await response.json();
+
+                // Compatibility layer
                 if (Array.isArray(rawData)) {
-                    console.log('Legacy Array detected, transforming...');
                     historyData = {};
                     rawData.forEach((entry, i) => {
-                        const key = entry.timestamp || `Legacy_${i}`;
+                        const key = entry.timestamp || `Entry_${i}`;
                         historyData[key] = entry;
-                        // 補齊缺失欄位以防 map 報錯
-                        if (!entry.heatmap) entry.heatmap = [];
-                        if (!entry.topics) entry.topics = [];
-                        if (!entry.spectrums) entry.spectrums = {};
-                        if (!entry.scorecards) entry.scorecards = [];
                     });
                 } else {
                     historyData = rawData;
                 }
-                
+
                 const dateSelector = document.getElementById('date-selector');
                 const dates = Object.keys(historyData).sort((a,b) => b.localeCompare(a));
                 
-                if (dates.length === 0) throw new Error('History data is empty');
+                if (dates.length === 0) throw new Error('No data found');
 
                 dateSelector.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
+                dateSelector.addEventListener('change', (e) => render(historyData[e.target.value]));
                 
-                dateSelector.addEventListener('change', (e) => {
-                    renderDashboard(historyData[e.target.value]);
-                });
-                
-                renderDashboard(historyData[dates[0]]);
+                render(historyData[dates[0]]);
             } catch (err) {
-                console.error('Initialization failed:', err);
-                container.innerHTML = `
-                    <div class="text-center py-32 bg-white rounded-3xl border-2 border-dashed border-slate-200">
-                        <i class="fas fa-exclamation-triangle text-red-500 text-5xl mb-6"></i>
-                        <p class="text-xl font-black text-slate-800">INTELLIGENCE FEED DISRUPTED</p>
-                        <p class="text-slate-400 text-sm mt-2 font-mono">${err.message}</p>
-                    </div>
-                `;
+                document.getElementById('dashboard-content').innerHTML = `<div class="text-center text-red-500 py-20 font-black">FEED DISRUPTED: ${err.message}</div>`;
             }
         }
 
-        function renderDashboard(data) {
+        function render(data) {
             const container = document.getElementById('dashboard-content');
-            document.getElementById('update-time').innerText = `Last Sync: ${data.updateTime}`;
+            document.getElementById('update-time').innerText = `Sync: ${data.updateTime || data.timestamp}`;
             
             let html = '';
             
             // A: Heatmap
-            html += `
-                <section class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100 overflow-hidden">
-                    <div class="flex justify-between items-center mb-8 border-b border-slate-50 pb-6">
-                        <h2 class="text-xl font-black tracking-tight flex items-center">
+            if (data.heatmap) {
+                html += `
+                    <section class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100 overflow-hidden">
+                        <h2 class="text-xl font-black tracking-tight mb-8 flex items-center border-b border-slate-50 pb-6">
                             <i class="fas fa-layer-group mr-3 text-blue-600"></i> MEDIA COVERAGE MATRIX
                         </h2>
-                        <div class="flex space-x-2">
-                            <span class="w-3 h-3 bg-green-500 rounded-sm"></span>
-                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-tighter">Full Stream</span>
-                        </div>
-                    </div>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left">
-                            <thead>
-                                <tr class="text-[10px] text-slate-400 uppercase font-black tracking-widest">
-                                    <th class="pb-4">Strategic Topics</th>
-                                    <th class="pb-4 text-center">UDN</th>
-                                    <th class="pb-4 text-center">LTN</th>
-                                    <th class="pb-4 text-center">FTV</th>
-                                    <th class="pb-4 text-center">CT</th>
-                                    <th class="pb-4 text-center">CTI</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-slate-50">
-                                ${data.heatmap.map(row => `
-                                    <tr class="group hover:bg-slate-50/50 transition">
-                                        <td class="py-5 pr-4">
-                                            <div class="text-sm font-bold text-slate-800 group-hover:text-blue-600 transition">${row.name}</div>
-                                        </td>
-                                        ${['udn', 'ltn', 'ftv', 'ct', 'cti'].map(m => {
-                                            const status = row[m];
-                                            let color = 'bg-slate-100 text-slate-300';
-                                            if (status === 'green') color = 'bg-green-500 shadow-sm shadow-green-200';
-                                            if (status === 'yellow') color = 'bg-yellow-400';
-                                            if (status === 'red') color = 'bg-red-500';
-                                            if (status === 'red-video') {
-                                                return `<td class="py-5 text-center">
-                                                    <div class="w-10 h-6 mx-auto bg-red-100 rounded flex items-center justify-center border border-red-200">
-                                                        <span class="text-[8px] font-black text-red-600 tracking-tighter">VIDEO</span>
-                                                    </div>
-                                                </td>`;
-                                            }
-                                            return `<td class="py-5 text-center">
-                                                <div class="w-5 h-5 mx-auto ${color} rounded-sm transition-transform group-hover:scale-110"></div>
-                                            </td>`;
-                                        }).join('')}
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left">
+                                <thead>
+                                    <tr class="text-[10px] text-slate-400 uppercase font-black tracking-widest">
+                                        <th class="pb-4">Strategic Topics</th>
+                                        <th class="pb-4 text-center">UDN</th>
+                                        <th class="pb-4 text-center">LTN</th>
+                                        <th class="pb-4 text-center">FTV</th>
+                                        <th class="pb-4 text-center">CT</th>
+                                        <th class="pb-4 text-center">CTI</th>
                                     </tr>
-                                `).join('')}
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-            `;
+                                </thead>
+                                <tbody class="divide-y divide-slate-50">
+                                    ${data.heatmap.map(row => `
+                                        <tr>
+                                            <td class="py-5 pr-4 text-sm font-bold text-slate-800">${row.name}</td>
+                                            ${['udn', 'ltn', 'ftv', 'ct', 'cti'].map(m => {
+                                                const status = row[m];
+                                                let color = 'bg-slate-100';
+                                                if (status === 'green') color = 'bg-green-500';
+                                                if (status === 'yellow') color = 'bg-yellow-400';
+                                                if (status === 'red') color = 'bg-red-500';
+                                                if (status === 'red-video') return `<td class="text-center"><span class="text-[8px] bg-red-100 text-red-600 px-1 rounded font-bold">VIDEO</span></td>`;
+                                                return `<td class="text-center"><div class="w-4 h-4 mx-auto ${color} rounded-sm"></div></td>`;
+                                            }).join('')}
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                `;
+            }
 
             // B: Spectrums
-            html += `
-                <section class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100">
-                    <h2 class="text-xl font-black tracking-tight mb-10 flex items-center border-b border-slate-50 pb-6">
-                        <i class="fas fa-fingerprint mr-3 text-indigo-600"></i> BIAS FINGERPRINT ANALYSIS
-                    </h2>
-                    <div class="grid grid-cols-1 gap-16 px-2">
-                        ${data.topics.map(t => {
-                            const nodes = data.spectrums[t.id] || [];
-                            return `
-                                <div class="relative">
-                                    <div class="flex justify-between items-start mb-10">
-                                        <div class="max-w-md">
-                                            <h3 class="text-sm font-black text-slate-900 mb-1">${t.title}</h3>
-                                            <p class="text-[10px] text-slate-400 font-mono tracking-tight">${t.desc}</p>
-                                        </div>
-                                        <div class="px-3 py-1 bg-slate-100 rounded-md">
-                                            <span class="text-[9px] font-black tracking-widest text-slate-500 uppercase">${t.consensus === 'high' ? 'High Consensus' : 'Spectrum Divergence'}</span>
-                                        </div>
-                                    </div>
-                                    <div class="relative py-12">
-                                        <div class="spectrum-bar w-full bg-gradient-to-r ${t.gradient} shadow-inner opacity-90"></div>
-                                        <div class="flex justify-between mt-4 text-[9px] font-black text-slate-300 uppercase tracking-[0.2em]">
-                                            <span class="text-blue-500">${t.labelLeft}</span>
-                                            <span class="opacity-30">FACTUAL CORE</span>
-                                            <span class="text-red-500">${t.labelRight}</span>
-                                        </div>
-                                        ${nodes.map(node => `
-                                            <div class="bias-node absolute top-1/2 -translate-y-1/2 group" style="left: ${node.pos}; margin-left: -12px;">
-                                                <div class="flex flex-col items-center">
-                                                    <div class="w-6 h-6 ${node.color} rounded-full border-4 border-white shadow-lg ring-1 ring-slate-100 transition-all group-hover:scale-125 group-hover:ring-blue-400"></div>
-                                                    <div class="mt-2 bg-slate-900 text-white px-2 py-0.5 rounded text-[8px] font-bold whitespace-nowrap shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
-                                                        ${node.name} ${node.note ? '(' + node.note + ')' : ''}
-                                                    </div>
-                                                </div>
+            if (data.topics && data.spectrums) {
+                html += `
+                    <section class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100">
+                        <h2 class="text-xl font-black tracking-tight mb-10 flex items-center border-b border-slate-50 pb-6">
+                            <i class="fas fa-fingerprint mr-3 text-indigo-600"></i> BIAS FINGERPRINT
+                        </h2>
+                        <div class="space-y-16">
+                            ${data.topics.map(t => {
+                                const nodes = data.spectrums[t.id] || [];
+                                return `
+                                    <div class="relative">
+                                        <h3 class="text-sm font-black text-slate-900 mb-1">${t.title}</h3>
+                                        <p class="text-[10px] text-slate-400 font-mono mb-6">${t.desc}</p>
+                                        <div class="relative py-10">
+                                            <div class="spectrum-bar w-full bg-gradient-to-r ${t.gradient || 'from-blue-500 to-red-500'} opacity-80"></div>
+                                            <div class="flex justify-between mt-2 text-[8px] font-black text-slate-300 uppercase tracking-widest">
+                                                <span>${t.labelLeft}</span><span>${t.labelRight}</span>
                                             </div>
-                                        `).join('')}
-                                    </div>
-                                </div>
-                            `;
-                        }).join('')}
-                    </div>
-                </section>
-            `;
-
-            // C: Scorecards
-            html += `
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    ${data.scorecards.map(s => `
-                        <div class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100 flex flex-col hover:border-blue-200 transition group">
-                            <div class="flex justify-between items-start mb-8">
-                                <div>
-                                    <div class="text-[10px] font-black text-blue-600 mb-1 tracking-widest uppercase opacity-60">Source Performance</div>
-                                    <h3 class="font-black text-lg text-slate-800 tracking-tight">${s.name}</h3>
-                                    <div class="text-[10px] font-mono text-slate-400">N-Value: ${s.n}</div>
-                                </div>
-                                <div class="text-right">
-                                    <div class="text-3xl font-black ${s.battery > 80 ? 'text-green-500' : (s.battery > 50 ? 'text-blue-500' : 'text-red-500')} tracking-tighter">${s.battery}%</div>
-                                    <i class="fas ${s.battery > 80 ? 'fa-bolt text-green-400' : 'fa-signal text-blue-400'} text-xs"></i>
-                                </div>
-                            </div>
-                            <div class="space-y-4 mb-8">
-                                ${['Speed', 'Depth', 'Neutral', 'Range', 'Trust'].map((label, idx) => `
-                                    <div class="flex justify-between items-center">
-                                        <span class="text-[10px] font-black text-slate-400 uppercase tracking-widest">${label}</span>
-                                        <div class="flex space-x-1">
-                                            ${Array(5).fill(0).map((_, i) => `
-                                                <div class="w-3 h-1.5 rounded-full ${i < s.scores[idx] ? 'bg-amber-400' : 'bg-slate-100'}"></div>
+                                            ${nodes.map(node => `
+                                                <div class="bias-node absolute top-1/2 -translate-y-1/2" style="left: ${node.pos}; margin-left: -10px;">
+                                                    <div class="w-5 h-5 ${node.color} rounded-full border-2 border-white shadow-md"></div>
+                                                    <div class="text-[7px] font-bold mt-1 text-center whitespace-nowrap">${node.name}</div>
+                                                </div>
                                             `).join('')}
                                         </div>
                                     </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </section>
+                `;
+            }
+
+            // C: Scorecards
+            if (data.scorecards) {
+                html += `<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    ${data.scorecards.map(s => `
+                        <div class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100">
+                            <h3 class="font-black text-lg text-slate-800">${s.name}</h3>
+                            <div class="text-2xl font-black text-blue-600 mb-4">${s.battery}%</div>
+                            <div class="space-y-2">
+                                ${['Speed', 'Depth', 'Neutral', 'Range', 'Trust'].map((label, idx) => `
+                                    <div class="flex justify-between text-[8px] font-bold uppercase tracking-widest text-slate-400">
+                                        <span>${label}</span>
+                                        <div class="flex space-x-0.5">${Array(5).fill(0).map((_, i) => `<div class="w-2 h-1 rounded-full ${i < s.scores[idx] ? 'bg-blue-400' : 'bg-slate-100'}"></div>`).join('')}</div>
+                                    </div>
                                 `).join('')}
                             </div>
-                            ${s.warning ? `
-                                <div class="mt-auto p-3 bg-red-50 rounded-xl border border-red-100">
-                                    <p class="text-[9px] text-red-500 font-bold leading-relaxed italic">${s.warning}</p>
-                                </div>
-                            ` : ''}
                         </div>
                     `).join('')}
-                </div>
-            `;
+                </div>`;
+            }
 
             container.innerHTML = html;
         }
 
-        initDashboard();
+        init();
     </script>
 </body>
 </html>
