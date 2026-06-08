@@ -2,31 +2,48 @@
   "2026-06-08 16:30": {
     "updateTime": "2026-06-08 16:30",
     "heatmap": [
-      { "name": "台北動物園紅熊貓來台", "udn": "green", "ltn": "yellow", "ftv": "yellow", "ct": "green", "cti": "green" },
-      { "name": "立院譴責北京外交打壓", "udn": "green", "ltn": "red", "ftv": "red", "ct": "yellow", "cti": "yellow" },
-      { "name": "自由廣場六四悼念", "udn": "green", "ltn": "green", "ftv": "green", "ct": "gray", "cti": "gray" }
+      { "name": "台北動物園迎來紅熊貓", "udn": "green", "ltn": "yellow", "ftv": "yellow", "ct": "green", "cti": "green" },
+      { "name": "立法院決議譴責北京打壓", "udn": "yellow", "ltn": "red", "ftv": "red", "ct": "yellow", "cti": "yellow" },
+      { "name": "自由廣場六四週年悼念", "udn": "green", "ltn": "green", "ftv": "green", "ct": "gray", "cti": "gray" }
     ],
     "topics": [
-      { "id": "t1", "title": "大陸紅熊貓來台交流", "desc": "兩岸動物外交重啟，各界關注政治條件。", "consensus": "divergence", "gradient": "from-blue-500 to-red-500", "labelLeft": "溫馨交流", "labelRight": "統戰工具" },
-      { "id": "t2", "title": "立院一致譴責外交打壓", "desc": "針對北京近期外交動作，朝野發出強烈聲明。", "consensus": "high", "gradient": "from-blue-500 to-indigo-600", "labelLeft": "捍衛主權", "labelRight": "挑釁對抗" }
+      {
+        "id": "t1",
+        "title": "大陸紅熊貓睽違十年來台",
+        "desc": "兩岸動物交流重啟，報導焦點在於交流成果與統戰質疑之爭。",
+        "consensus": "divergence",
+        "gradient": "from-sky-400 to-rose-400",
+        "labelLeft": "交流成果",
+        "labelRight": "政治條件"
+      },
+      {
+        "id": "t2",
+        "title": "立院全體一致譴責外交打壓",
+        "desc": "朝野對北京打壓發出嚴厲聲明，各報對陸委會角色解讀不一。",
+        "consensus": "high",
+        "gradient": "from-blue-600 to-indigo-600",
+        "labelLeft": "捍衛主權",
+        "labelRight": "挑釁質疑"
+      }
     ],
     "spectrums": {
       "t1": [
-        { "name": "中時", "pos": "20%", "color": "bg-blue-600", "note": "成果定位" },
-        { "name": "聯合", "pos": "40%", "color": "bg-sky-500", "note": "動物人道" },
-        { "name": "自由", "pos": "85%", "color": "bg-green-600", "note": "警惕政治" }
+        { "name": "中時", "pos": "15%", "color": "bg-blue-600", "note": "交流成果" },
+        { "name": "聯合", "pos": "35%", "color": "bg-sky-500", "note": "人道溫馨" },
+        { "name": "自由", "pos": "85%", "color": "bg-green-600", "note": "政治警惕" }
       ],
       "t2": [
-        { "name": "自由", "pos": "90%", "color": "bg-green-600" },
-        { "name": "聯合", "pos": "50%", "color": "bg-slate-500" },
-        { "name": "中時", "pos": "45%", "color": "bg-blue-500" }
+        { "name": "自由", "pos": "92%", "color": "bg-green-600" },
+        { "name": "聯合", "pos": "55%", "color": "bg-slate-500" },
+        { "name": "中時", "pos": "40%", "color": "bg-blue-500" }
       ]
     },
     "scorecards": [
-      { "name": "ChinaTimes", "n": 12, "battery": 47, "scores": [3, 4, 2, 4, 3], "warning": "對特定議題存在戰術性沈默" },
-      { "name": "UDN", "n": 15, "battery": 52, "scores": [4, 4, 3, 4, 4] },
-      { "name": "LTN", "n": 18, "battery": 81, "scores": [5, 4, 4, 5, 5] },
-      { "name": "SET", "n": 16, "battery": 84, "scores": [5, 5, 4, 5, 5] }
+      { "name": "ChinaTimes", "n": 1, "battery": 47, "scores": [3, 4, 2, 4, 3], "warning": "對特定主權議題採消極處理" },
+      { "name": "UDN", "n": 1, "battery": 52, "scores": [4, 4, 3, 4, 4] },
+      { "name": "LTN", "n": 1, "battery": 81, "scores": [5, 4, 4, 5, 5] },
+      { "name": "SET", "n": 1, "battery": 84, "scores": [5, 5, 4, 5, 5] },
+      { "name": "ETtoday", "n": 1, "battery": 72, "scores": [4, 3, 4, 4, 4] }
     ]
   }
 }
