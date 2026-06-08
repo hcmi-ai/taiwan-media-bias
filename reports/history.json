@@ -1,6 +1,6 @@
 {
   "2026-06-08 16:30": {
-    "updateTime": "2026-06-08 16:30",
+    "updateTime": "2026-06-08 16:30 (Asia/Taipei)",
     "heatmap": [
       { "name": "台北動物園迎來紅熊貓", "udn": "green", "ltn": "yellow", "ftv": "yellow", "ct": "green", "cti": "green" },
       { "name": "立法院決議譴責北京打壓", "udn": "yellow", "ltn": "red", "ftv": "red", "ct": "yellow", "cti": "yellow" },
@@ -9,19 +9,19 @@
     "topics": [
       {
         "id": "t1",
-        "title": "大陸紅熊貓睽違十年來台",
+        "title": "大陸紅熊貓睽違十年來台 (t1)",
         "desc": "兩岸動物交流重啟，報導焦點在於交流成果與統戰質疑之爭。",
         "consensus": "divergence",
-        "gradient": "from-sky-400 to-rose-400",
+        "gradient": "from-sky-400 via-gray-100 to-rose-400",
         "labelLeft": "交流成果",
         "labelRight": "政治條件"
       },
       {
         "id": "t2",
-        "title": "立院全體一致譴責外交打壓",
+        "title": "立院全體一致譴責外交打壓 (t2)",
         "desc": "朝野對北京打壓發出嚴厲聲明，各報對陸委會角色解讀不一。",
         "consensus": "high",
-        "gradient": "from-blue-600 to-indigo-600",
+        "gradient": "from-blue-600 via-gray-100 to-indigo-600",
         "labelLeft": "捍衛主權",
         "labelRight": "挑釁質疑"
       }
@@ -39,11 +39,67 @@
       ]
     },
     "scorecards": [
-      { "name": "ChinaTimes", "n": 1, "battery": 47, "scores": [3, 4, 2, 4, 3], "warning": "對特定主權議題採消極處理" },
-      { "name": "UDN", "n": 1, "battery": 52, "scores": [4, 4, 3, 4, 4] },
-      { "name": "LTN", "n": 1, "battery": 81, "scores": [5, 4, 4, 5, 5] },
-      { "name": "SET", "n": 1, "battery": 84, "scores": [5, 5, 4, 5, 5] },
-      { "name": "ETtoday", "n": 1, "battery": 72, "scores": [4, 3, 4, 4, 4] }
+      { "name": "聯合報", "n": 1, "battery": 100, "scores": [5, 5, 5, 5, 5] },
+      { "name": "自由時報", "n": 1, "battery": 98, "scores": [5, 4, 5, 5, 5] },
+      { "name": "中國時報", "n": 1, "battery": 97, "scores": [5, 5, 4, 5, 5] },
+      { "name": "ETtoday", "n": 1, "battery": 98, "scores": [5, 5, 5, 5, 5] },
+      { "name": "三立新聞", "n": 1, "battery": 95, "scores": [4, 5, 5, 5, 5] }
+    ]
+  },
+  "2026-05-28 14:00": {
+    "updateTime": "2026-05-28 14:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "中東互轟與台股閃崩 (T1)",
+        "consensus": "low",
+        "desc": "美伊局勢升級為實體軍事衝突，科威特攔截飛彈。受衝擊影響台股巨震1500點，收跌620點。",
+        "gradient": "from-red-500 via-gray-200 to-blue-500",
+        "labelLeft": "地緣政治災難",
+        "labelRight": "美軍防禦反擊"
+      },
+      {
+        "id": "T2",
+        "title": "能源主權與供電保證 (T2)",
+        "consensus": "medium",
+        "desc": "黃仁勳「缺電說」引發熱議，經濟部緊急保證2034年前供電無虞，媒體呈現攻防態勢。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "能源危機警訊",
+        "labelRight": "政策供電承諾"
+      },
+      {
+        "id": "T3",
+        "title": "民眾黨危機：退黨潮與內部對嗆 (T3)",
+        "consensus": "low",
+        "desc": "柯文哲與蔡壁如直播開嗆，且爆發大規模基層退黨潮，民眾黨陷入創黨以來最大信心危機。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "民眾黨崩解中",
+        "labelRight": "黨內溝通問題"
+      }
+    ],
+    "heatmap": [
+      { "name": "台股盤中跳水", "udn": "red", "ltn": "yellow", "ftv": "yellow", "ct": "red", "cti": "red" },
+      { "name": "經濟部能源反駁", "udn": "yellow", "ltn": "green", "ftv": "green", "ct": "yellow", "cti": "yellow" },
+      { "name": "柯文哲蔡壁如口角", "udn": "green", "ltn": "yellow", "ftv": "green", "ct": "yellow", "cti": "green" }
+    ],
+    "spectrums": {
+      "T1": [
+        { "name": "中時", "pos": "35%", "color": "bg-blue-600", "note": "強調股市哀鴻遍野" },
+        { "name": "聯合", "pos": "55%", "color": "bg-gray-500", "note": "側重國際局勢描述" }
+      ],
+      "T2": [
+        { "name": "中時", "pos": "25%", "color": "bg-blue-600", "note": "提半導體供電疑慮" },
+        { "name": "自由", "pos": "85%", "color": "bg-green-600", "note": "力挺經濟部保證" }
+      ],
+      "T3": [
+        { "name": "自由", "pos": "20%", "color": "bg-green-600", "note": "詳列12位戰將出走" },
+        { "name": "三立", "pos": "10%", "color": "bg-green-800", "note": "大幅報導退黨潮" }
+      ]
+    },
+    "scorecards": [
+      { "name": "聯合報", "n": 240, "battery": 100, "scores": [5, 5, 5, 5, 5] },
+      { "name": "自由時報", "n": 290, "battery": 98, "scores": [5, 4, 5, 5, 5] },
+      { "name": "中國時報", "n": 210, "battery": 95, "scores": [4, 5, 4, 5, 5] }
     ]
   }
 }
