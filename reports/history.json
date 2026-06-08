@@ -2,9 +2,30 @@
   "2026-06-08 16:30": {
     "updateTime": "2026-06-08 16:30 (Asia/Taipei)",
     "heatmap": [
-      { "name": "台北動物園迎來紅熊貓", "udn": "green", "ltn": "yellow", "ftv": "yellow", "ct": "green", "cti": "green" },
-      { "name": "立法院決議譴責北京打壓", "udn": "yellow", "ltn": "red", "ftv": "red", "ct": "yellow", "cti": "yellow" },
-      { "name": "自由廣場六四週年悼念", "udn": "green", "ltn": "green", "ftv": "green", "ct": "gray", "cti": "gray" }
+      {
+        "name": "台北動物園迎來紅熊貓",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "立法院決議譴責北京打壓",
+        "udn": "yellow",
+        "ltn": "red",
+        "ftv": "red",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "自由廣場六四週年悼念",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "gray",
+        "cti": "gray"
+      }
     ],
     "topics": [
       {
@@ -28,22 +49,104 @@
     ],
     "spectrums": {
       "t1": [
-        { "name": "中時", "pos": "15%", "color": "bg-blue-600", "note": "交流成果" },
-        { "name": "聯合", "pos": "35%", "color": "bg-sky-500", "note": "人道溫馨" },
-        { "name": "自由", "pos": "85%", "color": "bg-green-600", "note": "政治警惕" }
+        {
+          "name": "中時",
+          "pos": "15%",
+          "color": "bg-blue-600",
+          "note": "交流成果"
+        },
+        {
+          "name": "聯合",
+          "pos": "35%",
+          "color": "bg-sky-500",
+          "note": "人道溫馨"
+        },
+        {
+          "name": "自由",
+          "pos": "85%",
+          "color": "bg-green-600",
+          "note": "政治警惕"
+        }
       ],
       "t2": [
-        { "name": "自由", "pos": "92%", "color": "bg-green-600" },
-        { "name": "聯合", "pos": "55%", "color": "bg-slate-500" },
-        { "name": "中時", "pos": "40%", "color": "bg-blue-500" }
+        {
+          "name": "自由",
+          "pos": "92%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-slate-500"
+        },
+        {
+          "name": "中時",
+          "pos": "40%",
+          "color": "bg-blue-500"
+        }
       ]
     },
     "scorecards": [
-      { "name": "聯合報", "n": 1, "battery": 100, "scores": [5, 5, 5, 5, 5] },
-      { "name": "自由時報", "n": 1, "battery": 98, "scores": [5, 4, 5, 5, 5] },
-      { "name": "中國時報", "n": 1, "battery": 97, "scores": [5, 5, 4, 5, 5] },
-      { "name": "ETtoday", "n": 1, "battery": 98, "scores": [5, 5, 5, 5, 5] },
-      { "name": "三立新聞", "n": 1, "battery": 95, "scores": [4, 5, 5, 5, 5] }
+      {
+        "name": "聯合報",
+        "n": 1,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 1,
+        "battery": 98,
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 1,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "ETtoday",
+        "n": 1,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "三立新聞",
+        "n": 1,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
     ]
   },
   "2026-05-28 14:00": {
@@ -78,28 +181,8607 @@
       }
     ],
     "heatmap": [
-      { "name": "台股盤中跳水", "udn": "red", "ltn": "yellow", "ftv": "yellow", "ct": "red", "cti": "red" },
-      { "name": "經濟部能源反駁", "udn": "yellow", "ltn": "green", "ftv": "green", "ct": "yellow", "cti": "yellow" },
-      { "name": "柯文哲蔡壁如口角", "udn": "green", "ltn": "yellow", "ftv": "green", "ct": "yellow", "cti": "green" }
+      {
+        "name": "台股盤中跳水",
+        "udn": "red",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "red",
+        "cti": "red"
+      },
+      {
+        "name": "經濟部能源反駁",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "柯文哲蔡壁如口角",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "green"
+      }
     ],
     "spectrums": {
       "T1": [
-        { "name": "中時", "pos": "35%", "color": "bg-blue-600", "note": "強調股市哀鴻遍野" },
-        { "name": "聯合", "pos": "55%", "color": "bg-gray-500", "note": "側重國際局勢描述" }
+        {
+          "name": "中時",
+          "pos": "35%",
+          "color": "bg-blue-600",
+          "note": "強調股市哀鴻遍野"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500",
+          "note": "側重國際局勢描述"
+        }
       ],
       "T2": [
-        { "name": "中時", "pos": "25%", "color": "bg-blue-600", "note": "提半導體供電疑慮" },
-        { "name": "自由", "pos": "85%", "color": "bg-green-600", "note": "力挺經濟部保證" }
+        {
+          "name": "中時",
+          "pos": "25%",
+          "color": "bg-blue-600",
+          "note": "提半導體供電疑慮"
+        },
+        {
+          "name": "自由",
+          "pos": "85%",
+          "color": "bg-green-600",
+          "note": "力挺經濟部保證"
+        }
       ],
       "T3": [
-        { "name": "自由", "pos": "20%", "color": "bg-green-600", "note": "詳列12位戰將出走" },
-        { "name": "三立", "pos": "10%", "color": "bg-green-800", "note": "大幅報導退黨潮" }
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600",
+          "note": "詳列12位戰將出走"
+        },
+        {
+          "name": "三立",
+          "pos": "10%",
+          "color": "bg-green-800",
+          "note": "大幅報導退黨潮"
+        }
       ]
     },
     "scorecards": [
-      { "name": "聯合報", "n": 240, "battery": 100, "scores": [5, 5, 5, 5, 5] },
-      { "name": "自由時報", "n": 290, "battery": 98, "scores": [5, 4, 5, 5, 5] },
-      { "name": "中國時報", "n": 210, "battery": 95, "scores": [4, 5, 4, 5, 5] }
+      {
+        "name": "聯合報",
+        "n": 240,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 290,
+        "battery": 98,
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 210,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          4,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-28 08:00": {
+    "updateTime": "2026-05-28 08:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "馬辦羅生門：金溥聰與馬家之爭 (T1)",
+        "consensus": "low",
+        "desc": "金溥聰爆料馬英九認知與生活細節引發內鬥，媒體聚焦家族反擊與認知功能爭議。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "家族內鬥/變故",
+        "labelRight": "認知退化疑雲"
+      },
+      {
+        "id": "T2",
+        "title": "美伊局勢：深夜打擊與協議爭議 (T2)",
+        "consensus": "medium",
+        "desc": "美軍執行自衛性打擊，伊朗流出草案遭白宮否認，外交與軍事僵局持續。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "白宮打臉",
+        "labelRight": "美軍強硬出手"
+      },
+      {
+        "id": "T3",
+        "title": "少子化18招政策與選舉效應 (T3)",
+        "consensus": "low",
+        "desc": "賴政府推動3800億育兒紅利，媒體解讀為2026前哨戰的「大撒幣」攻勢。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "政策紅利",
+        "labelRight": "劍指九合一"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "馬辦內鬥爆料",
+        "udn": "green",
+        "ltn": "green",
+        "ettoday": "yellow",
+        "chinatimes": "green",
+        "setn": "green"
+      },
+      {
+        "name": "美軍空襲伊朗設施",
+        "udn": "green",
+        "ltn": "green",
+        "ettoday": "green",
+        "chinatimes": "green",
+        "setn": "yellow"
+      },
+      {
+        "name": "少子化撒幣質疑",
+        "udn": "yellow",
+        "ltn": "green",
+        "ettoday": "yellow",
+        "chinatimes": "green",
+        "setn": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600",
+          "note": "提蕭旭岑對戰金小刀"
+        },
+        {
+          "name": "ETtoday",
+          "pos": "50%",
+          "color": "bg-gray-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500",
+          "note": "詳細追蹤分居細節"
+        },
+        {
+          "name": "三立",
+          "pos": "70%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-600",
+          "note": "提馬认知退化疑點"
+        }
+      ],
+      "T2": [
+        {
+          "name": "ETtoday",
+          "pos": "30%",
+          "color": "bg-green-400",
+          "note": "強調白宮斥捏造"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "55%",
+          "color": "bg-green-200"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-600",
+          "note": "凸顯川普強硬姿態"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "正面報導18招"
+        },
+        {
+          "name": "三立",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "ETtoday",
+          "pos": "45%",
+          "color": "bg-gray-400"
+        },
+        {
+          "name": "中時",
+          "pos": "90%",
+          "color": "bg-blue-800",
+          "note": "批劍指九合一"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 120,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 145,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 110,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "ETtoday",
+        "n": 160,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "三立新聞",
+        "n": 105,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-27 14:00": {
+    "updateTime": "2026-05-27 15:10 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "政院正式提出覆議攻防 (T1)",
+        "consensus": "low",
+        "desc": "行政院院會今日正式通過對職權修法案之「覆議」案。媒體針對行政院是否「刻意延宕」或「捍衛憲法」展開激辯。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "程序救濟",
+        "labelRight": "行政杯葛"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA衝擊與企業補助爭議 (T2)",
+        "consensus": "medium",
+        "desc": "針對134項減讓中止，經濟部午間釋出補助申請細則。產業界反應補助「緩不濟急」，媒體聚焦於傳統產業轉單之實體損害。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "轉型升級",
+        "labelRight": "政策無方"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與長保基金大戰 (T3)",
+        "consensus": "low",
+        "desc": "0-18歲津貼預算排擠效應延燒。在野黨指控政府為湊足津貼預算，變相縮減勞保撥補額度，財政部午間緊急發稿駁斥。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "全齡照顧",
+        "labelRight": "挖補牆腳"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "行政院院會拍板覆議",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "傳產補助細則評價",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "勞保撥補金額對撞",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "捍衛民主、撥亂反正"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500",
+          "note": "關注覆議失敗後的倒閣隱憂"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "斥政院淪為鬥爭馬前卒"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "踢爆賴政府賴皮三部曲"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "數位轉型，告別低薪中國市場"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "68%",
+          "color": "bg-gray-500",
+          "note": "業者嘆：申請補助比拿訂單還難"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "ECFA終結後的產業空洞化"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "預告中南部傳產工廠倒閉潮"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "福利加碼，勞保撥補不減"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "質疑財源穩定性：錢從哪裡來？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "拿勞工血汗錢換家長選票"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "揭發財政部美化赤字的假帳"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 485,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 520,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 490,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 440,
+        "battery": 93,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-27 08:00": {
+    "updateTime": "2026-05-27 09:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "政院擬提覆議與釋憲攻防 (T1)",
+        "consensus": "low",
+        "desc": "職權法三讀後，行政院預計正式提出「覆議」。朝野媒體針對行政院的憲政正當性與民意對抗展開法理辯論。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "憲政救濟",
+        "labelRight": "行政擴權"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁下之傳產紓困進度 (T2)",
+        "consensus": "medium",
+        "desc": "經濟部首波紓困貸款細節公布，媒體關注其是否能防止工具機與紡織業的倒閉潮。工商團體要求更直接的租稅減免。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "產業救援",
+        "labelRight": "政策無效"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與社會保險排擠戰 (T3)",
+        "consensus": "low",
+        "desc": "成長津貼預算是否導致勞保、健保撥補減少，成為週三晨間財經版面焦點。財政部數據遭在野黨強烈質疑其誠實度。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "福利紅利",
+        "labelRight": "保險破產"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "行政院覆議流程啟動",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "134項受災業者訪談",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "勞保撥補缺口精算",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "行使憲法權力阻擋惡法"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500",
+          "note": "關注覆議若失敗的憲政僵局"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "批政院淪為鬥爭工具"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "揭發綠營企圖以行政權架空國會"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "輔導傳產轉向高端市場"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "傳產大老：補助只是口惠而實不至"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "預告ECFA紅利正式終結"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "產業界對賴政府兩岸政策的絕望"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "落實總統對下一代的承諾"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "質疑預算挪用導致勞保缺口擴大"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "騙完年輕人騙勞工"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "踢爆財政部美化赤字內幕"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 470,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 510,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 460,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 440,
+        "battery": 94,
+        "scores": [
+          5,
+          4,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 420,
+        "battery": 91,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-26 20:00": {
+    "updateTime": "2026-05-26 20:45 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "三讀後釋憲戰正式開打 (T1)",
+        "consensus": "low",
+        "desc": "職權法三讀後，民進黨團晚間正式遞交釋憲聲請書與暫時處分。朝野在司法救濟與民主正當性上展開終極對決。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "守護憲法",
+        "labelRight": "毀憲亂政"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁與傳產寒冬 (T2)",
+        "consensus": "low",
+        "desc": "134項產品中止減讓效應擴大，中南部傳產工廠傳出裁員與無薪假隱憂。經濟部首波紓困方案被在野黨批為「虛招」。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "轉型自主",
+        "labelRight": "經貿窒息"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與長期債務爭議 (T3)",
+        "consensus": "medium",
+        "desc": "0-18歲津貼預算排擠效應在晚間政論大戰中達到巔峰。在野黨拋出「國債鐘」每人負擔數據，財政部則以「稅收超徵」回擊。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "世代紅利",
+        "labelRight": "債留子孫"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "釋憲遞狀與暫時處分",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "傳產裁員與無薪假",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "國債鐘每人負擔精算",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "憲政最後一道防線"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "憂釋憲引發更大的政局動盪"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "批輸不起的司法遊戲"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "揭發綠營企圖架空國會真相"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉骨，告別中國依賴"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "業界哀鳴：我們撐得過去嗎？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "警告兩岸經貿將全面斷裂"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "賴政府送給傳產的喪鐘"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "精算顯示財源絕對充足"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "揭發財政部的數字遊戲"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "史上最狂買票政策實錄"
+        },
+        {
+          "name": "中天",
+          "pos": "96%",
+          "color": "bg-red-500",
+          "note": "國債大爆炸：年輕人的明天"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 510,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 530,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 480,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 470,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 455,
+        "battery": 94,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-26 14:00": {
+    "updateTime": "2026-05-26 15:10 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "三讀後釋憲大戰啟動 (T1)",
+        "consensus": "low",
+        "desc": "職權法三讀後，民進黨團正式展開釋憲與暫時處分之連署與遞狀準備。朝野針對「覆議」與「釋憲」之法律攻防進入實戰階段。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "程序救濟",
+        "labelRight": "國會新政"
+      },
+      {
+        "id": "T2",
+        "title": "傳產對ECFA紓困之評價 (T2)",
+        "consensus": "medium",
+        "desc": "經濟部今午釋出首波紓困細節。在野黨批評「補助門檻過高、緩不濟急」，執政黨則宣傳輔導傳產轉向東南亞之具體成效。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "分散風險",
+        "labelRight": "產業界哀鳴"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與世代負債論 (T3)",
+        "consensus": "low",
+        "desc": "針對成長津貼之預算來源，午後媒體聚焦於「國債鐘」對下一代的長期衝擊。在野黨指控政府數據造假，雙方展開精算大戰。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "投資未來",
+        "labelRight": "預算崩壞"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "釋憲與暫時處分遞狀",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "紓困貸款申請門檻",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "2027年財政赤字預估",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "法律人的民主反擊戰"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "60%",
+          "color": "bg-gray-500",
+          "note": "報導釋憲程序之法律門檻"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批輸不起的釋憲遊戲"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "揭發綠營濫用司法資源"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉骨，告別ECFA依賴"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "業者嘆：補助只是杯水車薪"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "預告傳產大裁員時代"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "賴政府送給傳產的毒藥"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "12%",
+          "color": "bg-green-600",
+          "note": "育兒紅利，國家一起養"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "質疑財源穩定性不足"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "數據謊言下的國債黑洞"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "踢爆買票政策的破產內幕"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 490,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 530,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 475,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 460,
+        "battery": 94,
+        "scores": [
+          5,
+          4,
+          4,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 445,
+        "battery": 93,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-26 08:00": {
+    "updateTime": "2026-05-26 09:20 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "職權法三讀後之釋憲戰 (T1)",
+        "consensus": "low",
+        "desc": "立法院昨晚三讀通過職權行使法修正案。民進黨隨即預告將聲請釋憲與暫時處分，在野黨則強調這是國會新秩序的開始。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督回歸",
+        "labelRight": "違憲擴權"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁下之傳產紓困 (T2)",
+        "consensus": "medium",
+        "desc": "針對134項產品減讓中止，經濟部今晨宣布首波專案貸款與產線升級補助。產業界對「救急」方案是否能填補長期訂單損失持續觀望。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "轉型重生",
+        "labelRight": "經濟邊緣"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源實務戰持續 (T3)",
+        "consensus": "low",
+        "desc": "針對0-18歲成長津貼，在野黨今日主打「舉債上限」議題，質疑政府在預算平衡上的數據美化。執政黨媒體則宣傳政策利多已開始發酵。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "有感红利",
+        "labelRight": "財政黑洞"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "三讀後法理攻防戰",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "專案紓困貸款啟動",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "舉債上限與財源鬥法",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "5%",
+          "color": "bg-red-500",
+          "note": "慶賀國會終於有牙齒"
+        },
+        {
+          "name": "中時",
+          "pos": "12%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500",
+          "note": "關注三讀後的憲法訴訟流程"
+        },
+        {
+          "name": "民視",
+          "pos": "88%",
+          "color": "bg-green-400",
+          "note": "痛批黑箱三讀，民主恥辱"
+        },
+        {
+          "name": "自由",
+          "pos": "95%",
+          "color": "bg-green-600",
+          "note": "釋憲與暫時處分全面啟動"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉型補助國家隊"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "傳產業憂心遠水救不了近火"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "警告產業空洞化危機加劇"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "預告ECFA終結帶來的經濟哀鴻"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "育兒負擔大幅減輕"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "精算國債：一場與子孫的借貸"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "買票政策造成財政懸崖"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "揭發政府預算黑洞內幕"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 485,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 520,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 450,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 430,
+        "battery": 92,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-25 20:00": {
+    "updateTime": "2026-05-25 21:05 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "職權修法三讀之夜 (T1)",
+        "consensus": "low",
+        "desc": "立院深夜表決職權修法條文，三讀程序進入最後階段。場外抗議人潮再度湧現，媒體針對「立院新秩序」與「民主哀歌」進行史詩級敘事戰。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "國會重生",
+        "labelRight": "程序崩壞"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁產業衝擊實測 (T2)",
+        "consensus": "medium",
+        "desc": "北京中止134項產品減讓後的第一個工作日。工具機與紡織業反應劇烈，媒體焦點在於「訂單流失」的實體化及政府紓困的具體到帳時時程。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "分散風險",
+        "labelRight": "產能腰斬"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與國債大戰 (T3)",
+        "consensus": "low",
+        "desc": "成長津貼預算排擠效應在晚間政論節目白熱化。在野黨拋出2027年財政赤字預警，執政黨則以「超徵稅收」作為防禦論點。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "有感福利",
+        "labelRight": "買票治國"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "三讀表決深夜大戰",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "工具機訂單流失實況",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "2027財政赤字預警",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "2%",
+          "color": "bg-red-500",
+          "note": "慶賀國會拿回監督權"
+        },
+        {
+          "name": "中時",
+          "pos": "8%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "40%",
+          "color": "bg-gray-500",
+          "note": "關注三讀後的法律救濟"
+        },
+        {
+          "name": "民視",
+          "pos": "92%",
+          "color": "bg-green-400",
+          "note": "悲歌！民主正被多數暴力沒收"
+        },
+        {
+          "name": "自由",
+          "pos": "98%",
+          "color": "bg-green-600",
+          "note": "抗爭到底：守護最後防線"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "加速脫鉤，鳳凰浴火"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "傳產老闆深夜憂心難眠"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "警告兩岸和平紅利斷絕"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "預告ECFA終結後的百業蕭條"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "讓育兒負擔成為歷史"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "揭發預算撥補的空殼化"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "撒幣買票全紀錄"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "踢爆財政部數據造假大戲"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 520,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 640,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 510,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 590,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 485,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-25 14:00": {
+    "updateTime": "2026-05-25 15:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "職權修法三讀即時攻防 (T1)",
+        "consensus": "low",
+        "desc": "立法院午後持續審查，藍白力拼今日三讀過關。場外抗議人潮再次聚集，媒體針對「議事程序」與「民意授權」展開激烈對決。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "程序正義",
+        "labelRight": "國會改革"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁產業實務衝擊 (T2)",
+        "consensus": "medium",
+        "desc": "台股盤中傳產板塊走弱。經濟部午後與工具機業者緊急座談，商討具體轉型補助細節，媒體焦點在於「補助速度」是否趕上「訂單流失」。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "分散風險",
+        "labelRight": "經貿窒礙"
+      },
+      {
+        "id": "T3",
+        "title": "津貼預算與國債攻防 (T3)",
+        "consensus": "low",
+        "desc": "在野黨精算0-18歲津貼將導致國債鐘每人負擔增加。財政部午間回應預算編列完全合規，媒體解讀持續呈現極端極化。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "有感福利",
+        "labelRight": "財政紀律"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "立院議場衝突再起",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "傳產股對制裁反應",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "國債鐘跳表數據戰",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "5%",
+          "color": "bg-red-500",
+          "note": "慶賀國會牙齒將現"
+        },
+        {
+          "name": "中時",
+          "pos": "12%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500",
+          "note": "關注條文解釋歧異"
+        },
+        {
+          "name": "民視",
+          "pos": "88%",
+          "color": "bg-green-400",
+          "note": "痛批多數暴力毀憲"
+        },
+        {
+          "name": "自由",
+          "pos": "95%",
+          "color": "bg-green-600",
+          "note": "守護民主最後一戰"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "加速脫鉤紅色依賴"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "傳產老闆大嘆無奈"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400",
+          "note": "警告產業空洞化危機"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "ECFA終結的哀鳴"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "給下一代最好的投資"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "質疑預算科目挪用"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "買票政策造成財政懸崖"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "揭發財政部的數字謊言"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 495,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 550,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 485,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 510,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 440,
+        "battery": 93,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-25 08:00": {
+    "updateTime": "2026-05-25 09:20 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "職權修法三讀前夕對決 (T1)",
+        "consensus": "low",
+        "desc": "立法院今日將繼續進行職權行使法修正草案之審議，預計進入三讀前的最後攻防。民團預告持續集結，朝野氣氛劍拔弩張。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督回歸",
+        "labelRight": "違憲爭議"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁後首個交易日 (T2)",
+        "consensus": "medium",
+        "desc": "北京中止134項產品減讓後迎來首個金融市場交易日。產業界評估長期出口損失，經濟部則密切觀察股市傳產板塊波動。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "分散市場",
+        "labelRight": "經貿邊緣化"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源實務戰延燒 (T3)",
+        "consensus": "low",
+        "desc": "0-18歲津貼預算是否涉及挪用勞保撥補持續成為週一晨間財經版面焦點。財政部與在野黨針對2027年預算編列展開數字對決。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "投資未來",
+        "labelRight": "財政危機"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "立院今日議程攻防",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "傳產股對ECFA反應",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "yellow"
+      },
+      {
+        "name": "財政部預算細目解釋",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "5%",
+          "color": "bg-red-500",
+          "note": "期待國會調查權落地"
+        },
+        {
+          "name": "中時",
+          "pos": "12%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500",
+          "note": "分析三讀法律程序邊界"
+        },
+        {
+          "name": "民視",
+          "pos": "88%",
+          "color": "bg-green-400",
+          "note": "警示黑箱通過的後果"
+        },
+        {
+          "name": "自由",
+          "pos": "95%",
+          "color": "bg-green-600",
+          "note": "號召公民持續守護議場"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉型補助啟動"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "傳產業者憂心股價波動"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "兩岸紅利歸零的首個週一"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "預告ECFA全面終結的災難"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "育兒福利政策勢在必行"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "揭發預算撥補的灰色地帶"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批賴政府舉債買民調"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "踢爆財政部數據造假內幕"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 480,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 520,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 450,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 415,
+        "battery": 93,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-24 20:00": {
+    "updateTime": "2026-05-24 21:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "524集結高峰與散場 (T1)",
+        "consensus": "low",
+        "desc": "立院外抗爭進入深夜散場階段，主辦單位宣稱人數破十萬。媒體對「公民勝利」與「政治鬧劇」展開終極敘事權爭奪。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "民主萬歲",
+        "labelRight": "群眾盲從"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁產業衝擊深化 (T2)",
+        "consensus": "medium",
+        "desc": "產業界評估134項減讓中止將引發轉單效應。媒體焦點轉向「政府輔導」是否能跑贏「訂單流失」的速度。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "供應鏈重組",
+        "labelRight": "傳產大失血"
+      },
+      {
+        "id": "T3",
+        "title": "成長津貼預算攻防持續 (T3)",
+        "consensus": "low",
+        "desc": "0-18歲津貼的長期財源持續遭在野黨狙擊。財政部深夜發稿細述預算分配，媒體解讀依然南轅北轍。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "落實政見",
+        "labelRight": "財政崩塌"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "524十萬人集結宣稱",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "產業轉單效應評估",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "財政部預算分配說明",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "2%",
+          "color": "bg-green-600",
+          "note": "震撼！十萬公民守護民主"
+        },
+        {
+          "name": "民視",
+          "pos": "5%",
+          "color": "bg-green-400",
+          "note": "看見台灣未來的希望"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "報導現場噪音與對立隱憂"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批大規模動員背後的黑手"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "揭發抗爭者拿便當領津貼真相"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉骨，告別中國依賴"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "業界哀鳴：我們撐得過去嗎？"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "預告傳統產業的毀滅之戰"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "賴政府送給傳產的喪鐘"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "精算顯示財源絕對充足"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "揭發財政部的數字遊戲"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "史上最狂買票政策實錄"
+        },
+        {
+          "name": "中天",
+          "pos": "96%",
+          "color": "bg-red-500",
+          "note": "國債大爆炸：年輕人的明天"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 490,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 620,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 480,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 580,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 475,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-24 14:00": {
+    "updateTime": "2026-05-24 15:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "524集結現場與規模 (T1)",
+        "consensus": "low",
+        "desc": "午後立院外人潮迅速湧入，主辦單位宣稱破三萬人。媒體對「人數灌水」與「自發性」展開激烈數據對決。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "民意海嘯",
+        "labelRight": "動員幻象"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁與轉型對抗 (T2)",
+        "consensus": "medium",
+        "desc": "經濟部午間釋出更多紓困細節。在野黨質疑補助款杯水車薪，執政黨則強調這是傳產數位化與去中化的終極一戰。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "破繭重生",
+        "labelRight": "死路一條"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源實務駁火 (T3)",
+        "consensus": "low",
+        "desc": "在野黨精算指成長津貼將使2027年財政平衡失守。媒體焦點集中在政府是否會「舉債發津貼」的道德與法律邊界。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "照顧現狀",
+        "labelRight": "債留子孫"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "青島東路人潮實況",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "經濟部轉型補助款",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "舉債支應津貼疑慮",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "3%",
+          "color": "bg-green-600",
+          "note": "看見台灣民主的震撼"
+        },
+        {
+          "name": "民視",
+          "pos": "8%",
+          "color": "bg-green-400",
+          "note": "多視角呈現人山人海"
+        },
+        {
+          "name": "聯合",
+          "pos": "62%",
+          "color": "bg-gray-500",
+          "note": "報導現場垃圾與交通亂象"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "質疑遊覽車載客疑雲"
+        },
+        {
+          "name": "中天",
+          "pos": "97%",
+          "color": "bg-red-500",
+          "note": "揭發抗爭者享用豪華便當"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉型補助加碼"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "中小企業主：補助看得到吃不到"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "ECFA斷奶後的經濟失血"
+        },
+        {
+          "name": "中天",
+          "pos": "94%",
+          "color": "bg-red-500",
+          "note": "預告傳產工廠倒閉潮"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "育兒紅利減輕青年負擔"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "精算國債：一場數學遊戲？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "揭開不計代價買票真相"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "賴政府的破產進行式"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 480,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 560,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 540,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 460,
+        "battery": 95,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-24 08:00": {
+    "updateTime": "2026-05-24 09:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "524立院外大規模集結 (T1)",
+        "consensus": "low",
+        "desc": "民團與學生預告今日將有數萬人再次集結青島東路抗議職權修法，媒體針對集結性質與後續社會動能展開博弈。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "公民不服從",
+        "labelRight": "政黨側翼"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁後續產業自救 (T2)",
+        "consensus": "medium",
+        "desc": "134項產品中止減讓效應持續，經濟部除紓困外亦推動產線智慧化升級，傳產業者對「生存」與「轉型」展開辯論。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "結構轉型",
+        "labelRight": "政策困局"
+      },
+      {
+        "id": "T3",
+        "title": "成長津貼財源實務爭議 (T3)",
+        "consensus": "low",
+        "desc": "財政部正式發文否認挪用勞保預算，但0-18歲津貼的長期財源缺口仍是在野黨今日晨間新聞的攻擊主軸。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "投資未來",
+        "labelRight": "財政黑洞"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "524全台串聯行動",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "傳產補助申請門檻",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "勞保撥補文字大戰",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "民主火種再次點燃"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400",
+          "note": "全天候直播抗爭現場"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "呼籲雙方冷靜回歸法律"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "質疑抗爭預算的來源"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "踢爆職業學生的政治酬庸"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "18%",
+          "color": "bg-green-400",
+          "note": "脫離紅色供應鏈契機"
+        },
+        {
+          "name": "自由",
+          "pos": "22%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "68%",
+          "color": "bg-gray-500",
+          "note": "業界嘆：補助只是止痛藥"
+        },
+        {
+          "name": "中時",
+          "pos": "84%",
+          "color": "bg-blue-400",
+          "note": "警告兩岸經貿將全面歸零"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "傳產家屬的憤怒與哀鳴"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "落實總統有感政見"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "財政部的數學課：誰在說謊？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "揭發買票政策的空殼真相"
+        },
+        {
+          "name": "中天",
+          "pos": "96%",
+          "color": "bg-red-500",
+          "note": "透支子孫預算的犯罪行為"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 465,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 540,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 480,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 520,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 445,
+        "battery": 94,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-23 20:00": {
+    "updateTime": "2026-05-23 21:05 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "524街頭集結訊號 (T1)",
+        "consensus": "low",
+        "desc": "隨著職權修法二讀通過，民團與校園學生會預告5/24將再次集結立院外。朝野媒體針對動員規模與目的展開心理戰。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "公民覺醒",
+        "labelRight": "政治動員"
+      },
+      {
+        "id": "T2",
+        "title": "傳產ECFA生存戰 (T2)",
+        "consensus": "low",
+        "desc": "北京中止134項產品減讓引發傳產連鎖反應。經濟部雖提紓困，但業界憂慮轉單效應已成，紛紛要求具體應對時間表。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "轉型升級",
+        "labelRight": "生存危機"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與財政餘裕 (T3)",
+        "consensus": "medium",
+        "desc": "0-18歲津貼預算排擠爭議持續，財政部晚間再次澄清不會挪用勞保撥補。在野黨則精算數據指出國債預警，形成預算攻防戰。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "社會紅利",
+        "labelRight": "財政黑洞"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "524街頭動員令",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "傳產生存紓困戰",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "預算撥補口水戰",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "守護民主不眠不休"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400",
+          "note": "預告明晨全台集結"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "憂抗爭激化對立"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "批特定勢力操弄校園"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "揭發抗爭背後的金主"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "打造韌性供應鏈"
+        },
+        {
+          "name": "聯合",
+          "pos": "60%",
+          "color": "bg-gray-500",
+          "note": "傳產界的一聲長嘆"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "警告產業空洞化危機"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "134項產品的死亡名單"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "12%",
+          "color": "bg-green-600",
+          "note": "兌現選前政治承諾"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "精算國債跳表危機"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "揭露財政部的文字遊戲"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "撒幣救民調全紀錄"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 475,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 520,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 450,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 490,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 440,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-23 14:00": {
+    "updateTime": "2026-05-23 15:30 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "修法法理戰與校園動員 (T1)",
+        "consensus": "low",
+        "desc": "法律學者連署效應擴大，各大學學生會醞釀週末串聯抗議，朝野在「程序正義」上的分歧進入社會動員階段。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督擴權",
+        "labelRight": "程序違憲"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA衝擊與政府紓困 (T2)",
+        "consensus": "low",
+        "desc": "針對北京中止134項減讓，經濟部緊急與工商團體座談研議紓困，媒體聚焦於政府補貼是否足以抵銷關稅壁壘。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "韌性補貼",
+        "labelRight": "杯水車薪"
+      },
+      {
+        "id": "T3",
+        "title": "福利紅利vs財政紀律 (T3)",
+        "consensus": "medium",
+        "desc": "0-18歲津貼預算來源持續熱議。執政黨強調經濟成長紅利，在野黨則精算國債跳表速度，形成數據大戰。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "投資下一代",
+        "labelRight": "債留子孫"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "學生會跨校串聯",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "經濟部紓困方案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "津貼財源精算戰",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "年輕世代的覺醒"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "關注校園政治中立"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "批特定政黨操弄學生"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "揭發職業學生的背景"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "國家隊啟動救援"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "補貼緩不濟急"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "質疑能源與兩岸雙重困境"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "134項產業的墓碑"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "福利有感，民調回升"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "預算排擠效應實測"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "透支子孫的未來"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "財政部的謊言大全"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 460,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 510,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 440,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 480,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 430,
+        "battery": 93,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-23 08:00": {
+    "updateTime": "2026-05-23 09:20 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "職權修法與法律界對抗 (T1)",
+        "consensus": "low",
+        "desc": "立院職權修法爭議擴大，超過百位法律學者連署要求撤回重審，朝野在程序違憲與國會改革正當性上持續激辯。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督有力",
+        "labelRight": "程序違憲"
+      },
+      {
+        "id": "T2",
+        "title": "ECFA制裁後續產業震盪 (T2)",
+        "consensus": "low",
+        "desc": "中方宣布中止134項ECFA產品關稅減讓，工商團體對機械、紡織、石化等傳產前景表示極大憂慮，呼籲重啟對話。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "分散風險",
+        "labelRight": "傳產寒冬"
+      },
+      {
+        "id": "T3",
+        "title": "津貼預算與世代正義戰 (T3)",
+        "consensus": "low",
+        "desc": "0-18歲成長津貼引發預算排擠爭議，在野黨質疑將挪用勞保撥補，政府澄清預算科目不同，但財政紀律討論仍佔據版面。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "投資未來",
+        "labelRight": "財政黑洞"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "學者連署撤回修法",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "ECFA 134項制裁衝擊",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "津貼挪用勞保疑雲",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "5%",
+          "color": "bg-red-500",
+          "note": "慶祝終結無牙國會"
+        },
+        {
+          "name": "中時",
+          "pos": "12%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500",
+          "note": "關注條文解釋歧異"
+        },
+        {
+          "name": "民視",
+          "pos": "88%",
+          "color": "bg-green-400",
+          "note": "斥多數暴力毀憲"
+        },
+        {
+          "name": "自由",
+          "pos": "95%",
+          "color": "bg-green-600",
+          "note": "捍衛民主最後防線"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "產業轉型脫鉤契機"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "傳產哀鴻遍野"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "兩岸紅利全面歸零"
+        },
+        {
+          "name": "中天",
+          "pos": "94%",
+          "color": "bg-red-500",
+          "note": "134項產業祭品實錄"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "育兒紅利國安規格"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "質疑預算大挪移"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "騙完大人騙小孩"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "揭發財政沈默真相"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 485,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 520,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 450,
+        "battery": 94,
+        "scores": [
+          5,
+          5,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 420,
+        "battery": 91,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-22 20:00": {
+    "updateTime": "2026-05-22 21:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "法律界連署撤回修法 (T1)",
+        "consensus": "low",
+        "desc": "逾百名法律學者發布聯合聲明，指職權修法未經實質審議、程序違憲，要求立院撤回重審。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "程序正義",
+        "labelRight": "政治連署"
+      },
+      {
+        "id": "T2",
+        "title": "北京中止134項ECFA減讓 (T2)",
+        "consensus": "low",
+        "desc": "中方宣布中止ECFA早收清單中工具機、紡織等134項產品關稅減讓，經貿制裁正式從威脅轉為行動。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "經濟自主",
+        "labelRight": "傳產寒冬"
+      },
+      {
+        "id": "T3",
+        "title": "津貼財源與勞保撥補之爭 (T3)",
+        "consensus": "low",
+        "desc": "在野黨質疑0-18歲津貼預算排擠勞保撥補，政院澄清預算獨立，但數據爭議持續在政論節目延燒。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "福利普及",
+        "labelRight": "財政黑洞"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "學者聯合聲明違憲",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "ECFA 134項制裁執行",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "勞保撥補金額疑雲",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "法律界的道德良知"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400",
+          "note": "抗議聲浪蔓延至校園"
+        },
+        {
+          "name": "聯合",
+          "pos": "60%",
+          "color": "bg-gray-500",
+          "note": "報導在野黨質疑學者背景"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "痛批學術公信力破產"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "踢爆108課綱後的側翼學者"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400",
+          "note": "趁機加速分散市場"
+        },
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "傳產老闆深夜憂心難眠"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "預告ECFA全面終結"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "賴政府害慘134項產業家屬"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "雙重保障勞工與幼兒"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "精算財政缺口高達千億"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "騙完老人騙小孩"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "揭發國庫空虛真相"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 480,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 550,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 460,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 490,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 415,
+        "battery": 94,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-22 14:00": {
+    "updateTime": "2026-05-22 15:05 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "立院修法法理戰升溫 (T1)",
+        "consensus": "low",
+        "desc": "藐視國會罪二讀後，逾百名法律學者發起連署要求撤回重審，朝野在法理正當性上展開攻防。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督擴權",
+        "labelRight": "程序違憲"
+      },
+      {
+        "id": "T2",
+        "title": "津貼 vs 勞保預算排擠 (T2)",
+        "consensus": "low",
+        "desc": "在野黨質疑0-18歲成長津貼財源將挪用勞保撥補預算，引發世代正義與預算優先順序之爭。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "育兒紅利",
+        "labelRight": "勞保危機"
+      },
+      {
+        "id": "T3",
+        "title": "ECFA中止擴大憂慮 (T3)",
+        "consensus": "medium",
+        "desc": "傳出中方擬中止ECFA早收清單中工具機、紡織、石化等134項關稅減讓，產業界呼籲政府應對。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "經貿韌性",
+        "labelRight": "產業斷鏈"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "法律學者連署撤回",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "成長津貼財源疑雲",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "ECFA 134項減讓風險",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "法律界怒吼：程序不正義"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500",
+          "note": "平衡報導學者與法條異見"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "質疑連署具政治色彩"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "批綠營操弄學術界抗爭"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "強調財政調度靈活"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "揭發預算挪用之憂"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400",
+          "note": "挖東牆補西牆實錄"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500",
+          "note": "賴政府的撒幣魔術"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600",
+          "note": "強化與美日經貿連結"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "傳產老闆：我們被放棄了？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "ECFA終結進入倒數"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "經貿制裁名單大解密"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 505,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 540,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 480,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 465,
+        "battery": 95,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 435,
+        "battery": 93,
+        "scores": [
+          3,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "2026-05-22 08:00": {
+    "updateTime": "2026-05-22 09:10 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "立院職權修法二讀後續 (T1)",
+        "consensus": "low",
+        "desc": "立院通過「藐視國會罪」罰則後，朝野戰場延伸至法律解釋與公民運動，部分團體醞釀發起更大規模抗爭。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督力量",
+        "labelRight": "民主倒退"
+      },
+      {
+        "id": "T2",
+        "title": "520津貼財源實務戰 (T2)",
+        "consensus": "low",
+        "desc": "賴總統0-18歲津貼政策持續引發預算排擠擔憂。財政部強調將透過公債與年度預算調度，但在野黨指責是債留子孫。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "投資未來",
+        "labelRight": "財政危機"
+      },
+      {
+        "id": "T3",
+        "title": "經貿制裁名單疑雲 (T3)",
+        "consensus": "medium",
+        "desc": "國台辦定調「謀獨」後，產業界憂心ECFA關稅減讓中止名單將由紡織擴散至工具機與傳統石化業。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "主權韌性",
+        "labelRight": "產業生計"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "藐視國會罪法理解析",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "津貼財源細項追蹤",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "ECFA清單中止風險",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "8%",
+          "color": "bg-red-500",
+          "note": "慶賀終結官場謊言"
+        },
+        {
+          "name": "中時",
+          "pos": "15%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "42%",
+          "color": "bg-gray-500",
+          "note": "側重條文之法律救濟探討"
+        },
+        {
+          "name": "民視",
+          "pos": "85%",
+          "color": "bg-green-400",
+          "note": "聚焦公民社會憤怒聲浪"
+        },
+        {
+          "name": "自由",
+          "pos": "92%",
+          "color": "bg-green-600",
+          "note": "警示國會已淪為擴權工具"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "政府照顧下一代的決心"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "68%",
+          "color": "bg-gray-500",
+          "note": "數據顯示財政餘裕有限"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "批民粹大於專業"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "踢爆預算挪用真相"
+        }
+      ],
+      "T3": [
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400",
+          "note": "產業升級與多元佈局"
+        },
+        {
+          "name": "自由",
+          "pos": "18%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "台商對陸政策焦慮"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "籲重啟兩岸經濟對話"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "預告ECFA帶來的經濟寒蟬"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 470,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 490,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 450,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 420,
+        "battery": 95,
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 405,
+        "battery": 92,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-21 20:00": {
+    "updateTime": "2026-05-21 20:45 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "立院職權法二讀進程 (T1)",
+        "consensus": "low",
+        "desc": "立院深夜持續審查職權行使法，二讀通過關於藐視國會罪之罰則，引發司法界與政界激烈法律攻防。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "監督有力",
+        "labelRight": "違憲濫權"
+      },
+      {
+        "id": "T2",
+        "title": "津貼政策與財政紀律 (T2)",
+        "consensus": "low",
+        "desc": "針對0-18歲成長津貼，財政部晚間緊急澄清預算來源，但在野黨仍指責此為「買票式政策」，將導致預算排擠。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會福利",
+        "labelRight": "財政黑洞"
+      },
+      {
+        "id": "T3",
+        "title": "兩岸經貿制裁升溫 (T3)",
+        "consensus": "medium",
+        "desc": "國台辦定調520演說為「謀獨」後，傳出中方將中止ECFA更多產品關稅減讓，產業界對紡織、機械前景表示憂心。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "經濟自主",
+        "labelRight": "經貿窒礙"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "藐視國會罪二讀通過",
+        "udn": "green",
+        "ltn": "red",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "成長津貼預算質疑",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "ECFA中止規模擴大",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "5%",
+          "color": "bg-red-500",
+          "note": "慶祝國會找回牙齒"
+        },
+        {
+          "name": "中時",
+          "pos": "12%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "40%",
+          "color": "bg-gray-500",
+          "note": "關注條文細節與程序"
+        },
+        {
+          "name": "民視",
+          "pos": "88%",
+          "color": "bg-green-400",
+          "note": "斥為國會之恥"
+        },
+        {
+          "name": "自由",
+          "pos": "95%",
+          "color": "bg-green-600",
+          "note": "警告民主正被蠶食"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "國家養育下一代"
+        },
+        {
+          "name": "民視",
+          "pos": "14%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "質疑預算常態化難度"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "公帑換選票疑雲"
+        },
+        {
+          "name": "中天",
+          "pos": "96%",
+          "color": "bg-red-500",
+          "note": "揭發財政部的沈默"
+        }
+      ],
+      "T3": [
+        {
+          "name": "民視",
+          "pos": "18%",
+          "color": "bg-green-400",
+          "note": "強化供應鏈去中化"
+        },
+        {
+          "name": "自由",
+          "pos": "22%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "68%",
+          "color": "bg-gray-500",
+          "note": "產業界生存戰警訊"
+        },
+        {
+          "name": "中時",
+          "pos": "84%",
+          "color": "bg-blue-400",
+          "note": "兩岸對抗害慘基層"
+        },
+        {
+          "name": "中天",
+          "pos": "94%",
+          "color": "bg-red-500",
+          "note": "預告ECFA大限將至"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 510,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 530,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 490,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 460,
+        "battery": 94,
+        "scores": [
+          5,
+          5,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 440,
+        "battery": 90,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-21 14:00": {
+    "updateTime": "2026-05-21 15:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "立院職權法案二讀效應 (T1)",
+        "consensus": "low",
+        "desc": "二讀通過後，朝野針對「官員虛偽陳述」之罰則與調查權邊界展開法理大戰，場外抗議聲浪持續擴大。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "強化監督",
+        "labelRight": "程序不正義"
+      },
+      {
+        "id": "T2",
+        "title": "成長津貼預算攻防 (T2)",
+        "consensus": "low",
+        "desc": "在野黨精算0-18歲津貼每年恐需2400億，抨擊將導致國債鐘加速跳表，執政黨則稱此為必要的國安投資。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "全齡照顧",
+        "labelRight": "財政紀律"
+      },
+      {
+        "id": "T3",
+        "title": "兩岸經貿制裁風險 (T3)",
+        "consensus": "medium",
+        "desc": "國台辦定調後，市場傳出ECFA清單中的紡織、機械類可能成為下一波制裁重點，企業界呼籲建立避險機制。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "風險管理",
+        "labelRight": "對抗升級"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "立院調查權罰則通過",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "津貼造成國債跳表",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "紡織機械ECFA隱憂",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "10%",
+          "color": "bg-red-500",
+          "note": "慶賀陽光照進國會"
+        },
+        {
+          "name": "中時",
+          "pos": "15%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500",
+          "note": "深度解析條文爭議點"
+        },
+        {
+          "name": "民視",
+          "pos": "85%",
+          "color": "bg-green-400",
+          "note": "指控毀憲亂政"
+        },
+        {
+          "name": "自由",
+          "pos": "95%",
+          "color": "bg-green-600",
+          "note": "號召公民守護民主"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "給下一代最好的禮物"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "預算缺口在哪裡？"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "撒幣換民調實錄"
+        },
+        {
+          "name": "中天",
+          "pos": "98%",
+          "color": "bg-red-500",
+          "note": "買票買到亡國"
+        }
+      ],
+      "T3": [
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "加速脫鉤中國依賴"
+        },
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "產業界人心惶惶"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400",
+          "note": "政治害慘民生經濟"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "預告ECFA終結時刻"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 490,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 520,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 470,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 440,
+        "battery": 93,
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 420,
+        "battery": 91,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-21 08:00": {
+    "updateTime": "2026-05-21 09:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "立院深夜職權修法 (T1)",
+        "consensus": "low",
+        "desc": "立法院昨晚二讀通過多項職權行使法修正條文，包含調查權及聽證會相關規定，引發朝野激烈爭辯與場外抗爭。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "國會改革",
+        "labelRight": "違憲擴權"
+      },
+      {
+        "id": "T2",
+        "title": "520津貼財源爭議 (T2)",
+        "consensus": "low",
+        "desc": "針對賴總統宣布的0-18歲成長津貼，在野黨質疑每年千億支出將拖垮財政，要求部會說明具體預算來源。",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "投資未來",
+        "labelRight": "財政黑洞"
+      },
+      {
+        "id": "T3",
+        "title": "兩岸冰封後續反應 (T3)",
+        "consensus": "medium",
+        "desc": "國台辦定調520演說為「謀獨」後，市場觀測ECFA清單是否進一步縮減及商務部可能的經貿報復措施。",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "維持現狀",
+        "labelRight": "對抗升級"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "立院修法二讀通過",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "成長津貼預算排擠",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "ECFA清單縮減隱憂",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "中天",
+          "pos": "10%",
+          "color": "bg-red-500",
+          "note": "慶賀國會尊嚴回歸"
+        },
+        {
+          "name": "中時",
+          "pos": "15%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "30%",
+          "color": "bg-gray-500",
+          "note": "側重條文法律釋義"
+        },
+        {
+          "name": "民視",
+          "pos": "80%",
+          "color": "bg-green-400",
+          "note": "痛批多數暴力"
+        },
+        {
+          "name": "自由",
+          "pos": "90%",
+          "color": "bg-green-600",
+          "note": "聚焦場外民主倒退警告"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "少子化國安解藥"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "質疑預算排擠效應"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "政策買票大噴發"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T3": [
+        {
+          "name": "民視",
+          "pos": "20%",
+          "color": "bg-green-400",
+          "note": "強化國防自主應對"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "關注企業對陸投資風險"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "呼籲重啟事務性協商"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500",
+          "note": "警告經貿紅利歸零"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 460,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 480,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 440,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 410,
+        "battery": 92,
+        "scores": [
+          5,
+          4,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 390,
+        "battery": 89,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-20 20:00": {
+    "updateTime": "2026-05-20 20:30 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "520津貼政策熱議 (T1)",
+        "consensus": "low",
+        "desc": "賴總統宣布0-18歲成長津貼引發各界討論財源與連任買票質疑",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "全齡照顧",
+        "labelRight": "財政崩潰"
+      },
+      {
+        "id": "T2",
+        "title": "國台辦轟520演說 (T2)",
+        "consensus": "low",
+        "desc": "國台辦批520談話為「謀獨挑釁」，強調兩岸同屬一中",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "主權守護",
+        "labelRight": "挑釁風險"
+      },
+      {
+        "id": "T3",
+        "title": "立院職權修法攻防 (T3)",
+        "consensus": "medium",
+        "desc": "520當晚立院持續就職權行使法進行條文審查，朝野氣氛緊張",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "國會改革",
+        "labelRight": "擴權疑雲"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "0-18歲津貼財源",
+        "udn": "yellow",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red"
+      },
+      {
+        "name": "國台辦對台譴責",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "立院深夜大戰",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "史上最強育兒政策"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "專家憂空頭支票"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "債留子孫實例"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "買票買到18歲"
+        }
+      ],
+      "T2": [
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400",
+          "note": "拒絕北京文攻武嚇"
+        },
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500",
+          "note": "兩岸關係恐再探底"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400",
+          "note": "缺乏溝通橋樑"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "轉述國台辦全文"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "20%",
+          "color": "bg-green-600",
+          "note": "程序正義遭踐踏"
+        },
+        {
+          "name": "民視",
+          "pos": "25%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "60%",
+          "color": "bg-gray-500",
+          "note": "國會調查權進展"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "還權於民第一步"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500",
+          "note": "揭發弊案關鍵"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 520,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 510,
+        "battery": 99,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 480,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 450,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": 380,
+        "battery": 88,
+        "scores": [
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "2026-05-20 14:00": {
+    "updateTime": "2026-05-20 15:45 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "賴就職兩週年演說 (T1)",
+        "consensus": "low",
+        "desc": "定調「維持現狀」為國家戰略，宣布推動0-18歲成長津貼",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "穩健/紅利",
+        "labelRight": "口號/撒錢"
+      },
+      {
+        "id": "T2",
+        "title": "2949億軍購預算案 (T2)",
+        "consensus": "medium",
+        "desc": "政院拍板特別預算草案，首批由舉債支應，引發財政與國防平衡討論",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "防衛自主",
+        "labelRight": "財政紀律"
+      },
+      {
+        "id": "T3",
+        "title": "國台辦轟彈劾未過案 (T3)",
+        "consensus": "low",
+        "desc": "針對立院彈劾賴清德案未過，國台辦批「踐踏民主」，引發兩岸口水戰",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "主權內政",
+        "labelRight": "外部干預"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "520演說及津貼",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "軍購特別預算",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "國台辦譴責彈劾",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "聚焦0-18歲大禮包"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "評: 撒錢救連任"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批: 拒絕溝通坐困愁城"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "酸: 只有被統一問題"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600",
+          "note": "落實國安兩腳說"
+        },
+        {
+          "name": "民視",
+          "pos": "20%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "憂舉債支應軍購"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400",
+          "note": "質疑預算常態化"
+        },
+        {
+          "name": "中天",
+          "pos": "85%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "批外部勢力說三道四"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500",
+          "note": "詳列國台辦批判內容"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400",
+          "note": "自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 480,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 450,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 420,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 340,
+        "battery": 85,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "150*",
+        "battery": 58,
+        "scores": [
+          5,
+          4,
+          3,
+          5,
+          2
+        ],
+        "warning": "政治攻防產能爆發，社會、文教內容被嚴重邊緣化。"
+      }
+    ]
+  },
+  "2026-05-20 08:00": {
+    "updateTime": "2026-05-20 08:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普伊朗政策劇烈擺盪 (T1)",
+        "consensus": "medium",
+        "desc": "在暫緩與重申軍事行動間切換，美伊局勢進入24小時關鍵窗口",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "外交旋轉門",
+        "labelRight": "戰爭威懾"
+      },
+      {
+        "id": "T2",
+        "title": "馬辦內鬥風暴續燃 (T2)",
+        "consensus": "low",
+        "desc": "馬英九基金會調查小組針對李德維、金溥聰發動強力反擊，控訴「拐騙」",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "程序正義",
+        "labelRight": "派系鬥爭"
+      },
+      {
+        "id": "T3",
+        "title": "520台股反彈預期 (T3)",
+        "consensus": "high",
+        "desc": "法人於昨日重挫後大舉布局認購權證，市場觀望520就職兩週年談話",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "政治紅利",
+        "labelRight": "市場回歸"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普對伊放話",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "蕭旭岑案攻防",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "520行情期待",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "42%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "分析油價波動"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400",
+          "note": "批川普不確定性"
+        },
+        {
+          "name": "中天",
+          "pos": "58%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T2": [
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "詳列調查小組反擊內容"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "重砲金溥聰「不擇手段」"
+        },
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600",
+          "note": "側重藍營內部混亂"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400",
+          "note": "自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "52%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "40%",
+          "color": "bg-green-600",
+          "note": "樂觀看好就職紅利"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "60%",
+          "color": "bg-blue-400",
+          "note": "觀望外資動向"
+        },
+        {
+          "name": "民視",
+          "pos": "42%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中天",
+          "pos": "50%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 465,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 420,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 395,
+        "battery": 94,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 315,
+        "battery": 83,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "125*",
+        "battery": 54,
+        "scores": [
+          4,
+          4,
+          3,
+          5,
+          3
+        ],
+        "warning": "政治內鬥題材表現積極，財經資訊可得性低。"
+      }
+    ]
+  },
+  "2026-05-19 20:00": {
+    "updateTime": "2026-05-19 20:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普軍售籌碼論 (T1)",
+        "consensus": "low",
+        "desc": "紐時爆料川普將軍售視為談判籌碼，引發盟友信心危機與主權疑慮",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "盟友信任",
+        "labelRight": "交易現實"
+      },
+      {
+        "id": "T2",
+        "title": "首例總統彈劾案遭否決 (T2)",
+        "consensus": "medium",
+        "desc": "立法院否決賴總統彈劾案，朝野持續針對520後局勢進行政治角力",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "憲政秩序",
+        "labelRight": "政治鬥爭"
+      },
+      {
+        "id": "T3",
+        "title": "台股狂瀉716點 (T3)",
+        "consensus": "high",
+        "desc": "外資狠砍632億，台積電與記憶體族群成提款機，市場恐慌蔓延",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "技術修正",
+        "labelRight": "恐慌潰守"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "軍售籌碼爭議",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "彈劾案後續角力",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "台股大屠殺",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "yellow"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600",
+          "note": "強調台美防禦韌性"
+        },
+        {
+          "name": "民視",
+          "pos": "20%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "憂台灣淪為大國棄子"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批執政黨一廂情願"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "揭露美方真實交易本質"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600",
+          "note": "焦點: 藍白鬧劇收場"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500",
+          "note": "焦點: 留給總統的警告"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "42%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中天",
+          "pos": "58%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "外資大逃殺紀錄"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400",
+          "note": "自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "52%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 450,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 410,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 380,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 300,
+        "battery": 82,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "120*",
+        "battery": 52,
+        "scores": [
+          4,
+          4,
+          3,
+          5,
+          3
+        ],
+        "warning": "政治立場極化，財經數據解讀具備高度對抗性。"
+      }
+    ]
+  },
+  "2026-05-19 14:00": {
+    "updateTime": "2026-05-19 15:30 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "首例總統彈劾案未過 (T1)",
+        "consensus": "low",
+        "desc": "立法院表決賴清德彈劾案，贊成56反對50未達門檻，政壇高度對立",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "綠:政治鬧劇",
+        "labelRight": "藍白:憲政首例"
+      },
+      {
+        "id": "T2",
+        "title": "沈有忠「被統一」論 (T2)",
+        "consensus": "medium",
+        "desc": "學者沈有忠稱台灣只有被統一問題，引發國家主權論述辯論",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "主權捍衛",
+        "labelRight": "兩岸現實"
+      },
+      {
+        "id": "T3",
+        "title": "記憶體類股重挫震盪 (T3)",
+        "consensus": "high",
+        "desc": "希捷CEO言論引發市場恐慌，群聯、華邦電等多檔摜至跌停",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "市場觀察",
+        "labelRight": "產業警訊"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "彈劾案表決",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "沈有忠論述",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "yellow"
+      },
+      {
+        "name": "記憶體股崩跌",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "red",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "斥為藍白政治操弄"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "強調520前夕震盪"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "標榜民主監督力量"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "轟執政黨坐困愁城"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400",
+          "note": "自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "50%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "焦點:希捷言論"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 420,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 390,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 360,
+        "battery": 94,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 280,
+        "battery": 80,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "110*",
+        "battery": 48,
+        "scores": [
+          4,
+          4,
+          2,
+          5,
+          2
+        ],
+        "warning": "政治攻擊力道極強，財經民生覆蓋偏低。"
+      }
+    ]
+  },
+  "2026-05-19 08:00": {
+    "updateTime": "2026-05-19 08:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普暫緩攻擊伊朗 (T1)",
+        "consensus": "medium",
+        "desc": "應波灣盟國要求暫緩軍事行動，國際油價波動",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "外交談判",
+        "labelRight": "軍事威懾"
+      },
+      {
+        "id": "T2",
+        "title": "賴「消獨」論國務院回應 (T2)",
+        "consensus": "low",
+        "desc": "美國務院重申對台政策未變，國內解讀分歧",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "台美穩健",
+        "labelRight": "被迫修正"
+      },
+      {
+        "id": "T3",
+        "title": "會考紙質爭議續燒 (T3)",
+        "consensus": "high",
+        "desc": "教育部回應答案紙測試結果，考生反應不一",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "考生權益",
+        "labelRight": "行政解釋"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普伊朗政策",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "賴論述美方回應",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考答案紙爭議",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "42%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "重國際油價"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "58%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "重申台美默契"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "關注轉彎壓力"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "批修辭遊戲"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "受美方訓誡論"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "52%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "45%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "50%",
+          "color": "bg-red-500",
+          "note": "自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 395,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 360,
+        "battery": 97,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 320,
+        "battery": 91,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 255,
+        "battery": 79,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "90*",
+        "battery": 44,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          2
+        ],
+        "warning": "文教議題依然存在報導盲區。"
+      }
+    ]
+  },
+  "2026-05-18 20:00": {
+    "updateTime": "2026-05-18 20:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "狄鶯失聯海邊尋獲 (T1)",
+        "consensus": "high",
+        "desc": "星二代案引發家庭崩潰與尋人風波",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會安全",
+        "labelRight": "娛樂私隱"
+      },
+      {
+        "id": "T2",
+        "title": "賴總統「消獨」論持續發酵 (T2)",
+        "consensus": "low",
+        "desc": "兩岸政策轉向爭議與各黨派框架對決",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "捍衛現狀/穩健",
+        "labelRight": "被迫修正/政治欺騙"
+      },
+      {
+        "id": "T3",
+        "title": "會考答案紙難寫爭議 (T3)",
+        "consensus": "medium",
+        "desc": "考生質疑答案紙品質與教育部回應",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "民生爭議",
+        "labelRight": "行政處理"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "狄鶯失聯風波",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "賴消獨論發酵",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考紙質爭議",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "45%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500",
+          "note": "焦點：海邊尋獲"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "55%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "府：政策一貫"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "78%",
+          "color": "bg-gray-500",
+          "note": "質疑被迫轉彎"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "諷：初一十五不同"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "美方施壓鐵證"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "48%",
+          "color": "bg-gray-500",
+          "note": "教育部：已處理"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "42%",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 410,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 380,
+        "battery": 98,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 345,
+        "battery": 92,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 270,
+        "battery": 82,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "98*",
+        "battery": 46,
+        "scores": [
+          4,
+          4,
+          2,
+          4,
+          2
+        ],
+        "warning": "政治解讀集中度極高，社會議題持續缺位。"
+      }
+    ]
+  },
+  "2026-05-18 14:00": {
+    "updateTime": "2026-05-18 15:15 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "賴總統「沒台獨問題」論 (T1)",
+        "consensus": "low",
+        "desc": "針對川普言論的「再保證」與國內解讀大戰",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "捍衛現狀/穩健",
+        "labelRight": "被迫轉彎/消獨"
+      },
+      {
+        "id": "T2",
+        "title": "孫安佐火焰槍案裁定 (T2)",
+        "consensus": "high",
+        "desc": "法院裁定羈押禁見，引發社會安全與教養討論",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會安全",
+        "labelRight": "法律程序"
+      },
+      {
+        "id": "T3",
+        "title": "115會考落點預估戰 (T3)",
+        "consensus": "medium",
+        "desc": "建北預估分數與志願選填趨勢",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "多元選填",
+        "labelRight": "菁英競爭"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "賴捍衛現狀論",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐火焰槍案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "115會考落點",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "府：一貫立場"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "評：被迫轉彎"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "質疑消獨假象"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "美方施壓證據"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "46%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中天",
+          "pos": "54%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "80%",
+          "color": "bg-gray-500",
+          "note": "建北預估34分"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600",
+          "note": "選填多元化"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 380,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 340,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 310,
+        "battery": 90,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 240,
+        "battery": 78,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "85*",
+        "battery": 42,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          2
+        ],
+        "warning": "文教議題搜尋缺口依然顯著。"
+      }
+    ]
+  },
+  "2026-05-18 08:00": {
+    "updateTime": "2026-05-18 08:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "賴總統回應川習會 (T1)",
+        "consensus": "low",
+        "desc": "外交定調與『消獨』爭議",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "捍衛現狀/再保證",
+        "labelRight": "被迫轉彎/故弄玄虛"
+      },
+      {
+        "id": "T2",
+        "title": "孫安佐上囚車禁見 (T2)",
+        "consensus": "high",
+        "desc": "星二代法律風暴",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會安全",
+        "labelRight": "收押禁見/教養問題"
+      },
+      {
+        "id": "T3",
+        "title": "115會考結束選填 (T3)",
+        "consensus": "medium",
+        "desc": "文教時事熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "落點分析",
+        "labelRight": "難度與公平性"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "賴捍衛現狀論",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐收押禁見",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考落點分析",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "府：政策一貫穩健"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "78%",
+          "color": "bg-gray-500",
+          "note": "評：說法明顯轉彎"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "批：用現狀掩蓋台獨"
+        },
+        {
+          "name": "中天",
+          "pos": "94%",
+          "color": "bg-red-500",
+          "note": "質疑受美方壓力消獨"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "48%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中天",
+          "pos": "52%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "48%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "52%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "45%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 350,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 315,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 280,
+        "battery": 88,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 220,
+        "battery": 74,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "72*",
+        "battery": 38,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          2
+        ],
+        "warning": "政治解讀戰力強，文教搜尋可得性低。"
+      }
+    ]
+  },
+  "2026-05-17 20:00": {
+    "updateTime": "2026-05-17 20:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "賴總統定調台獨定義 (T1)",
+        "consensus": "low",
+        "desc": "國家主權與兩岸論述",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "互不隸屬/主權事實",
+        "labelRight": "硬拗拗論/挑釁現狀"
+      },
+      {
+        "id": "T2",
+        "title": "孫安佐羈押禁見上囚車 (T2)",
+        "consensus": "high",
+        "desc": "司法治安熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "司法處置",
+        "labelRight": "羈押禁見/串證之虞"
+      },
+      {
+        "id": "T3",
+        "title": "南投地震與921巧合 (T3)",
+        "consensus": "high",
+        "desc": "天災與歷史連結",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "921巧合論",
+        "labelRight": "獨立事件/科學解釋"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "賴定調台獨意涵",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐收押上囚車",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "南投震央921重疊",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "主權事實定調"
+        },
+        {
+          "name": "民視",
+          "pos": "8%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "引藍營批硬拗"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "批借殼上市"
+        }
+      ],
+      "T2": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "50%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "30%",
+          "color": "bg-green-600",
+          "note": "強調驚人巧合"
+        },
+        {
+          "name": "中時",
+          "pos": "70%",
+          "color": "bg-blue-400",
+          "note": "側重科學獨立事件"
+        },
+        {
+          "name": "聯合",
+          "pos": "52%",
+          "color": "bg-gray-500",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 322,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 298,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 265,
+        "battery": 90,
+        "scores": [
+          5,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 195,
+        "battery": 78,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "68*",
+        "battery": 48,
+        "scores": [
+          4,
+          4,
+          3,
+          5,
+          3
+        ],
+        "warning": "側重政治攻防與社會爭議報導。"
+      }
+    ]
+  },
+  "2026-05-17 14:00": {
+    "updateTime": "2026-05-17 14:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川習會外交定調戰 (T1)",
+        "consensus": "low",
+        "desc": "美中台關係深度攻防",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "阻嚇北京/政策如常",
+        "labelRight": "六項保證生變/綠營慌了"
+      },
+      {
+        "id": "T2",
+        "title": "南投5.1地震巧合 (T2)",
+        "consensus": "high",
+        "desc": "地質安全與歷史記憶",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "921地震帶",
+        "labelRight": "應力傳遞"
+      },
+      {
+        "id": "T3",
+        "title": "孫安佐火槍聲押續熱 (T3)",
+        "consensus": "high",
+        "desc": "治安熱點與名人風波",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "公共危險",
+        "labelRight": "經紀人切割"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普涉台新解讀",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "南投地震921巧合",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐經紀人切割",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "軍補不變訊號"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "72%",
+          "color": "bg-gray-500",
+          "note": "質疑細節有魔鬼"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "郭正亮：綠慌了"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "違反六項保證"
+        }
+      ],
+      "T2": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "50%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "40%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "中時",
+          "pos": "60%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "52%",
+          "color": "bg-gray-500",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 305,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 272,
+        "battery": 94,
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 245,
+        "battery": 88,
+        "scores": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 180,
+        "battery": 75,
+        "scores": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "58*",
+        "battery": 42,
+        "scores": [
+          3,
+          3,
+          3,
+          5,
+          3
+        ],
+        "warning": "政治解讀密集，民生時事依賴轉發。"
+      }
+    ]
+  },
+  "2026-05-17 08:00": {
+    "updateTime": "2026-05-17 08:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "國安人士解讀川普訊號 (T1)",
+        "consensus": "low",
+        "desc": "美中台關係定調戰續集",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "三訊號/維持現狀",
+        "labelRight": "倚美謀獨/大交易危機"
+      },
+      {
+        "id": "T2",
+        "title": "孫安佐火槍案聲押 (T2)",
+        "consensus": "high",
+        "desc": "社會治安與網紅熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會安全疑慮",
+        "labelRight": "再犯之虞/槍砲重罪"
+      },
+      {
+        "id": "T3",
+        "title": "115會考次日數學題 (T3)",
+        "consensus": "medium",
+        "desc": "教育時事焦點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "第10題陷阱",
+        "labelRight": "數學難度適中"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "國安官員定調川普",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "孫安佐聲押禁見",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考數學魔王題",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600",
+          "note": "強調川普挺現狀"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500",
+          "note": "社論批謀獨"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "質疑官員過度解讀"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中天",
+          "pos": "56%",
+          "color": "bg-red-500",
+          "note": "補: 自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "聯合",
+          "pos": "48%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "52%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 285,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 255,
+        "battery": 92,
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 220,
+        "battery": 85,
+        "scores": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 165,
+        "battery": 70,
+        "scores": [
+          4,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "48*",
+        "battery": 32,
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          2
+        ],
+        "warning": "文教資訊缺失，聚焦政治評論。"
+      }
+    ]
+  },
+  "2026-05-16 20:00": {
+    "updateTime": "2026-05-16 20:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "府方回應川普『現狀』論 (T1)",
+        "consensus": "low",
+        "desc": "台美關係定調戰",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "政策不變/維護現狀",
+        "labelRight": "大交易/外交失敗"
+      },
+      {
+        "id": "T2",
+        "title": "川習會外媒總檢討 (T2)",
+        "consensus": "medium",
+        "desc": "國際政治角力評估",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "台灣未受損",
+        "labelRight": "台灣淪輸家/成果極少"
+      },
+      {
+        "id": "T3",
+        "title": "溫嵐ICU轉醒首發聲 (T3)",
+        "consensus": "high",
+        "desc": "社會溫馨熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "康復喜訊",
+        "labelRight": "病理警示"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "府方回擊川普籌碼論",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "外媒評川習會零成果",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "溫嵐醒後致歉",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "8%",
+          "color": "bg-green-600",
+          "note": "府：賴主政兩岸穩"
+        },
+        {
+          "name": "民視",
+          "pos": "12%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "60%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "82%",
+          "color": "bg-blue-400",
+          "note": "李彥秀：大交易進行中"
+        },
+        {
+          "name": "中天",
+          "pos": "94%",
+          "color": "bg-red-500",
+          "note": "質疑現狀難保"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "25%",
+          "color": "bg-green-600",
+          "note": "引學者：沒讓步"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "引外媒：台灣淪輸家"
+        },
+        {
+          "name": "中天",
+          "pos": "88%",
+          "color": "bg-red-500",
+          "note": "北京拒買H200"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "56%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "50%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 268,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 242,
+        "battery": 96,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 205,
+        "battery": 88,
+        "scores": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 172,
+        "battery": 72,
+        "scores": [
+          4,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "52*",
+        "battery": 35,
+        "scores": [
+          3,
+          3,
+          3,
+          4,
+          3
+        ],
+        "warning": "文字新聞搜尋困難，依賴社群轉發。"
+      }
+    ]
+  },
+  "2026-05-16 14:00": {
+    "updateTime": "2026-05-16 14:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普軍售與『地方』論 (T1)",
+        "consensus": "low",
+        "desc": "美中台博弈深水區",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "台美夥伴/決策未變",
+        "labelRight": "大交易論/籌碼壓力"
+      },
+      {
+        "id": "T2",
+        "title": "115會考蘇丹時事題 (T2)",
+        "consensus": "high",
+        "desc": "教育與時事結合",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "死背無效",
+        "labelRight": "題目適中"
+      },
+      {
+        "id": "T3",
+        "title": "醫美案蔣萬安政治反擊 (T3)",
+        "consensus": "low",
+        "desc": "地方政壇延燒",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "慢半拍質疑",
+        "labelRight": "依法開鍘/反嗆政治秀"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普『治理台灣的人』",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "會考蘇丹內戰題",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red"
+      },
+      {
+        "name": "醫美案反嗆續熱",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "重申府方回應"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "65%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "88%",
+          "color": "bg-blue-400",
+          "note": "大交易籌碼論"
+        },
+        {
+          "name": "中天",
+          "pos": "95%",
+          "color": "bg-red-500",
+          "note": "任後攻台預警"
+        }
+      ],
+      "T2": [
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "自由",
+          "pos": "52%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "52%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "中時",
+          "pos": "54%",
+          "color": "bg-blue-400",
+          "note": "補: 自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "12%",
+          "color": "bg-green-600",
+          "note": "批市府慢半拍"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "蔣怒嗆片段"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500"
+        },
+        {
+          "name": "民視",
+          "pos": "56%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 245,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 210,
+        "battery": 95,
+        "scores": [
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 185,
+        "battery": 85,
+        "scores": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 155,
+        "battery": 75,
+        "scores": [
+          4,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "40*",
+        "battery": 28,
+        "scores": [
+          3,
+          2,
+          3,
+          4,
+          3
+        ],
+        "warning": "文字新聞嚴重缺失，依賴影音。"
+      }
+    ]
+  },
+  "2026-05-16 08:00": {
+    "updateTime": "2026-05-16 08:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普警告台獨言論 (T1)",
+        "consensus": "low",
+        "desc": "美中台關係重震",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "維持現狀/軍售未變",
+        "labelRight": "警告台獨/美中交易"
+      },
+      {
+        "id": "T2",
+        "title": "擎天崗直播後續 (T2)",
+        "consensus": "high",
+        "desc": "社會獵奇熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "公然猥褻/公權力",
+        "labelRight": "朝聖獵奇/恐龍裝"
+      },
+      {
+        "id": "T3",
+        "title": "醫美偷拍政治攻防 (T3)",
+        "consensus": "low",
+        "desc": "地方執政與安全",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "市府慢半拍",
+        "labelRight": "即刻開鍘/依法反擊"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普『地方』論",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "擎天崗朝聖熱",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red-video"
+      },
+      {
+        "name": "蔣萬安怒嗆議員",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600",
+          "note": "強調軍事支持"
+        },
+        {
+          "name": "民視",
+          "pos": "20%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500",
+          "note": "警告台獨側重"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "40%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "中時",
+          "pos": "60%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "52%",
+          "color": "bg-gray-500",
+          "note": "補: 自動同步"
+        },
+        {
+          "name": "民視",
+          "pos": "54%",
+          "color": "bg-green-400",
+          "note": "補: 自動同步"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600",
+          "note": "轟慢半拍"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400",
+          "note": "蔣怒嗆綠"
+        },
+        {
+          "name": "中天",
+          "pos": "88%",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 220,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 195,
+        "battery": 92,
+        "scores": [
+          5,
+          4,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 188,
+        "battery": 85,
+        "scores": [
+          4,
+          5,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 150,
+        "battery": 78,
+        "scores": [
+          4,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "35*",
+        "battery": 25,
+        "scores": [
+          3,
+          2,
+          3,
+          4,
+          2
+        ],
+        "warning": "文字依賴度低，搜尋可得性偏差。"
+      }
+    ]
+  },
+  "2026-05-15 20:00": {
+    "updateTime": "2026-05-15 20:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川習會台灣議題角力 (T1)",
+        "consensus": "high",
+        "desc": "地緣政治焦點",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "美未理會/已讀不回",
+        "labelRight": "中畫紅線/和平共識"
+      },
+      {
+        "id": "T2",
+        "title": "醫美偷拍開鍘停業 (T2)",
+        "consensus": "high",
+        "desc": "社會正義議題",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "北市府遭批慢半拍",
+        "labelRight": "蔣萬安強力執法"
+      },
+      {
+        "id": "T3",
+        "title": "溫嵐ICU搶救中 (T3)",
+        "consensus": "medium",
+        "desc": "演藝社會熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "報導",
+        "labelRight": "報導"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川習會北京落幕",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red-video"
+      },
+      {
+        "name": "愛爾麗停業案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "red-video"
+      },
+      {
+        "name": "溫嵐送醫搶救",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "gray"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "92%",
+          "color": "bg-red-500",
+          "note": "影音"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "25%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "35%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "70%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "75%",
+          "color": "bg-blue-400"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "49%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "51%",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 204,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 162,
+        "battery": 88,
+        "scores": [
+          5,
+          4,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 145,
+        "battery": 82,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 175,
+        "battery": 80,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "22*",
+        "battery": 18,
+        "scores": [
+          3,
+          2,
+          3,
+          2,
+          1
+        ],
+        "warning": "文字存根缺失，搜尋可得性極低。"
+      }
+    ]
+  },
+  "2026-05-15 14:00": {
+    "updateTime": "2026-05-15 15:55 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川習會與台美中關係 (T1)",
+        "consensus": "high",
+        "desc": "地緣政治熱點",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "在野黨/中方視角",
+        "labelRight": "執政黨/美方視角"
+      },
+      {
+        "id": "T2",
+        "title": "醫美診所偷拍封店 (T2)",
+        "consensus": "high",
+        "desc": "社會正義議題",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "中央放任",
+        "labelRight": "蔣萬安嚴查"
+      },
+      {
+        "id": "T3",
+        "title": "溫嵐敗血性休克 (T3)",
+        "consensus": "medium",
+        "desc": "演藝社會熱點",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "報導",
+        "labelRight": "報導"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川習會登場",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red-video"
+      },
+      {
+        "name": "醫美偷拍案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red-video"
+      },
+      {
+        "name": "溫嵐緊急送醫",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "gray"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "90%",
+          "color": "bg-red-500",
+          "note": "影音"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "30%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "35%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "75%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "80%",
+          "color": "bg-blue-400"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "49%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "51%",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 192,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 156,
+        "battery": 85,
+        "scores": [
+          5,
+          4,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 134,
+        "battery": 80,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 168,
+        "battery": 78,
+        "scores": [
+          4,
+          4,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "18*",
+        "battery": 18,
+        "scores": [
+          3,
+          2,
+          3,
+          2,
+          1
+        ],
+        "warning": "依賴影音分發，文字存根嚴重缺失。"
+      }
+    ]
+  },
+  "2026-05-11 08:00": {
+    "updateTime": "2026-05-11 08:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "醫美偷拍案搜索 (T1)",
+        "consensus": "high",
+        "desc": "高度共識",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "社會批判",
+        "labelRight": "事實報導"
+      },
+      {
+        "id": "T2",
+        "title": "軍購預算案表決 (T2)",
+        "consensus": "low",
+        "desc": "高度極化",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "在野黨阻撓",
+        "labelRight": "程序正義"
+      },
+      {
+        "id": "T3",
+        "title": "大直老鼠亂竄 (T3)",
+        "consensus": "medium",
+        "desc": "社會議題",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "監督施政",
+        "labelRight": "業者道歉"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "醫美偷拍案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red-video"
+      },
+      {
+        "name": "軍購預算案",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "yellow",
+        "cti": "gray"
+      },
+      {
+        "name": "大直鼠患",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "red-video"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "民視",
+          "pos": "20%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "自由",
+          "pos": "30%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "55%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "45%",
+          "color": "bg-red-500",
+          "note": "影音"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        }
+      ],
+      "T3": [
+        {
+          "name": "民視",
+          "pos": "10%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "自由",
+          "pos": "15%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "聯合",
+          "pos": "45%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "50%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "48%",
+          "color": "bg-red-500",
+          "note": "影音"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 185,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 142,
+        "battery": 82,
+        "scores": [
+          5,
+          4,
+          2,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 128,
+        "battery": 78,
+        "scores": [
+          4,
+          3,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 156,
+        "battery": 75,
+        "scores": [
+          4,
+          4,
+          2,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "15*",
+        "battery": 15,
+        "scores": [
+          2,
+          1,
+          3,
+          2,
+          0
+        ],
+        "warning": "文字存根缺失，搜尋可得性極低。"
+      }
+    ]
+  },
+  "2026-05-06 08:00": {
+    "updateTime": "2026-05-06 13:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普護航喊卡 (T1)",
+        "consensus": "high",
+        "desc": "高度共識",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "批判",
+        "labelRight": "支持"
+      },
+      {
+        "id": "T2",
+        "title": "漢他郵輪危機 (T2)",
+        "consensus": "medium",
+        "desc": "中度分化",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "恐慌",
+        "labelRight": "淡化"
+      },
+      {
+        "id": "T3",
+        "title": "雙北鼠患攻防 (T3)",
+        "consensus": "low",
+        "desc": "高度極化",
+        "gradient": "from-green-400 via-gray-200 to-blue-400",
+        "labelLeft": "批蔣",
+        "labelRight": "緩頰"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普護航案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "郵輪危機案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "yellow",
+        "cti": "gray"
+      },
+      {
+        "name": "雙北鼠患案",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "green",
+        "cti": "red-video"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "45%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "46%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "52%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "55%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "30%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "35%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "70%",
+          "color": "bg-blue-400"
+        }
+      ],
+      "T3": [
+        {
+          "name": "自由",
+          "pos": "10%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "25%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "55%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "85%",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 185,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 140,
+        "battery": 85,
+        "scores": [
+          5,
+          4,
+          4,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 130,
+        "battery": 75,
+        "scores": [
+          4,
+          3,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 150,
+        "battery": 70,
+        "scores": [
+          4,
+          3,
+          2,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "15*",
+        "battery": 22,
+        "scores": [
+          2,
+          1,
+          3,
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "2026-05-05 08:00": {
+    "updateTime": "2026-05-05 13:00 (Asia/Taipei)",
+    "topics": [
+      {
+        "id": "T1",
+        "title": "川普擊沉伊朗快艇 (T1)",
+        "consensus": "high",
+        "desc": "高度共識",
+        "gradient": "from-green-300 via-gray-200 to-blue-300",
+        "labelLeft": "報導",
+        "labelRight": "報導"
+      },
+      {
+        "id": "T2",
+        "title": "檢察總長人事遭封殺 (T2)",
+        "consensus": "low",
+        "desc": "高度極化",
+        "gradient": "from-green-500 via-gray-200 to-blue-500",
+        "labelLeft": "在野亂政",
+        "labelRight": "依法表決"
+      }
+    ],
+    "heatmap": [
+      {
+        "name": "川普快艇案",
+        "udn": "green",
+        "ltn": "green",
+        "ftv": "green",
+        "ct": "green",
+        "cti": "green"
+      },
+      {
+        "name": "檢察總長案",
+        "udn": "green",
+        "ltn": "yellow",
+        "ftv": "yellow",
+        "ct": "yellow",
+        "cti": "gray"
+      }
+    ],
+    "spectrums": {
+      "T1": [
+        {
+          "name": "自由",
+          "pos": "48%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "47%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "51%",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "中天",
+          "pos": "52%",
+          "color": "bg-red-500"
+        }
+      ],
+      "T2": [
+        {
+          "name": "自由",
+          "pos": "5%",
+          "color": "bg-green-600"
+        },
+        {
+          "name": "民視",
+          "pos": "15%",
+          "color": "bg-green-400"
+        },
+        {
+          "name": "聯合",
+          "pos": "50%",
+          "color": "bg-gray-500"
+        },
+        {
+          "name": "中時",
+          "pos": "75%",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    "scorecards": [
+      {
+        "name": "聯合報",
+        "n": 182,
+        "battery": 100,
+        "scores": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "自由時報",
+        "n": 138,
+        "battery": 80,
+        "scores": [
+          5,
+          4,
+          3,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "民視新聞",
+        "n": 120,
+        "battery": 72,
+        "scores": [
+          4,
+          3,
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "name": "中國時報",
+        "n": 145,
+        "battery": 68,
+        "scores": [
+          4,
+          3,
+          2,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "中天新聞",
+        "n": "12",
+        "battery": 15,
+        "scores": [
+          1,
+          1,
+          2,
+          1,
+          0
+        ]
+      }
     ]
   }
 }
