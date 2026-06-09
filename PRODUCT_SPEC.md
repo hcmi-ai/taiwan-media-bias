@@ -26,11 +26,24 @@
 *   **分數卡 (Scorecard)**: 固定包含五項指標：Speed, Depth, Neutral, Range, Trust。
 
 ## 4. 監測媒體基準 (Media Baseline)
-1.  **ChinaTimes** (中時): 藍/保守
-2.  **UDN** (聯合): 中立/藍
-3.  **ETtoday**: 中立/社群
-4.  **LTN** (自由): 綠/本土
-5.  **SET** (三立): 綠/激進
+必須嚴格對齊 UI 渲染列表，固定為以下七大媒體：
+1.  **UDN** (聯合報): 中立/藍
+2.  **LTN** (自由時報): 綠/本土
+3.  **FTV** (民視新聞): 綠/本土
+4.  **CT** (中國時報): 藍/保守
+5.  **CTI** (中天新聞): 紅/藍/激進
+6.  **SET** (三立新聞): 綠/本土/激進
+7.  **ETtoday**: 中立/大眾
+
+## 5. UI 視覺契約 (UI Visual Contract)
+為了保持品牌姿態一致性，以下常數不可隨意變更：
+*   **背景色**: `slate-50`
+*   **Header 背景**: `slate-900`
+*   **主色調**: `blue-500` (Bat-Blue)
+*   **字體**: 標題 `font-black`, 內文 `font-sans`
+*   **Scorecard 指標**: 固定 [Speed, Depth, Neutral, Range, Trust]
+*   **Heatmap 顏色**: Green (支持), Yellow (中立/觀望), Red (批判), Red-Video (影音批判), Gray (沈默)
+
 
 ## 5. 版本歷史 (Physical Versions)
 *   **v3.1.5**: 基礎架構。
